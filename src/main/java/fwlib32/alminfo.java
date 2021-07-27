@@ -16,7 +16,7 @@ public class alminfo extends Structure {
 		public alm1_struct alm1;
 		public alm2_struct alm2;
 		public static class alm1_struct extends Structure {
-			public fwlib32.iodbpsd64.u_union.alm1_struct.alm_struct[] alm = new fwlib32.iodbpsd64.u_union.alm1_struct.alm_struct[5];
+			public fwlib32.alminfo.u_union.alm1_struct.alm_struct[] alm = new fwlib32.alminfo.u_union.alm1_struct.alm_struct[5];
 			public NativeLong data_end;
 			public static class alm_struct extends Structure {
 				public NativeLong axis;
@@ -48,7 +48,7 @@ public class alminfo extends Structure {
 			protected List<String> getFieldOrder() {
 				return Arrays.asList("alm", "data_end");
 			}
-			public alm1_struct(fwlib32.iodbpsd64.u_union.alm1_struct.alm_struct alm[], NativeLong data_end) {
+			public alm1_struct(fwlib32.alminfo.u_union.alm1_struct.alm_struct alm[], NativeLong data_end) {
 				super();
 				if ((alm.length != this.alm.length)) 
 					throw new IllegalArgumentException("Wrong array size !");
@@ -66,7 +66,7 @@ public class alminfo extends Structure {
 			};
 		};
 		public static class alm2_struct extends Structure {
-			public fwlib32.iodbpsd64.u_union.alm1_struct.alm_struct[] alm = new fwlib32.iodbpsd64.u_union.alm1_struct.alm_struct[5];
+			public fwlib32.alminfo.u_union.alm1_struct.alm_struct[] alm = new fwlib32.alminfo.u_union.alm1_struct.alm_struct[5];
 			public NativeLong data_end;
 			public static class alm_struct extends Structure {
 				public NativeLong axis;
@@ -104,7 +104,7 @@ public class alminfo extends Structure {
 			protected List<String> getFieldOrder() {
 				return Arrays.asList("alm", "data_end");
 			}
-			public alm2_struct(fwlib32.iodbpsd64.u_union.alm1_struct.alm_struct alm[], NativeLong data_end) {
+			public alm2_struct(fwlib32.alminfo.u_union.alm1_struct.alm_struct alm[], NativeLong data_end) {
 				super();
 				if ((alm.length != this.alm.length)) 
 					throw new IllegalArgumentException("Wrong array size !");
