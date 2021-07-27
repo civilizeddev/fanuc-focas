@@ -109,7 +109,7 @@ public class odbmdl extends Structure {
 		}
 		public modal_union(byte g_rdata_or_g_1shot[]) {
 			super();
-			if ((g_rdata_or_g_1shot.length != this.g_rdata_or_g_1shot.length)) 
+			if ((g_rdata_or_g_1shot.length != this.g_rdata.length) || (g_rdata_or_g_1shot.length != this.g_1shot.length))
 				throw new IllegalArgumentException("Wrong array size !");
 			this.g_1shot = this.g_rdata = g_rdata_or_g_1shot;
 			setType(byte[].class);

@@ -200,7 +200,14 @@ public class iodbto extends Structure {
 		}
 		public u_union(NativeLong m_ofs_or_m_ofs_a_or_m_ofs_b_or_m_ofs_c_or_t_ofs_or_t_ofs_2g_or_m_ofs_cnr[]) {
 			super();
-			if ((m_ofs_or_m_ofs_a_or_m_ofs_b_or_m_ofs_c_or_t_ofs_or_t_ofs_2g_or_m_ofs_cnr.length != this.m_ofs_or_m_ofs_a_or_m_ofs_b_or_m_ofs_c_or_t_ofs_or_t_ofs_2g_or_m_ofs_cnr.length)) 
+			final int len = m_ofs_or_m_ofs_a_or_m_ofs_b_or_m_ofs_c_or_t_ofs_or_t_ofs_2g_or_m_ofs_cnr.length;
+			if ((len != this.m_ofs.length)
+					|| (len != this.m_ofs_a.length)
+					|| (len != this.m_ofs_b.length)
+					|| (len != this.m_ofs_c.length)
+					|| (len != this.t_ofs.length)
+					|| (len != this.t_ofs_2g.length)
+					|| (len != this.m_ofs_cnr.length))
 				throw new IllegalArgumentException("Wrong array size !");
 			this.m_ofs_cnr = this.t_ofs_2g = this.t_ofs = this.m_ofs_c = this.m_ofs_b = this.m_ofs_a = this.m_ofs = m_ofs_or_m_ofs_a_or_m_ofs_b_or_m_ofs_c_or_t_ofs_or_t_ofs_2g_or_m_ofs_cnr;
 			setType(NativeLong[].class);

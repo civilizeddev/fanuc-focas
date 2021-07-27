@@ -58,7 +58,7 @@ public class iodbrct_item extends Structure {
 			}
 			public uParam_union(byte bdatas_or_cdatas[]) {
 				super();
-				if ((bdatas_or_cdatas.length != this.bdatas_or_cdatas.length)) 
+				if ((bdatas_or_cdatas.length != this.bdatas.length) || (bdatas_or_cdatas.length != this.cdatas.length))
 					throw new IllegalArgumentException("Wrong array size !");
 				this.cdatas = this.bdatas = bdatas_or_cdatas;
 				setType(byte[].class);
