@@ -1481,6 +1481,7 @@ trait Fwlib32 extends StdCallLibrary {
   def cnc_setpath(short1: Short, short2: Short): Short
   def cnc_getpath(short1: Short, shortPtr1: ShortBuffer, shortPtr2: ShortBuffer): Short
   def cnc_allclibhndl(shortPtr1: ShortBuffer): Short
+  def cnc_allclibhndl3(ipaddr: String, port: Short, timeout: NativeLong, FlibHndl: ShortBuffer): Short
   def cnc_freelibhndl(short1: Short): Short
   def cnc_getlibopt(short1: Short, long1: NativeLong, charPtr1: ByteBuffer, longPtr1: NativeLongByReference): Short
   def cnc_setlibopt(short1: Short, long1: NativeLong, charPtr1: ByteBuffer, long2: NativeLong): Short
