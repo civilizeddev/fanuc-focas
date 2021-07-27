@@ -32,7 +32,7 @@ public class iodbidinf extends Structure {
 	public iodbidinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("id_no", "drv_no", "acc_element", "err_general", "err_id_no", "err_id_name", "err_attr", "err_unit", "err_min_val", "err_max_val", "id_name_len", "id_name_max", "id_name", "attr", "unit_len", "unit_max", "unit", "min_val", "max_val");
 	}
 	public iodbidinf(Pointer peer) {

@@ -13,7 +13,7 @@ public class iodbrbalmmsg extends Structure {
 	public iodbrbalmmsg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("msg");
 	}
 	public iodbrbalmmsg(byte msg[]) {

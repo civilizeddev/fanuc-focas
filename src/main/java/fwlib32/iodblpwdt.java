@@ -16,7 +16,7 @@ public class iodblpwdt extends Structure {
 	public iodblpwdt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "dty_const", "dty_min", "reserve");
 	}
 	public iodblpwdt(short slct, short dty_const, short dty_min, short reserve[]) {

@@ -18,7 +18,7 @@ public class iodblagsl extends Structure {
 	public iodblagsl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "ag_slt", "agflow_slt", "ag_press", "ag_ready_t", "reserve");
 	}
 	public iodblagsl(short slct, short ag_slt, short agflow_slt, short ag_press, short ag_ready_t, short reserve[]) {

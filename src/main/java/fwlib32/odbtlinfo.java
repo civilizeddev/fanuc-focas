@@ -21,7 +21,7 @@ public class odbtlinfo extends Structure {
 	public odbtlinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("max_group", "max_tool", "max_minute", "max_cycle");
 	}
 	public odbtlinfo(NativeLong max_group, NativeLong max_tool, NativeLong max_minute, NativeLong max_cycle) {

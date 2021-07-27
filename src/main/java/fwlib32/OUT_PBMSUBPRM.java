@@ -44,7 +44,7 @@ public class OUT_PBMSUBPRM extends Structure {
 	public OUT_PBMSUBPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("subprm");
 	}
 	public OUT_PBMSUBPRM(subprm_union subprm) {

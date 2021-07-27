@@ -17,7 +17,7 @@ public class iodbrtmio extends Structure {
 	public iodbrtmio() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("adr_type", "dummy", "no", "bit");
 	}
 	public iodbrtmio(short adr_type, short dummy, NativeLong no, byte bit) {

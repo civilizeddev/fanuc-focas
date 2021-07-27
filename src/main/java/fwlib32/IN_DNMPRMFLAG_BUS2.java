@@ -22,7 +22,7 @@ public class IN_DNMPRMFLAG_BUS2 extends Structure {
 	public IN_DNMPRMFLAG_BUS2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Network", "BaudRate", "DiDataOnAbnormal", "OwnMacId", "CommonStatus", "CommonStatusSize", "CycleTimeSetting", "reserved1", "Option", "reserved2");
 	}
 	public IN_DNMPRMFLAG_BUS2(Pointer peer) {

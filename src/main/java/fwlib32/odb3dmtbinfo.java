@@ -19,7 +19,7 @@ public class odb3dmtbinfo extends Structure {
 	public odb3dmtbinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prginf", "mcode", "bcode", "tlinf", "hisorder", "dummy");
 	}
 	public odb3dmtbinfo(prginf prginf, NativeLong mcode[], NativeLong bcode, toolinf tlinf, NativeLong hisorder, NativeLong dummy[]) {

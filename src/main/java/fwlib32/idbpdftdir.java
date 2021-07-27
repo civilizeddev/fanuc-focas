@@ -17,7 +17,7 @@ public class idbpdftdir extends Structure {
 	public idbpdftdir() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "attr");
 	}
 	public idbpdftdir(NativeLong slct, NativeLong attr) {

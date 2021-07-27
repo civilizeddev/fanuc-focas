@@ -19,7 +19,7 @@ public class idbtwp_3p_fmt extends Structure {
 	public idbtwp_3p_fmt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("p1", "p2", "p3", "sft", "rot", "reserve");
 	}
 	public idbtwp_3p_fmt(double p1[], double p2[], double p3[], double sft[], double rot, NativeLong reserve[]) {

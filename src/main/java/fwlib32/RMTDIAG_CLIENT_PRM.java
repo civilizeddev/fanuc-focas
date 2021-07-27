@@ -16,7 +16,7 @@ public class RMTDIAG_CLIENT_PRM extends Structure {
 	public RMTDIAG_CLIENT_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("HostName", "Port", "InquiryName");
 	}
 	public RMTDIAG_CLIENT_PRM(byte HostName[], NativeLong Port, byte InquiryName[]) {

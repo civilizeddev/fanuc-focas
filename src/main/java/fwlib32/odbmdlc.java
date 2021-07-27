@@ -60,7 +60,7 @@ public class odbmdlc extends Structure {
 	public odbmdlc() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("from", "dram", "sram", "pmc", "crtc", "servo12", "servo34", "servo56", "servo78", "sic", "pos_lsi", "hi_aio", "reserve", "drmmrc", "drmarc", "pmcmrc", "dmaarc", "iopt", "hdiio", "gm2gr1", "crtgr2", "gm1gr2", "gm2gr2", "cmmrb", "sv5axs", "sv7axs", "sicaxs", "posaxs", "hamaxs", "romr64", "srmr64", "dr1r64", "dr2r64", "iopio2", "hdiio2", "cmmrb2", "romfap", "srmfap", "drmfap", "drmare", "pmcmre", "dmaare", "frmbgg", "drmbgg", "asrbgg", "edtpsc", "slcpsc", "reserve2");
 	}
 	public odbmdlc(Pointer peer) {

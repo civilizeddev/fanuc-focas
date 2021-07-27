@@ -15,7 +15,7 @@ public class iodbtlmag extends Structure {
 	public iodbtlmag() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("magazine", "pot", "tool_index");
 	}
 	public iodbtlmag(short magazine, short pot, short tool_index) {

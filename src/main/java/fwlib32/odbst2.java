@@ -38,7 +38,7 @@ public class odbst2 extends Structure {
 	public odbst2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("hdck", "tmmode", "aut", "run", "motion", "mstb", "emergency", "alarm", "edit", "warning", "o3dchk", "ext_opt", "restart");
 	}
 	public odbst2(Pointer peer) {

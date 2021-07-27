@@ -18,7 +18,7 @@ public class tagODBFSSBSLVUNT extends Structure {
 	public tagODBFSSBSLVUNT() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_unt_num", "kind", "attrb");
 	}
 	public tagODBFSSBSLVUNT(short slv_unt_num, byte kind, byte attrb) {

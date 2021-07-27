@@ -22,7 +22,7 @@ public class iodbzor64 extends Structure {
 	public iodbzor64() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano_s", "type", "datano_e", "dummy", "data");
 	}
 	public iodbzor64(short datano_s, short type, short datano_e, short dummy, realdata data[]) {

@@ -18,7 +18,7 @@ public class odbuvmcrpt2 extends Structure {
 	public odbuvmcrpt2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prog_name", "blk_no", "uvblk_no", "mult_piece_no", "reserve");
 	}
 	public odbuvmcrpt2(byte prog_name[], NativeLong blk_no, NativeLong uvblk_no, NativeLong mult_piece_no, short reserve[]) {

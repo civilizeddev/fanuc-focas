@@ -15,7 +15,7 @@ public class PNC_COMMON_PARAM_W extends Structure {
 	public PNC_COMMON_PARAM_W() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("OwnIpAddress", "SubNetmask", "RouterIpAddress");
 	}
 	public PNC_COMMON_PARAM_W(byte OwnIpAddress[], byte SubNetmask[], byte RouterIpAddress[]) {

@@ -19,7 +19,7 @@ public class ODBSRAMIF2 extends Structure {
 	public ODBSRAMIF2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("protect", "adrs", "size");
 	}
 	public ODBSRAMIF2(NativeLong protect, NativeLong adrs, NativeLong size) {

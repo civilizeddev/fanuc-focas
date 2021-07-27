@@ -19,7 +19,7 @@ public class odbparaif extends Structure {
 		public info_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("prm_no", "prm_type");
 		}
 		public info_struct(short prm_no, short prm_type) {
@@ -40,7 +40,7 @@ public class odbparaif extends Structure {
 	public odbparaif() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("info_no", "prev_no", "next_no", "info");
 	}
 	public odbparaif(short info_no, short prev_no, short next_no, odbparaif.info_struct info[]) {

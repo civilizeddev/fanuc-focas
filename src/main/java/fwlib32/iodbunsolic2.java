@@ -23,7 +23,7 @@ public class iodbunsolic2 extends Structure {
 	public iodbunsolic2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ipaddr", "port", "retry", "timeout", "alivetime", "dummy1", "cntrl", "transnum", "dummy2", "trans");
 	}
 	public iodbunsolic2(Pointer peer) {

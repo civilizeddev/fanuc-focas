@@ -32,7 +32,7 @@ public class OUT_FLNTLOG2 extends Structure {
 	public OUT_FLNTLOG2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("TotalSend", "SendErr", "TotalRecv", "RecvErr", "CycErr", "MsgRetry", "MsgRetryOver", "RecvMsgErr", "AckErr", "DuplicatedToken", "DestroyedToken", "ReissueToken", "FrameWait", "Entry", "OutRing", "Skip", "Disconnect", "Baudrate", "Reserved");
 	}
 	public OUT_FLNTLOG2(Pointer peer) {

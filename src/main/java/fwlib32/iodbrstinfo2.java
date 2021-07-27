@@ -36,7 +36,7 @@ public class iodbrstinfo2 extends Structure {
 	public iodbrstinfo2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("seq_no", "c_blck_cnt", "t_blck_cnt", "call_from_no", "call_from_blck", "prg_rep", "seq_rep", "c_blck_rep", "nest_lv", "prg_name", "dummy1", "call_from_prg", "dummy2", "edit_flag", "reserve", "repeat", "wait_m_code", "time_s", "time_m", "time_h", "time_d", "id_no", "reserve2");
 	}
 	public iodbrstinfo2(Pointer peer) {

@@ -16,7 +16,7 @@ public class OUT_ETHTYPE extends Structure {
 	public OUT_ETHTYPE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Kind", "FunctionEmb", "FunctionBoard", "FunctionEmbCe");
 	}
 	public OUT_ETHTYPE(short Kind, short FunctionEmb, short FunctionBoard, short FunctionEmbCe) {

@@ -15,7 +15,7 @@ public class OUT_ECTLOG extends Structure {
 	public OUT_ECTLOG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Count", "reserve", "logData");
 	}
 	public OUT_ECTLOG(short Count, byte reserve[], OUT_ECTLOG1SHOT logData[]) {

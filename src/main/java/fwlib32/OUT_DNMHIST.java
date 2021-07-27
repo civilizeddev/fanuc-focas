@@ -15,7 +15,7 @@ public class OUT_DNMHIST extends Structure {
 	public OUT_DNMHIST() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Count", "reserved", "Log");
 	}
 	public OUT_DNMHIST(short Count, short reserved, OUT_DNMHIST_LOG Log[]) {

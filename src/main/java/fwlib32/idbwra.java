@@ -19,7 +19,7 @@ public class idbwra extends Structure {
 	public idbwra() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public idbwra(short datano, short type, NativeLong data[]) {

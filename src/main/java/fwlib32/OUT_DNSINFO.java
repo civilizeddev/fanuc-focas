@@ -14,7 +14,7 @@ public class OUT_DNSINFO extends Structure {
 	public OUT_DNSINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("IdentityInfo", "StatusInfo");
 	}
 	public OUT_DNSINFO(DNS_IDENTITY_INFO IdentityInfo, DNS_STATUS_INFO StatusInfo) {

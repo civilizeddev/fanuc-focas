@@ -17,7 +17,7 @@ public class posval extends Structure {
 	public posval() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data", "dec");
 	}
 	public posval(NativeLong data, NativeLong dec) {

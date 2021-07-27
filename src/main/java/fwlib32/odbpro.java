@@ -18,7 +18,7 @@ public class odbpro extends Structure {
 	public odbpro() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "data", "mdata");
 	}
 	public odbpro(short dummy[], short data, short mdata) {

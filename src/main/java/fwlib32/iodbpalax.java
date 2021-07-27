@@ -15,7 +15,7 @@ public class iodbpalax extends Structure {
 	public iodbpalax() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("max_pal", "data");
 	}
 	public iodbpalax(NativeLong max_pal, NativeLong data[]) {

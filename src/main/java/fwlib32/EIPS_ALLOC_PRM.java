@@ -30,7 +30,7 @@ public class EIPS_ALLOC_PRM extends Structure {
 	public EIPS_ALLOC_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("IpAddress", "Option1", "Option2", "DataUnit", "Endian", "ConfigInstance", "ConnT2O", "ConnO2T", "reserve1", "reserve2", "ProductTrigger", "Timeout", "Reconnect", "pad", "ElectronicKey", "DataPerSec", "DataPerSecTotal");
 	}
 	public EIPS_ALLOC_PRM(Pointer peer) {

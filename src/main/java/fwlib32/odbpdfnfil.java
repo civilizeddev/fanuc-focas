@@ -16,7 +16,7 @@ public class odbpdfnfil extends Structure {
 	public odbpdfnfil() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dir_num", "file_num");
 	}
 	public odbpdfnfil(short dir_num, short file_num) {

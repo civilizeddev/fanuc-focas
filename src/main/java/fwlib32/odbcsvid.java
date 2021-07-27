@@ -28,7 +28,7 @@ public class odbcsvid extends Structure {
 	public odbcsvid() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mt_spc", "mt_srn", "plc_spc", "plc_srn", "svm_spc", "svm_srn", "psm_spc", "psm_srn");
 	}
 	public odbcsvid(byte mt_spc[], byte mt_srn[], byte plc_spc[], byte plc_srn[], byte svm_spc[], byte svm_srn[], byte psm_spc[], byte psm_srn[]) {

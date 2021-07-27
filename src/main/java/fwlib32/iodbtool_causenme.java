@@ -17,7 +17,7 @@ public class iodbtool_causenme extends Structure {
 	public iodbtool_causenme() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cause1", "cause2", "cause3", "cause4", "cause5");
 	}
 	public iodbtool_causenme(byte cause1[], byte cause2[], byte cause3[], byte cause4[], byte cause5[]) {

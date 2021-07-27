@@ -20,7 +20,7 @@ public class odbmsrpmcsgnl extends Structure {
 	public odbmsrpmcsgnl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("adrs", "pmc_no", "kind", "data", "mask", "enbl", "dummy");
 	}
 	public odbmsrpmcsgnl(NativeLong adrs, byte pmc_no, byte kind, byte data, byte mask, byte enbl, byte dummy[]) {

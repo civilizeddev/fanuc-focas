@@ -13,7 +13,7 @@ public class odbpowchisall extends Structure {
 	public odbpowchisall() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("powchis");
 	}
 	public odbpowchisall(odbpowchis powchis[]) {

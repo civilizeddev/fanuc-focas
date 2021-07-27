@@ -18,7 +18,7 @@ public class iodbdsplc extends Structure {
 	public iodbdsplc() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "dsplc", "dsplc_dec", "reserve", "reserves");
 	}
 	public iodbdsplc(short slct, NativeLong dsplc, short dsplc_dec, byte reserve, short reserves[]) {

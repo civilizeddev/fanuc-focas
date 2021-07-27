@@ -25,7 +25,7 @@ public class odbrstlist2 extends Structure {
 	public odbrstlist2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prg_name", "status", "dummy", "seq_no", "wait_m_code", "c_blck_cnt", "time_s", "time_m", "time_h", "time_d", "id_no", "reserve");
 	}
 	public odbrstlist2(Pointer peer) {

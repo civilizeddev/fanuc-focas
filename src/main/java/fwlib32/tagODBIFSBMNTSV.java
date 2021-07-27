@@ -31,7 +31,7 @@ public class tagODBIFSBMNTSV extends Structure {
 	public tagODBIFSBMNTSV() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("axis_num", "axis_name", "line", "amp_name", "amp_series", "amp_cur", "amp_edt", "amp_axis_num", "amp_spec_num", "amp_serial_num");
 	}
 	public tagODBIFSBMNTSV(Pointer peer) {

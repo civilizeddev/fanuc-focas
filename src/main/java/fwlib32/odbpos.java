@@ -20,7 +20,7 @@ public class odbpos extends Structure {
 	public odbpos() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("abs", "mach", "rel", "dist");
 	}
 	public odbpos(poselm abs, poselm mach, poselm rel, poselm dist) {

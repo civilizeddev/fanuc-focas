@@ -14,7 +14,7 @@ public class T_SLAVE_IND_PARA_FLG extends Structure {
 	public T_SLAVE_IND_PARA_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_idx", "slv_no");
 	}
 	public T_SLAVE_IND_PARA_FLG(byte slv_idx, byte slv_no) {

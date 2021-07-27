@@ -15,7 +15,7 @@ public class odbpmvalflg extends Structure {
 	public odbpmvalflg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("exe_type", "aux_type", "tlk_type");
 	}
 	public odbpmvalflg(short exe_type, short aux_type, short tlk_type) {

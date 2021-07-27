@@ -15,7 +15,7 @@ public class odbmdgdt extends Structure {
 	public odbmdgdt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dt", "fp", "reserved");
 	}
 	public odbmdgdt(odbmdgval dt, short fp, short reserved) {

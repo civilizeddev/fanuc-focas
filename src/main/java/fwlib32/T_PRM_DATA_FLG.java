@@ -19,7 +19,7 @@ public class T_PRM_DATA_FLG extends Structure {
 	public T_PRM_DATA_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("station_status", "wd_fact_1", "wd_fact_2", "min_tsdr", "ident_number", "group_ident", "usr_prm");
 	}
 	public T_PRM_DATA_FLG(byte station_status, byte wd_fact_1, byte wd_fact_2, byte min_tsdr, byte ident_number, byte group_ident, T_USR_PRM_DATA_FLG usr_prm) {

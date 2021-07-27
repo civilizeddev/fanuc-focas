@@ -16,7 +16,7 @@ public class ETBPRM extends Structure {
 	public ETBPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("OwnMACAddress", "MaximumChannel", "HDDExistence", "NumberOfScreens");
 	}
 	public ETBPRM(byte OwnMACAddress[], short MaximumChannel, short HDDExistence, short NumberOfScreens) {

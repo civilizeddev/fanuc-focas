@@ -14,7 +14,7 @@ public class odbsfsgsignalnum extends Structure {
 	public odbsfsgsignalnum() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("signal_num_default", "signal_num_extract");
 	}
 	public odbsfsgsignalnum(short signal_num_default, short signal_num_extract) {

@@ -28,7 +28,7 @@ public class odbinf extends Structure {
 	public odbinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("max_shape_num", "max_tool_num", "max_holder_num", "max_object_num", "max_element_num", "max_holder_shpnum", "max_object_shpnum", "reserve");
 	}
 	public odbinf(short max_shape_num, short max_tool_num, short max_holder_num, short max_object_num, short max_element_num, short max_holder_shpnum, short max_object_shpnum, short reserve) {

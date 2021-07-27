@@ -23,7 +23,7 @@ public class T_DIDO_ADDR_ALLOC_FLG extends Structure {
 	public T_DIDO_ADDR_ALLOC_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slt_ind_para", "di_path", "do_path", "di_kind", "do_kind", "di_top_address", "do_top_address", "di_size", "do_size", "module_type_rsv", "pad");
 	}
 	public T_DIDO_ADDR_ALLOC_FLG(Pointer peer) {

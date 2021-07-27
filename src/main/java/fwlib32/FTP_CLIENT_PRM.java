@@ -19,7 +19,7 @@ public class FTP_CLIENT_PRM extends Structure {
 	public FTP_CLIENT_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("HostName", "ControlPort", "Dummy", "UserName", "Password", "LoginDirectory");
 	}
 	public FTP_CLIENT_PRM(byte HostName[], NativeLong ControlPort, NativeLong Dummy, byte UserName[], byte Password[], byte LoginDirectory[]) {

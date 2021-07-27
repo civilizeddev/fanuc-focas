@@ -24,7 +24,7 @@ public class tagODBIFSBWARNINGMSG extends Structure {
 	public tagODBIFSBWARNINGMSG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("line", "slv_src", "slv_dst", "type", "wm_typ", "wm_pnt");
 	}
 	public tagODBIFSBWARNINGMSG(short line, short slv_src, short slv_dst, short type, byte wm_typ[], byte wm_pnt[]) {

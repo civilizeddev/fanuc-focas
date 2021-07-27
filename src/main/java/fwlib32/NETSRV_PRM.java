@@ -23,7 +23,7 @@ public class NETSRV_PRM extends Structure {
 	public NETSRV_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("HostName", "Port", "TimeInterval", "UdpPeriod", "MachineNumber", "dummy1", "AcceptanceReply", "dummy2", "ErrorReply", "dummy3");
 	}
 	public NETSRV_PRM(Pointer peer) {

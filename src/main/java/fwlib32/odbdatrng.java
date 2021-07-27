@@ -19,7 +19,7 @@ public class odbdatrng extends Structure {
 	public odbdatrng() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data_min", "data_max", "status");
 	}
 	public odbdatrng(NativeLong data_min, NativeLong data_max, NativeLong status) {

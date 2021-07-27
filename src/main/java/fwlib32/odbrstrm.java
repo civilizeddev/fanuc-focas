@@ -19,7 +19,7 @@ public class odbrstrm extends Structure {
 		public m_code_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("no", "flag");
 		}
 		public m_code_struct(NativeLong no, short flag) {
@@ -40,7 +40,7 @@ public class odbrstrm extends Structure {
 	public odbrstrm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("grp_no", "mem_no", "m_code");
 	}
 	public odbrstrm(short grp_no, short mem_no, fwlib32.odbexem.m_code_struct m_code[]) {

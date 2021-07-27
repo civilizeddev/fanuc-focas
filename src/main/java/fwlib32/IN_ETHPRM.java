@@ -106,7 +106,7 @@ public class IN_ETHPRM extends Structure {
 	public IN_ETHPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("reserve01", "reserve02", "reserve03", "reserve04", "reserve05", "reserve06", "prm");
 	}
 	public IN_ETHPRM(short reserve01, short reserve02, short reserve03, short reserve04, short reserve05, short reserve06, prm_union prm) {

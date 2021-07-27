@@ -31,7 +31,7 @@ public class tagODBFSSBAMP extends Structure {
 	public tagODBFSSBAMP() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ln_num", "slave_num", "name", "seires", "unit", "cur", "axis_num", "axis_name");
 	}
 	public tagODBFSSBAMP(short ln_num, short slave_num, byte name[], byte seires[], byte unit[], byte cur[], short axis_num, byte axis_name[]) {

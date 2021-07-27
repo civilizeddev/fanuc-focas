@@ -31,7 +31,7 @@ public class odbptaxfuncstat extends Structure {
 			public state1_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("l_value_e", "l_value", "time", "m_code", "ov_time", "number", "next_table", "skip_table", "skip_signal", "table_kind", "master_indx_no", "m_count");
 			}
 			public state1_struct(Pointer peer) {
@@ -58,7 +58,7 @@ public class odbptaxfuncstat extends Structure {
 			public state2_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("l_value_e_sub", "l_value_sub", "repeat_e_sub", "repeat_sub", "number_sub", "next_table_sub", "skip_table_sub", "skip_signal_sub", "table_kind_sub", "master_indx_no_sub");
 			}
 			public state2_struct(Pointer peer) {
@@ -97,7 +97,7 @@ public class odbptaxfuncstat extends Structure {
 	public odbptaxfuncstat() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("u");
 	}
 	public odbptaxfuncstat(u_union u) {

@@ -106,7 +106,7 @@ public class OUT_ETHPRM extends Structure {
 	public OUT_ETHPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Option", "Type", "Dhcp", "ValidDevice", "DtsvrChannel", "Storage", "prm");
 	}
 	public OUT_ETHPRM(short Option, short Type, short Dhcp, short ValidDevice, short DtsvrChannel, short Storage, prm_union prm) {

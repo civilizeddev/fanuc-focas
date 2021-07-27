@@ -56,7 +56,7 @@ public class iodbtlmng extends Structure {
 	public iodbtlmng() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("T_code", "life_count", "max_life", "rest_life", "life_stat", "cust_bits", "tool_info", "H_code", "D_code", "spindle_speed", "feedrate", "magazine", "pot", "G_code", "W_code", "gno", "grp", "edge", "org_magazine", "org_pot", "edge_num", "reserve_c", "reserved", "custom1", "custom2", "custom3", "custom4", "custom5", "custom6", "custom7", "custom8", "custom9", "custom10", "custom11", "custom12", "custom13", "custom14", "custom15", "custom16", "custom17", "custom18", "custom19", "custom20");
 	}
 	public iodbtlmng(Pointer peer) {

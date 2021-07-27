@@ -20,7 +20,7 @@ public class iodbmtap extends Structure {
 	public iodbmtap() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "tool_no", "x_axis_ofs", "y_axis_ofs", "punch_count", "tool_life", "reserve");
 	}
 	public iodbmtap(short slct, NativeLong tool_no, NativeLong x_axis_ofs, NativeLong y_axis_ofs, NativeLong punch_count, NativeLong tool_life, NativeLong reserve[]) {

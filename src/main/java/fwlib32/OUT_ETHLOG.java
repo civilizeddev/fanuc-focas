@@ -15,7 +15,7 @@ public class OUT_ETHLOG extends Structure {
 	public OUT_ETHLOG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Count", "reserve", "logData");
 	}
 	public OUT_ETHLOG(short Count, byte reserve[], OUT_ETHLOG1SHOT logData[]) {

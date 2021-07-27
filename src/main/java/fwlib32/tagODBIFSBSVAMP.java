@@ -24,7 +24,7 @@ public class tagODBIFSBSVAMP extends Structure {
 	public tagODBIFSBSVAMP() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slave_num", "name", "series", "cur", "as_axis_num", "as_axis_name");
 	}
 	public tagODBIFSBSVAMP(short slave_num, byte name[], byte series[], byte cur[], short as_axis_num, byte as_axis_name[]) {

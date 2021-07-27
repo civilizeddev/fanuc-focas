@@ -70,7 +70,7 @@ public class odbahis5 extends Structure {
 		public alm_his_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("alm_grp", "alm_no", "axis_no", "year", "month", "day", "hour", "minute", "second", "len_msg", "pth_no", "sys_alm", "dsp_flg", "axis_num", "alm_msg", "g_modal", "g_dp", "dummy1", "a_modal", "a_dp", "dummy2", "abs_pos", "abs_dp", "mcn_pos", "mcn_dp");
 		}
 		public alm_his_struct(Pointer peer) {
@@ -86,7 +86,7 @@ public class odbahis5 extends Structure {
 	public odbahis5() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("s_no", "e_no", "alm_his");
 	}
 	public odbahis5(short s_no, short e_no, fwlib32.odbahis.alm_his_struct alm_his[]) {

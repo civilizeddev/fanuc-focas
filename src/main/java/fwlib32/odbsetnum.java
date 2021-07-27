@@ -15,7 +15,7 @@ public class odbsetnum extends Structure {
 	public odbsetnum() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("set_min", "set_max", "total_no");
 	}
 	public odbsetnum(short set_min, short set_max, short total_no) {

@@ -15,7 +15,7 @@ public class OUT_USBLOG extends Structure {
 	public OUT_USBLOG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Count", "reserve", "logData");
 	}
 	public OUT_USBLOG(short Count, byte reserve[], OUT_USBLOG1SHOT logData[]) {

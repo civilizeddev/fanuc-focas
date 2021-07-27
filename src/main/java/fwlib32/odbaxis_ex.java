@@ -19,7 +19,7 @@ public class odbaxis_ex extends Structure {
 	public odbaxis_ex() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("counter", "type", "data");
 	}
 	public odbaxis_ex(short counter, short type, NativeLong data[]) {

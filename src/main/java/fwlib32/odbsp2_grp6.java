@@ -20,7 +20,7 @@ public class odbsp2_grp6 extends Structure {
 	public odbsp2_grp6() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sp_up_err1", "sp_up_err2", "sp_lw_err1", "sp_lw_err2", "sp_up_jt1", "sp_up_jt2", "sp_lw_jt1", "sp_lw_jt2");
 	}
 	public odbsp2_grp6(short sp_up_err1, short sp_up_err2, short sp_lw_err1, short sp_lw_err2, short sp_up_jt1, short sp_up_jt2, short sp_lw_jt1, short sp_lw_jt2) {

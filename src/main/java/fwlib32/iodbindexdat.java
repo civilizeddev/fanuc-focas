@@ -18,7 +18,7 @@ public class iodbindexdat extends Structure {
 	public iodbindexdat() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("pos", "inp_width", "speed", "f_flg", "dummy");
 	}
 	public iodbindexdat(NativeLong pos, NativeLong inp_width, short speed, byte f_flg, byte dummy) {

@@ -16,7 +16,7 @@ public class odbindexinfo extends Structure {
 	public odbindexinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mode", "nc_ax", "inpos_point", "ofs_edit_signal");
 	}
 	public odbindexinfo(short mode, short nc_ax, short inpos_point, short ofs_edit_signal) {

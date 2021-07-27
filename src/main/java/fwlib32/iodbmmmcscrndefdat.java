@@ -16,7 +16,7 @@ public class iodbmmmcscrndefdat extends Structure {
 	public iodbmmmcscrndefdat() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("scrninf", "icn_id", "msg_id");
 	}
 	public iodbmmmcscrndefdat(odbmmscrninf scrninf, NativeLong icn_id, NativeLong msg_id) {

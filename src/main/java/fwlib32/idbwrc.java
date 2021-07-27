@@ -25,7 +25,7 @@ public class idbwrc extends Structure {
 		public data_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("dummy", "count");
 		}
 		public data_struct(NativeLong dummy[], NativeLong count) {
@@ -48,7 +48,7 @@ public class idbwrc extends Structure {
 	public idbwrc() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano_s", "dummy", "datano_e", "data");
 	}
 	public idbwrc(short datano_s, short dummy, short datano_e, fwlib32.iodbprm.data_struct data[]) {

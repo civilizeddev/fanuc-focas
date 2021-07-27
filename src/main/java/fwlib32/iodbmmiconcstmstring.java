@@ -15,7 +15,7 @@ public class iodbmmiconcstmstring extends Structure {
 	public iodbmmiconcstmstring() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("scrninf", "string", "reserve");
 	}
 	public iodbmmiconcstmstring(odbmmscrninf scrninf, byte string[], byte reserve[]) {

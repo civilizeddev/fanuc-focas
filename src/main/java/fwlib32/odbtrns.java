@@ -19,7 +19,7 @@ public class odbtrns extends Structure {
 	public odbtrns() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("status", "pct", "type", "dummy");
 	}
 	public odbtrns(short status, short pct, short type, byte dummy[]) {

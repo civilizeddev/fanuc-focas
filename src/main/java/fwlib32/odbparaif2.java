@@ -28,7 +28,7 @@ public class odbparaif2 extends Structure {
 	public odbparaif2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prm_no", "size", "array", "unit", "dim", "input", "display", "others");
 	}
 	public odbparaif2(short prm_no, short size, short array, short unit, short dim, short input, short display, short others) {

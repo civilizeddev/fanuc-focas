@@ -16,7 +16,7 @@ public class iodbmnr3 extends Structure {
 	public iodbmnr3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mcr_val", "name");
 	}
 	public iodbmnr3(double mcr_val, byte name[]) {

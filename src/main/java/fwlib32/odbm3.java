@@ -19,7 +19,7 @@ public class odbm3 extends Structure {
 	public odbm3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "mcr_val", "dec_val");
 	}
 	public odbm3(NativeLong datano, NativeLong mcr_val, short dec_val) {

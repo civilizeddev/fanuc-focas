@@ -15,7 +15,7 @@ public class idbunsolicmsg2 extends Structure {
 	public idbunsolicmsg2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("getnum", "dummy", "get");
 	}
 	public idbunsolicmsg2(short getnum, byte dummy[], unsolicmsg_type_msg get[]) {

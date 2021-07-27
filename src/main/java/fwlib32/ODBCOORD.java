@@ -17,7 +17,7 @@ public class ODBCOORD extends Structure {
 	public ODBCOORD() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("orign", "vec_x", "vec_y", "vec_z");
 	}
 	public ODBCOORD(NativeLong orign[], short vec_x[], short vec_y[], short vec_z[]) {

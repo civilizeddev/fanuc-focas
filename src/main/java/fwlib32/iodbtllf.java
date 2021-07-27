@@ -21,7 +21,7 @@ public class iodbtllf extends Structure {
 	public iodbtllf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("T_code_sum", "life_count_sum", "rem_life_sum", "max_life_sum", "notice_life_sum", "tools_sum", "notice_stat_sum", "count_type_sum");
 	}
 	public iodbtllf(NativeLong T_code_sum, NativeLong life_count_sum, NativeLong rem_life_sum, NativeLong max_life_sum, NativeLong notice_life_sum, short tools_sum, byte notice_stat_sum, byte count_type_sum) {

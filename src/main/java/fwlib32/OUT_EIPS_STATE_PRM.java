@@ -14,7 +14,7 @@ public class OUT_EIPS_STATE_PRM extends Structure {
 	public OUT_EIPS_STATE_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("State", "reserve");
 	}
 	public OUT_EIPS_STATE_PRM(byte State[], byte reserve[]) {

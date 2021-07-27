@@ -21,7 +21,7 @@ public class odbsysh extends Structure {
 	public odbsysh() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("id1", "id2", "group_id", "hard_id", "hard_num", "slot_no", "id1_format", "id2_format");
 	}
 	public odbsysh(NativeLong id1, NativeLong id2, short group_id, short hard_id, short hard_num, short slot_no, short id1_format, short id2_format) {

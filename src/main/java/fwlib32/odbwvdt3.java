@@ -30,7 +30,7 @@ public class odbwvdt3 extends Structure {
 			public ax_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("axis", "reserve");
 			}
 			public ax_struct(short axis, short reserve[]) {
@@ -59,7 +59,7 @@ public class odbwvdt3 extends Structure {
 			public io_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("unittype", "adr", "bit", "no", "reserve");
 			}
 			public io_struct(short unittype, byte adr, byte bit, short no, short reserve) {
@@ -106,7 +106,7 @@ public class odbwvdt3 extends Structure {
 	public odbwvdt3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("channel", "kind", "u", "year", "month", "day", "hour", "minute", "second", "t_cycle", "data");
 	}
 	public odbwvdt3(Pointer peer) {

@@ -15,7 +15,7 @@ public class T_DATA_REF_TIM extends Structure {
 	public T_DATA_REF_TIM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("total_ref_tim", "board_ref_tim", "cnc_ref_tim");
 	}
 	public T_DATA_REF_TIM(short total_ref_tim, short board_ref_tim, short cnc_ref_tim) {

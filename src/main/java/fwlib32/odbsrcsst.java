@@ -17,7 +17,7 @@ public class odbsrcsst extends Structure {
 	public odbsrcsst() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("acc_element", "err_general", "err_id_no", "err_attr", "err_op_data");
 	}
 	public odbsrcsst(short acc_element, short err_general, short err_id_no, short err_attr, short err_op_data) {

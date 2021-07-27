@@ -17,7 +17,7 @@ public class iodbsfsgsiginf extends Structure {
 	public iodbsfsgsiginf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("unittype", "number", "adr_type", "bit");
 	}
 	public iodbsfsgsiginf(NativeLong unittype, NativeLong number, short adr_type, short bit) {

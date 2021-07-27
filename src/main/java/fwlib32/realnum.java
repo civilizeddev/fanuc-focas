@@ -15,7 +15,7 @@ public class realnum extends Structure {
 	public realnum() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("val", "dec");
 	}
 	public realnum(NativeLong val, NativeLong dec) {

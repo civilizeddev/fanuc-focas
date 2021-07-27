@@ -18,7 +18,7 @@ public class idbtwp_pjct_fmt extends Structure {
 	public idbtwp_pjct_fmt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("orign", "i", "j", "k", "reserve");
 	}
 	public idbtwp_pjct_fmt(double orign[], double i, double j, double k, NativeLong reserve[]) {

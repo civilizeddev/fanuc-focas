@@ -25,7 +25,7 @@ public class tagIODBIFSBAXIS extends Structure {
 	public tagIODBIFSBAXIS() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("axis_num", "axis_name", "line", "amp_name", "pm", "cs", "tndm");
 	}
 	public tagIODBIFSBAXIS(short axis_num, byte axis_name[], short line, byte amp_name[], short pm[], short cs, short tndm) {

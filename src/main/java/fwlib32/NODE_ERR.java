@@ -13,7 +13,7 @@ public class NODE_ERR extends Structure {
 	public NODE_ERR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("eachErr");
 	}
 	public NODE_ERR(EACH_ERR eachErr[]) {

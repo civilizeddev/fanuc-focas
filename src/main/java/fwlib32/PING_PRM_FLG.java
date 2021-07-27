@@ -14,7 +14,7 @@ public class PING_PRM_FLG extends Structure {
 	public PING_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("HostName", "Count");
 	}
 	public PING_PRM_FLG(byte HostName, byte Count) {

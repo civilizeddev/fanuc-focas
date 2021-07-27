@@ -29,7 +29,7 @@ public class iodbtlgsext extends Structure {
 	public iodbtlgsext() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data1", "data2", "data3", "data4", "tooltype", "install", "holder", "toolname");
 	}
 	public iodbtlgsext(NativeLong data1, NativeLong data2, NativeLong data3, NativeLong data4, byte tooltype, byte install, byte holder, byte toolname[]) {

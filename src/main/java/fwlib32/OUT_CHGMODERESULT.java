@@ -15,7 +15,7 @@ public class OUT_CHGMODERESULT extends Structure {
 	public OUT_CHGMODERESULT() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("crnt_mode", "pad", "result");
 	}
 	public OUT_CHGMODERESULT(byte crnt_mode, byte pad, short result) {

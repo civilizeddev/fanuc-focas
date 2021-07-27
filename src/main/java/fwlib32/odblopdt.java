@@ -21,7 +21,7 @@ public class odblopdt extends Structure {
 	public odblopdt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "pwr_mon", "pwr_ofs", "pwr_act", "feed_act", "feed_dec", "reserve", "reserves");
 	}
 	public odblopdt(short slct, short pwr_mon, short pwr_ofs, short pwr_act, NativeLong feed_act, byte feed_dec, byte reserve, short reserves[]) {

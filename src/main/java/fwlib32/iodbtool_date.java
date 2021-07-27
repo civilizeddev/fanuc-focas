@@ -18,7 +18,7 @@ public class iodbtool_date extends Structure {
 	public iodbtool_date() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("year", "mon", "day", "hour", "min", "sec");
 	}
 	public iodbtool_date(short year, short mon, short day, short hour, short min, short sec) {

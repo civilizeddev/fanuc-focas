@@ -19,7 +19,7 @@ public class odbpmcinf extends Structure {
 		public info_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("pmc_adr", "adr_attr", "top_num", "last_num");
 		}
 		public info_struct(byte pmc_adr, byte adr_attr, short top_num, short last_num) {
@@ -42,7 +42,7 @@ public class odbpmcinf extends Structure {
 	public odbpmcinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "info");
 	}
 	public odbpmcinf(short datano, fwlib32.odbparaif.info_struct info[]) {

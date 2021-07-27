@@ -43,7 +43,7 @@ public class OUT_ADPSAFE_MNTINFO extends Structure {
 	public OUT_ADPSAFE_MNTINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("SupervisorStatus", "SafetyNetworkNumber", "SelfDiagnosisErrorA", "SelfDiagnosisErrorB", "SelfDiagnosisDetailA", "SelfDiagnosisDetailB", "SafetyParameterCrc", "ChangeDateYear", "ChangeDateMonth", "ChangeDateDay", "ChangeTimeHours", "ChangeTimeMinutes", "ChangeTimeSeconds", "Pad", "DiConnectionStatusA", "DiConnectionStatusB", "DoConnectionStatusA", "DoConnectionStatusB", "DiConnectionDataSizeA", "DiConnectionDataSizeB", "DoConnectionDataSizeA", "DoConnectionDataSizeB", "DiConnectionErrorA", "DiConnectionErrorB", "DoConnectionErrorA", "DoConnectionErrorB", "DiRecvPacketNumberA", "DiRecvPacketNumberB", "DoSendPacketNumberA", "DoSendPacketNumberB");
 	}
 	public OUT_ADPSAFE_MNTINFO(Pointer peer) {

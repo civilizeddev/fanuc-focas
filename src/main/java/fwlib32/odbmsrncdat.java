@@ -27,7 +27,7 @@ public class odbmsrncdat extends Structure {
 	public odbmsrncdat() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sv_num", "sp_num", "mcn", "abs", "spdl", "actf", "ex_prg_name", "ex_blk", "aut", "tmmode", "m_mdl", "s_mdl", "t_mdl", "b_mdl");
 	}
 	public odbmsrncdat(Pointer peer) {

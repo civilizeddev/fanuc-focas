@@ -17,7 +17,7 @@ public class indexposdat extends Structure {
 	public indexposdat() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("min_value", "max_value", "setting", "dummy");
 	}
 	public indexposdat(NativeLong min_value, NativeLong max_value, byte setting, byte dummy[]) {

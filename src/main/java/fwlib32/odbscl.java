@@ -16,7 +16,7 @@ public class odbscl extends Structure {
 	public odbscl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mode", "center", "magnif");
 	}
 	public odbscl(short mode, NativeLong center[], NativeLong magnif[]) {

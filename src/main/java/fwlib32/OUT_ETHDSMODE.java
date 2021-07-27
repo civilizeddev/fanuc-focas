@@ -13,7 +13,7 @@ public class OUT_ETHDSMODE extends Structure {
 	public OUT_ETHDSMODE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("DsMode");
 	}
 	public OUT_ETHDSMODE(short DsMode[]) {

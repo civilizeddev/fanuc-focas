@@ -17,7 +17,7 @@ public class odbact extends Structure {
 	public odbact() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "data");
 	}
 	public odbact(short dummy[], NativeLong data) {

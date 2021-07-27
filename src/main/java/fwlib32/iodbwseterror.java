@@ -22,7 +22,7 @@ public class iodbwseterror extends Structure {
 	public iodbwseterror() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("d_no", "data_act", "dp_act", "dsp_ix", "data");
 	}
 	public iodbwseterror(NativeLong d_no, NativeLong data_act[], NativeLong dp_act[], NativeLong dsp_ix[], wseterror data[]) {

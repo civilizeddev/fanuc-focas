@@ -18,7 +18,7 @@ public class odbcmd extends Structure {
 	public odbcmd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("adrs", "num", "flag", "cmd_val", "dec_val");
 	}
 	public odbcmd(byte adrs, byte num, short flag, NativeLong cmd_val, NativeLong dec_val) {

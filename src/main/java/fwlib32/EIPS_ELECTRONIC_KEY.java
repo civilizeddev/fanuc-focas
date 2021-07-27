@@ -19,7 +19,7 @@ public class EIPS_ELECTRONIC_KEY extends Structure {
 	public EIPS_ELECTRONIC_KEY() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("VendorID", "DeviceType", "ProductCode", "MajorRevision", "MinorRevision", "Compatibility", "pad");
 	}
 	public EIPS_ELECTRONIC_KEY(short VendorID, short DeviceType, short ProductCode, byte MajorRevision, byte MinorRevision, byte Compatibility, byte pad[]) {

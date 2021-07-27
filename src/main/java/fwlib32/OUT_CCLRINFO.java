@@ -17,7 +17,7 @@ public class OUT_CCLRINFO extends Structure {
 	public OUT_CCLRINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("LineStatus", "MachineCode", "MakerCode", "errCode", "pad");
 	}
 	public OUT_CCLRINFO(byte LineStatus, byte MachineCode, short MakerCode, short errCode, byte pad[]) {

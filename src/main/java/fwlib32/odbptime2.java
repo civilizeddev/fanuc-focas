@@ -19,7 +19,7 @@ public class odbptime2 extends Structure {
 		public data_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("filename", "hour", "min", "sec");
 		}
 		public data_struct(byte filename[], short hour, byte min, byte sec) {
@@ -44,7 +44,7 @@ public class odbptime2 extends Structure {
 	public odbptime2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("num", "data");
 	}
 	public odbptime2(short num, fwlib32.iodbprm.data_struct data[]) {

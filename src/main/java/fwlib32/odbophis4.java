@@ -49,7 +49,7 @@ public class odbophis4 extends Structure {
 			public rec_mdi_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("key_code", "pw_flag", "pth_no", "ex_flag", "hour", "minute", "second");
 			}
 			public rec_mdi_struct(byte key_code, byte pw_flag, short pth_no, short ex_flag, short hour, short minute, short second) {
@@ -93,7 +93,7 @@ public class odbophis4 extends Structure {
 			public rec_sgn_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("sig_name", "sig_no", "sig_old", "sig_new", "pmc_no", "hour", "minute", "second", "dummy");
 			}
 			public rec_sgn_struct(short sig_name, short sig_no, byte sig_old, byte sig_new, short pmc_no, short hour, short minute, short second, short dummy) {
@@ -142,7 +142,7 @@ public class odbophis4 extends Structure {
 			public rec_alm_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("alm_grp", "alm_no", "axis_no", "year", "month", "day", "hour", "minute", "second", "pth_no");
 			}
 			public rec_alm_struct(Pointer peer) {
@@ -174,7 +174,7 @@ public class odbophis4 extends Structure {
 			public rec_date_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("evnt_type", "year", "month", "day", "hour", "minute", "second", "dummy");
 			}
 			public rec_date_struct(short evnt_type, short year, short month, short day, short hour, short minute, short second, short dummy) {
@@ -247,7 +247,7 @@ public class odbophis4 extends Structure {
 			public rec_ial_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("alm_grp", "alm_no", "axis_no", "year", "month", "day", "hour", "minute", "second", "pth_no", "sys_alm", "dsp_flg", "axis_num", "dummy1", "g_modal", "g_dp", "dummy2", "a_modal", "a_dp", "dummy3", "abs_pos", "abs_dp", "mcn_pos", "mcn_dp");
 			}
 			public rec_ial_struct(Pointer peer) {
@@ -311,7 +311,7 @@ public class odbophis4 extends Structure {
 			public rec_mal_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("alm_grp", "alm_no", "axis_no", "year", "month", "day", "hour", "minute", "second", "pth_no", "sys_alm", "dsp_flg", "axis_num", "alm_msg", "dummy1", "g_modal", "g_dp", "dummy2", "a_modal", "a_dp", "dummy3", "abs_pos", "abs_dp", "mcn_pos", "mcn_dp");
 			}
 			public rec_mal_struct(Pointer peer) {
@@ -346,7 +346,7 @@ public class odbophis4 extends Structure {
 			public rec_opm_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("dsp_flg", "om_no", "year", "month", "day", "hour", "minute", "second", "ope_msg");
 			}
 			public rec_opm_struct(short dsp_flg, short om_no, short year, short month, short day, short hour, short minute, short second, byte ope_msg[]) {
@@ -397,7 +397,7 @@ public class odbophis4 extends Structure {
 			public rec_ofs_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("ofs_grp", "ofs_no", "hour", "minute", "second", "pth_no", "ofs_old", "ofs_new", "old_dp", "new_dp");
 			}
 			public rec_ofs_struct(Pointer peer) {
@@ -436,7 +436,7 @@ public class odbophis4 extends Structure {
 			public rec_prm_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("prm_grp", "prm_num", "hour", "minute", "second", "prm_len", "prm_no", "prm_old", "prm_new", "old_dp", "new_dp");
 			}
 			public rec_prm_struct(Pointer peer) {
@@ -476,7 +476,7 @@ public class odbophis4 extends Structure {
 			public rec_wof_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("ofs_grp", "ofs_no", "hour", "minute", "second", "pth_no", "axis_no", "dummy", "ofs_old", "ofs_new", "old_dp", "new_dp");
 			}
 			public rec_wof_struct(Pointer peer) {
@@ -512,7 +512,7 @@ public class odbophis4 extends Structure {
 			public rec_mac_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("mac_no", "hour", "minute", "second", "pth_no", "dummy", "mac_old", "mac_new", "old_dp", "new_dp");
 			}
 			public rec_mac_struct(Pointer peer) {
@@ -547,7 +547,7 @@ public class odbophis4 extends Structure {
 			public rec_mac2_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("mac_no", "hour", "minute", "second", "pth_no", "mac_old", "mac_new", "old_dp", "new_dp");
 			}
 			public rec_mac2_struct(NativeLong mac_no, short hour, short minute, short second, short pth_no, NativeLong mac_old, NativeLong mac_new, short old_dp, short new_dp) {
@@ -587,7 +587,7 @@ public class odbophis4 extends Structure {
 			public rec_scrn_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("scrn_old", "scrn_new", "dummy", "hour", "minute", "second");
 			}
 			public rec_scrn_struct(short scrn_old, short scrn_new, short dummy, short hour, short minute, short second) {
@@ -690,7 +690,7 @@ public class odbophis4 extends Structure {
 	public odbophis4() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("rec_len", "rec_type", "u");
 	}
 	public odbophis4(short rec_len, short rec_type, u_union u) {

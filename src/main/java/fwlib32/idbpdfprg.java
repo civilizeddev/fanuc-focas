@@ -19,7 +19,7 @@ public class idbpdfprg extends Structure {
 	public idbpdfprg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("path", "size_kind", "type", "dummy");
 	}
 	public idbpdfprg(byte path[], short size_kind, short type, short dummy) {

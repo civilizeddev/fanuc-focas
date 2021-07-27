@@ -18,7 +18,7 @@ public class realdata extends Structure {
 	public realdata() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("val", "dec", "dummy");
 	}
 	public realdata(double val, NativeLong dec, NativeLong dummy) {

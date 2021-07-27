@@ -33,7 +33,7 @@ public class odbprsm extends Structure {
 	public odbprsm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data_info", "rstr_bc", "rstr_m", "rstr_t", "rstr_s", "rstr_b", "dest", "dist");
 	}
 	public odbprsm(Pointer peer) {

@@ -17,7 +17,7 @@ public class iodbsfsgsighis extends Structure {
 	public iodbsfsgsighis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sno_sig", "len_sig", "sno_sig_his", "len_sig_his", "extract");
 	}
 	public iodbsfsgsighis(short sno_sig, short len_sig, short sno_sig_his, short len_sig_his, short extract) {

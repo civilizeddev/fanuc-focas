@@ -16,7 +16,7 @@ public class OUT_PNC_DETAIL_INFO extends Structure {
 	public OUT_PNC_DETAIL_INFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Result", "pad", "IpAddress", "Info");
 	}
 	public OUT_PNC_DETAIL_INFO(short Result, byte pad[], byte IpAddress[], byte Info[]) {

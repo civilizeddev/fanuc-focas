@@ -18,7 +18,7 @@ public class odblfno extends Structure {
 	public odblfno() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public odblfno(short datano, short type, short data) {

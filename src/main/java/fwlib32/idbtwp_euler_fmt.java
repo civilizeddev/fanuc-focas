@@ -18,7 +18,7 @@ public class idbtwp_euler_fmt extends Structure {
 	public idbtwp_euler_fmt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("orign", "i", "j", "k", "reserve");
 	}
 	public idbtwp_euler_fmt(double orign[], double i, double j, double k, NativeLong reserve[]) {

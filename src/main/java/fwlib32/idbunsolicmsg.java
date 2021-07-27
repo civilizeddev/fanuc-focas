@@ -17,7 +17,7 @@ public class idbunsolicmsg extends Structure {
 		public msg_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("rdsize", "data");
 		}
 		public msg_struct(short rdsize, Pointer data) {
@@ -38,7 +38,7 @@ public class idbunsolicmsg extends Structure {
 	public idbunsolicmsg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("getno", "msg");
 	}
 	public idbunsolicmsg(short getno, idbunsolicmsg.msg_struct msg[]) {

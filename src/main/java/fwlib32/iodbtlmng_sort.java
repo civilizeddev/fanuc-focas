@@ -15,7 +15,7 @@ public class iodbtlmng_sort extends Structure {
 	public iodbtlmng_sort() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("tl_num", "reserve", "data");
 	}
 	public iodbtlmng_sort(short tl_num, short reserve, iodbtlmng_f2 data) {

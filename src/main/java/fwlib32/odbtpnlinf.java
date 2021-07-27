@@ -16,7 +16,7 @@ public class odbtpnlinf extends Structure {
 	public odbtpnlinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("status", "dummy", "coord_x", "coord_y");
 	}
 	public odbtpnlinf(byte status, byte dummy[], short coord_x, short coord_y) {

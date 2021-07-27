@@ -38,7 +38,7 @@ public class odbpthis_sp extends Structure {
 	public odbpthis_sp() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("l_value", "l_value_e", "pos_value", "pos_value_e", "l_value_sub", "l_value_e_sub", "repeat_sub", "repeat_e_sub", "srpm", "rrpm", "sspm", "smax", "info1", "number", "number_sub", "table_kind", "sp_mode", "name", "ov_sp", "reserve1", "cs_axis_idx_pt", "cs_axis_idx_rel", "pos_frac", "l_frac", "reserve2");
 	}
 	public odbpthis_sp(Pointer peer) {

@@ -17,7 +17,7 @@ public class idbsdtchan2 extends Structure {
 	public idbsdtchan2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type", "chno", "axis", "shift", "io");
 	}
 	public idbsdtchan2(short type, byte chno, byte axis, short shift, pmc_data io[]) {

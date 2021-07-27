@@ -17,7 +17,7 @@ public class odbdsmnt extends Structure {
 	public odbdsmnt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("empty_cnt", "total_size", "read_ptr", "write_ptr");
 	}
 	public odbdsmnt(NativeLong empty_cnt, NativeLong total_size, NativeLong read_ptr, NativeLong write_ptr) {

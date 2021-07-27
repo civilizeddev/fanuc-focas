@@ -17,7 +17,7 @@ public class odbrot extends Structure {
 	public odbrot() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mode", "pln_axes", "center", "angle");
 	}
 	public odbrot(short mode, short pln_axes[], NativeLong center[], NativeLong angle) {

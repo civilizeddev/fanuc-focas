@@ -21,7 +21,7 @@ public class idbpdfadir extends Structure {
 	public idbpdfadir() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("path", "req_num", "size_kind", "type", "dummy");
 	}
 	public idbpdfadir(byte path[], short req_num, short size_kind, short type, short dummy) {

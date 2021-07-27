@@ -40,7 +40,7 @@ public class OUT_DNMPRM extends Structure {
 	public OUT_DNMPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prm");
 	}
 	public OUT_DNMPRM(prm_union prm) {

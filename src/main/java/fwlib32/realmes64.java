@@ -19,7 +19,7 @@ public class realmes64 extends Structure {
 	public realmes64() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mes_val", "dec_val", "dummy");
 	}
 	public realmes64(double mes_val, NativeLong dec_val, NativeLong dummy) {

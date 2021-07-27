@@ -20,7 +20,7 @@ public class IN_DNMPRMFLAG_BUS extends Structure {
 	public IN_DNMPRMFLAG_BUS() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Network", "BaudRate", "DiDataOnAbnormal", "OwnMacId", "CommonStatus", "CommonStatusSize", "CycleTimeSetting", "reserved");
 	}
 	public IN_DNMPRMFLAG_BUS(byte Network, byte BaudRate, byte DiDataOnAbnormal, byte OwnMacId, byte CommonStatus, byte CommonStatusSize, byte CycleTimeSetting, byte reserved[]) {

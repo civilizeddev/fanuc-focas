@@ -20,7 +20,7 @@ public class odbsv2_grp1 extends Structure {
 	public odbsv2_grp1() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cmd_pls", "fb_pls", "refc", "pos_err", "act_spd", "amr", "reserved");
 	}
 	public odbsv2_grp1(NativeLong cmd_pls, NativeLong fb_pls, NativeLong refc, NativeLong pos_err, odbmdgdt act_spd, short amr, short reserved) {

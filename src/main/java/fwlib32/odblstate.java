@@ -25,7 +25,7 @@ public class odblstate extends Structure {
 	public odblstate() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cmd_feed", "act_feed", "cmd_power", "cmd_freq", "cmd_duty", "beam", "beam_lock", "cw_mode", "pulse_mode", "cmd_feed_dec", "act_feed_dec", "reserve");
 	}
 	public odblstate(Pointer peer) {

@@ -19,7 +19,7 @@ public class iodbwcsf extends Structure {
 	public iodbwcsf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public iodbwcsf(short datano, short type, NativeLong data[]) {

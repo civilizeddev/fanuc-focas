@@ -19,7 +19,7 @@ public class odbsuodata extends Structure {
 	public odbsuodata() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data_name", "prm_val", "frc_dgt");
 	}
 	public odbsuodata(byte data_name[], NativeLong prm_val, NativeLong frc_dgt) {

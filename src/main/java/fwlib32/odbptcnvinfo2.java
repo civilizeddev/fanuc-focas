@@ -16,7 +16,7 @@ public class odbptcnvinfo2 extends Structure {
 	public odbptcnvinfo2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("executing", "conv_status", "ofs_change");
 	}
 	public odbptcnvinfo2(short executing[], NativeLong conv_status[], short ofs_change[]) {

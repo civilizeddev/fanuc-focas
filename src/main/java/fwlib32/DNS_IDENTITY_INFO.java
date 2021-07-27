@@ -21,7 +21,7 @@ public class DNS_IDENTITY_INFO extends Structure {
 	public DNS_IDENTITY_INFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("VenderID", "DeviceType", "ProductCode", "MajorRev", "MinorRev", "SerialNo", "ProductName", "pad");
 	}
 	public DNS_IDENTITY_INFO(short VenderID, short DeviceType, short ProductCode, byte MajorRev, byte MinorRev, NativeLong SerialNo, byte ProductName[], byte pad[]) {

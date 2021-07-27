@@ -15,7 +15,7 @@ public class EACH_ERR extends Structure {
 	public EACH_ERR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ErrFlag", "ErrNode", "Reserved");
 	}
 	public EACH_ERR(byte ErrFlag, byte ErrNode, byte Reserved[]) {

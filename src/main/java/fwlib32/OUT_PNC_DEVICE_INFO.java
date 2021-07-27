@@ -24,7 +24,7 @@ public class OUT_PNC_DEVICE_INFO extends Structure {
 	public OUT_PNC_DEVICE_INFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("IpAddress", "Status", "pad", "DiAddrTop", "DoAddrTop", "InputSize", "OutputSize", "InputCycleTime", "OutputCycleTime", "AlarmNum", "ConnectTime");
 	}
 	public OUT_PNC_DEVICE_INFO(Pointer peer) {

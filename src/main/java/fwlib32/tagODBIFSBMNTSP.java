@@ -31,7 +31,7 @@ public class tagODBIFSBMNTSP extends Structure {
 	public tagODBIFSBMNTSP() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("spdl_num", "spdl_name", "line", "amp_name", "amp_series", "amp_pwr", "amp_edt", "amp_spdl_num", "amp_spec_num", "amp_serial_num");
 	}
 	public tagODBIFSBMNTSP(Pointer peer) {

@@ -24,7 +24,7 @@ public class odb3dchk extends Structure {
 		public path_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("mode", "prginf", "dummy", "mcode", "tlinf", "dummy2", "ctrlaxis", "data");
 		}
 		public path_struct(NativeLong mode, prginf prginf, NativeLong dummy[], NativeLong mcode[], toolinf tlinf, NativeLong dummy2[], NativeLong ctrlaxis, posinf data[]) {
@@ -59,7 +59,7 @@ public class odb3dchk extends Structure {
 	public odb3dchk() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("pathno", "path");
 	}
 	public odb3dchk(NativeLong pathno, fwlib32.odbsysex.path_struct path[]) {

@@ -18,7 +18,7 @@ public class odbsfsgalmtime extends Structure {
 	public odbsfsgalmtime() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("year", "month", "date", "hour", "minute", "second");
 	}
 	public odbsfsgalmtime(short year, short month, short date, short hour, short minute, short second) {

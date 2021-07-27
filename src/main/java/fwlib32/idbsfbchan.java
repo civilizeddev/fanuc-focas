@@ -15,7 +15,7 @@ public class idbsfbchan extends Structure {
 	public idbsfbchan() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("chno", "axis", "shift");
 	}
 	public idbsfbchan(byte chno, byte axis, short shift) {

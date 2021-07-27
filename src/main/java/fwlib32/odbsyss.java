@@ -70,7 +70,7 @@ public class odbsyss extends Structure {
 	public odbsyss() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slot_no_p", "slot_no_l", "module_id", "soft_id", "soft_series", "soft_version", "soft_inst", "boot_ser", "boot_ver", "servo_ser", "servo_ver", "pmc_ser", "pmc_ver", "ladder_ser", "ladder_ver", "mcrlib_ser", "mcrlib_ver", "mcrapl_ser", "mcrapl_ver", "spl1_ser", "spl1_ver", "spl2_ser", "spl2_ver", "spl3_ser", "spl3_ver", "c_exelib_ser", "c_exelib_ver", "c_exeapl_ser", "c_exeapl_ver", "int_vga_ser", "int_vga_ver", "out_vga_ser", "out_vga_ver", "pmm_ser", "pmm_ver", "pmc_mng_ser", "pmc_mng_ver", "pmc_shin_ser", "pmc_shin_ver", "pmc_shout_ser", "pmc_shout_ver", "pmc_c_ser", "pmc_c_ver", "pmc_edit_ser", "pmc_edit_ver", "lddr_mng_ser", "lddr_mng_ver", "lddr_apl_ser", "lddr_apl_ver", "spl4_ser", "spl4_ver", "mcr2_ser", "mcr2_ver", "mcr3_ser", "mcr3_ver", "eth_boot_ser", "eth_boot_ver", "reserve");
 	}
 	public odbsyss(Pointer peer) {

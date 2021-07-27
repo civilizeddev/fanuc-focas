@@ -21,7 +21,7 @@ public class odbsv2_grp5 extends Structure {
 	public odbsv2_grp5() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ps_dgn", "ps_sub_dgn", "sv_dgn", "ps_int_tmp", "ps_sink_tmp", "sv_int_tmp", "sv_sink_tmp", "amp_grp", "amp_slv");
 	}
 	public odbsv2_grp5(short ps_dgn, short ps_sub_dgn, short sv_dgn, byte ps_int_tmp, byte ps_sink_tmp, byte sv_int_tmp, byte sv_sink_tmp, byte amp_grp, byte amp_slv) {

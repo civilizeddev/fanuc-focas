@@ -20,7 +20,7 @@ public class iodbrct_cstmname extends Structure {
 	public iodbrct_cstmname() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("grp_num", "dummy", "grp_name", "ptn_name");
 	}
 	public iodbrct_cstmname(short grp_num, short dummy, byte grp_name[], byte ptn_name[]) {

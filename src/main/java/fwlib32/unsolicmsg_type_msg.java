@@ -25,7 +25,7 @@ public class unsolicmsg_type_msg extends Structure {
 			public pmc_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("path", "dummy2", "size", "data");
 			}
 			public pmc_struct(short path, byte dummy2[], NativeLong size, Pointer data) {
@@ -55,7 +55,7 @@ public class unsolicmsg_type_msg extends Structure {
 			public macro_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("path", "dummy3", "num", "data");
 			}
 			public macro_struct(short path, byte dummy3[], NativeLong num, Pointer data) {
@@ -103,7 +103,7 @@ public class unsolicmsg_type_msg extends Structure {
 	public unsolicmsg_type_msg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type", "dummy1", "msg");
 	}
 	public unsolicmsg_type_msg(short type, byte dummy1[], msg_union msg) {

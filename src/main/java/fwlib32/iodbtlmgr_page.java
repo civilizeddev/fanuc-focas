@@ -23,7 +23,7 @@ public class iodbtlmgr_page extends Structure {
 			public page_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("s_edg", "e_edg");
 			}
 			public page_struct(iodbtlmgr_edg s_edg, iodbtlmgr_edg e_edg) {
@@ -67,7 +67,7 @@ public class iodbtlmgr_page extends Structure {
 	public iodbtlmgr_page() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("info");
 	}
 	public iodbtlmgr_page(info_union info) {

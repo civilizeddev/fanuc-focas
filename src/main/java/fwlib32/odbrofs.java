@@ -16,7 +16,7 @@ public class odbrofs extends Structure {
 	public odbrofs() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mode", "pln_axes", "ofsvct");
 	}
 	public odbrofs(short mode, short pln_axes[], NativeLong ofsvct[]) {

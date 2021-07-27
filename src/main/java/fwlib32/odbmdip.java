@@ -21,7 +21,7 @@ public class odbmdip extends Structure {
 	public odbmdip() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mdiprog", "mdipntr", "crntprog", "crntpntr");
 	}
 	public odbmdip(short mdiprog, NativeLong mdipntr, short crntprog, NativeLong crntpntr) {

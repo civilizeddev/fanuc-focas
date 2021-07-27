@@ -13,7 +13,7 @@ public class OUT_PNC_ALLCOM_STAT extends Structure {
 	public OUT_PNC_ALLCOM_STAT() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("State");
 	}
 	public OUT_PNC_ALLCOM_STAT(byte State[]) {

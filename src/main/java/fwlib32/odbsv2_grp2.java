@@ -19,7 +19,7 @@ public class odbsv2_grp2 extends Structure {
 	public odbsv2_grp2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mt_cur", "trq_cmd", "efc_cur", "dlvl", "heat", "opt", "opt2");
 	}
 	public odbsv2_grp2(odbmdgdt mt_cur, short trq_cmd, short efc_cur, short dlvl, short heat, short opt, short opt2) {

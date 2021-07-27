@@ -45,7 +45,7 @@ public class iodbtlmng_mu_edge_data extends Structure {
 	public iodbtlmng_mu_edge_data() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("life_count", "max_life", "rest_life", "life_stat", "cust_bits", "reserve_s", "H_code", "D_code", "spindle_speed", "feedrate", "G_code", "W_code", "custom1", "custom2", "custom3", "custom4");
 	}
 	public iodbtlmng_mu_edge_data(Pointer peer) {

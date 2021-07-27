@@ -13,7 +13,7 @@ public class FTPTRANS_PRM_FLG extends Structure {
 	public FTPTRANS_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("opposite");
 	}
 	public FTPTRANS_PRM_FLG(FTP_CLIENT_PRM_FLG opposite[]) {

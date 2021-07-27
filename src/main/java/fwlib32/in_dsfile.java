@@ -26,7 +26,7 @@ public class in_dsfile extends Structure {
 	public in_dsfile() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("path", "fnum", "offset", "req_num", "size_type", "detail", "dummy");
 	}
 	public in_dsfile(byte path[], NativeLong fnum, NativeLong offset, short req_num, short size_type, short detail, short dummy) {

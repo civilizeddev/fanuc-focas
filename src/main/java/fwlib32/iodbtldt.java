@@ -36,7 +36,7 @@ public class iodbtldt extends Structure {
 	public iodbtldt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "tool_no", "x_axis_ofs", "y_axis_ofs", "turret_pos", "chg_tl_no", "punch_count", "tool_life", "m_tl_radius", "m_tl_angle", "tl_shape", "tl_size_i", "tl_size_j", "tl_angle", "x_axis_dec", "y_axis_dec", "turret_dec", "m_radius_dec", "m_angle_dec", "tl_size_i_dec", "tl_size_j_dec", "tl_angle_dec", "reserve");
 	}
 	public iodbtldt(Pointer peer) {

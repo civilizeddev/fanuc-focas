@@ -19,7 +19,7 @@ public class ODBPMCLADMEMTYPE extends Structure {
 	public ODBPMCLADMEMTYPE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("SystemType", "SystemAttribute", "TargetType", "TargetAttribute", "SystemTypeStr", "TargetTypeStr");
 	}
 	public ODBPMCLADMEMTYPE(NativeLong SystemType, NativeLong SystemAttribute, NativeLong TargetType, NativeLong TargetAttribute, byte SystemTypeStr[], byte TargetTypeStr[]) {

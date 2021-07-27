@@ -16,7 +16,7 @@ public class HTTPSVR_PRM extends Structure {
 	public HTTPSVR_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("TcpPort", "Timeout", "UserAccount");
 	}
 	public HTTPSVR_PRM(NativeLong TcpPort, NativeLong Timeout, USER_ACCOUNT_PRM UserAccount[]) {

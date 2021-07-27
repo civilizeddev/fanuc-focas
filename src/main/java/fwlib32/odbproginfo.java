@@ -14,7 +14,7 @@ public class odbproginfo extends Structure {
 	public odbproginfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("comment", "o_time");
 	}
 	public odbproginfo(byte comment[], byte o_time[]) {

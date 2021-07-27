@@ -16,7 +16,7 @@ public class odbsd extends Structure {
 	public odbsd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("chadata", "count");
 	}
 	public odbsd(ShortByReference chadata, NativeLongByReference count) {

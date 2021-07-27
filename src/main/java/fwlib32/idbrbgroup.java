@@ -15,7 +15,7 @@ public class idbrbgroup extends Structure {
 	public idbrbgroup() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("robot_program", "nc_program_folder", "nc_program_name");
 	}
 	public idbrbgroup(byte robot_program, byte nc_program_folder[], byte nc_program_name[]) {

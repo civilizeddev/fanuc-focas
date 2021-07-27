@@ -17,7 +17,7 @@ public class idbtwp_2vct_fmt extends Structure {
 	public idbtwp_2vct_fmt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("orign", "vtr1", "vtr2", "reserve");
 	}
 	public idbtwp_2vct_fmt(double orign[], double vtr1[], double vtr2[], NativeLong reserve[]) {

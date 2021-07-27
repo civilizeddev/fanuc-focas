@@ -20,7 +20,7 @@ public class odbsfsgloginf extends Structure {
 	public odbsfsgloginf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("signal_num", "sig_his_period", "sig_his_count", "sig_his_after", "alm_detect_time", "dummy", "sfsg_alm", "sfsg_alm_time");
 	}
 	public odbsfsgloginf(short signal_num, short sig_his_period, short sig_his_count, short sig_his_after, short alm_detect_time[], short dummy, odbsfsgalm sfsg_alm, odbsfsgalmtime sfsg_alm_time) {

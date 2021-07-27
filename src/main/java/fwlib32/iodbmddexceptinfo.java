@@ -17,7 +17,7 @@ public class iodbmddexceptinfo extends Structure {
 	public iodbmddexceptinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sno", "eno");
 	}
 	public iodbmddexceptinfo(NativeLong sno, NativeLong eno) {

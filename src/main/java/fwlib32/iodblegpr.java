@@ -17,7 +17,7 @@ public class iodblegpr extends Structure {
 	public iodblegpr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "power", "freq", "duty", "reserve");
 	}
 	public iodblegpr(short slct, short power, short freq, short duty, short reserve[]) {

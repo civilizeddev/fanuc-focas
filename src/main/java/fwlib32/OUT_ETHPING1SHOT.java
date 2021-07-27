@@ -14,7 +14,7 @@ public class OUT_ETHPING1SHOT extends Structure {
 	public OUT_ETHPING1SHOT() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("MsgId", "IpAddress");
 	}
 	public OUT_ETHPING1SHOT(short MsgId, byte IpAddress[]) {

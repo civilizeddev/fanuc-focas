@@ -22,7 +22,7 @@ public class odbnme extends Structure {
 	public odbnme() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ob_type", "obj_no", "nme_no", "suffix", "name");
 	}
 	public odbnme(short ob_type, short obj_no, short nme_no, short suffix, byte name[]) {

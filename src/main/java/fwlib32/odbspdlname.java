@@ -20,7 +20,7 @@ public class odbspdlname extends Structure {
 	public odbspdlname() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name", "suff1", "suff2", "suff3");
 	}
 	public odbspdlname(byte name, byte suff1, byte suff2, byte suff3) {

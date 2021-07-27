@@ -25,7 +25,7 @@ public class odbcub extends Structure {
 	public odbcub() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ref_vtx", "adj_vtx1", "adj_vtx2", "adj_vtx3", "n_unit", "cb_form");
 	}
 	public odbcub(NativeLong ref_vtx[], NativeLong adj_vtx1[], NativeLong adj_vtx2[], NativeLong adj_vtx3[], byte n_unit, byte cb_form) {

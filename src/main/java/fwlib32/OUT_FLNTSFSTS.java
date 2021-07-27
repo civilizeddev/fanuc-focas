@@ -15,7 +15,7 @@ public class OUT_FLNTSFSTS extends Structure {
 	public OUT_FLNTSFSTS() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("eachSts", "AlarmInfo", "Reserved");
 	}
 	public OUT_FLNTSFSTS(EACH_STS eachSts[], short AlarmInfo, byte Reserved[]) {

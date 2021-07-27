@@ -20,7 +20,7 @@ public class odbdst extends Structure {
 	public odbdst() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ob_type", "obj_no", "shp_disp", "mva_disp");
 	}
 	public odbdst(short ob_type, short obj_no, byte shp_disp, byte mva_disp) {

@@ -25,7 +25,7 @@ public class hol64 extends Structure {
 	public hol64() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mes_val1", "mes_dp1", "mes_val2", "mes_dp2", "mes_val3", "mes_dp3", "mes_axis", "mes_parl");
 	}
 	public hol64(double mes_val1[], NativeLong mes_dp1[], double mes_val2[], NativeLong mes_dp2[], double mes_val3[], NativeLong mes_dp3[], byte mes_axis[], byte mes_parl[]) {

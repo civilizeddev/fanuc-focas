@@ -23,7 +23,7 @@ public class odbusegr extends Structure {
 	public odbusegr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "next", "use", "slct");
 	}
 	public odbusegr(short datano, short type, NativeLong next, NativeLong use, NativeLong slct) {

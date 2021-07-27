@@ -20,7 +20,7 @@ public class dcssvspst2 extends Structure {
 	public dcssvspst2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("limit_dt_p", "limit_dt_m", "axissts", "unittype", "axissts2", "level", "alm_lvl", "add_info");
 	}
 	public dcssvspst2(double limit_dt_p, double limit_dt_m, short axissts, short unittype, byte axissts2, byte level, byte alm_lvl, byte add_info) {

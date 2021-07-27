@@ -30,7 +30,7 @@ public class iodbslvprm2 extends Structure {
 	public iodbslvprm2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dis_enb", "ident_no", "slv_flag", "slv_type", "reserve1", "slv_stat", "wd_fact1", "wd_fact2", "min_tsdr", "reserve2", "grp_ident", "user_plen", "user_pdata", "cnfg_dlen", "cnfg_data", "slv_ulen", "slv_udata", "reserve3");
 	}
 	public iodbslvprm2(Pointer peer) {

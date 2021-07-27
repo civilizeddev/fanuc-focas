@@ -19,7 +19,7 @@ public class odbcss extends Structure {
 	public odbcss() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("srpm", "sspm", "smax");
 	}
 	public odbcss(NativeLong srpm, NativeLong sspm, NativeLong smax) {

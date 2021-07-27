@@ -16,7 +16,7 @@ public class odbalm extends Structure {
 	public odbalm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "data");
 	}
 	public odbalm(short dummy[], short data) {

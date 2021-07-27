@@ -30,7 +30,7 @@ public class iodbrmtprm extends Structure {
 			public alm_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("no", "axis", "type");
 			}
 			public alm_struct(short no, byte axis, byte type) {
@@ -56,7 +56,7 @@ public class iodbrmtprm extends Structure {
 			public io_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("adr", "bit", "no");
 			}
 			public io_struct(byte adr, byte bit, short no) {
@@ -105,7 +105,7 @@ public class iodbrmtprm extends Structure {
 		public smpl_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("adr", "bit", "no");
 		}
 		public smpl_struct(byte adr, byte bit, short no) {
@@ -127,7 +127,7 @@ public class iodbrmtprm extends Structure {
 	public iodbrmtprm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("condition", "reserve", "trg", "delay", "wv_intrvl", "io_intrvl", "kind1", "kind2", "smpl");
 	}
 	public iodbrmtprm(short condition, short reserve, trg_union trg, NativeLong delay, short wv_intrvl, short io_intrvl, short kind1, short kind2, iodbrmtprm.smpl_struct smpl[]) {

@@ -16,7 +16,7 @@ public class odb5dpls extends Structure {
 	public odb5dpls() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name", "data", "dec");
 	}
 	public odb5dpls(byte name[], NativeLong data, short dec) {

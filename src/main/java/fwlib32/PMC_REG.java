@@ -15,7 +15,7 @@ public class PMC_REG extends Structure {
 	public PMC_REG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Path", "Kind", "Address");
 	}
 	public PMC_REG(byte Path, byte Kind, short Address) {

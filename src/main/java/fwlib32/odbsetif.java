@@ -19,7 +19,7 @@ public class odbsetif extends Structure {
 		public info_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("set_no", "set_type");
 		}
 		public info_struct(short set_no, short set_type) {
@@ -40,7 +40,7 @@ public class odbsetif extends Structure {
 	public odbsetif() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("info_no", "prev_no", "next_no", "info");
 	}
 	public odbsetif(short info_no, short prev_no, short next_no, fwlib32.odbparaif.info_struct info[]) {

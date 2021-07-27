@@ -14,7 +14,7 @@ public class odbftrmtx extends Structure {
 	public odbftrmtx() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("orgn", "rot");
 	}
 	public odbftrmtx(double orgn[], double rot[]) {

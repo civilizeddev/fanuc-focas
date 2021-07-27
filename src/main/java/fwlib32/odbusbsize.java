@@ -21,7 +21,7 @@ public class odbusbsize extends Structure {
 	public odbusbsize() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("totalsize_h", "totalsize_l", "freesize_h", "freesize_l");
 	}
 	public odbusbsize(NativeLong totalsize_h, NativeLong totalsize_l, NativeLong freesize_h, NativeLong freesize_l) {

@@ -17,7 +17,7 @@ public class MBSVR_PRM_FLG extends Structure {
 	public MBSVR_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("TcpPort", "Option1", "Option2", "StsPmcAddr", "AreaPrm");
 	}
 	public MBSVR_PRM_FLG(byte TcpPort, byte Option1, byte Option2, byte StsPmcAddr, MBSVR_AREA_PRM_FLG AreaPrm[]) {

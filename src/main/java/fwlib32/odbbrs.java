@@ -15,7 +15,7 @@ public class odbbrs extends Structure {
 	public odbbrs() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dest", "dist");
 	}
 	public odbbrs(NativeLong dest[], NativeLong dist[]) {

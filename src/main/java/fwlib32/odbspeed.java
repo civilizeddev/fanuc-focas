@@ -19,7 +19,7 @@ public class odbspeed extends Structure {
 	public odbspeed() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("actf", "acts");
 	}
 	public odbspeed(speedelm actf, speedelm acts) {

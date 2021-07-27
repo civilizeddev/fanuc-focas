@@ -20,7 +20,7 @@ public class COMMON_PRM extends Structure {
 	public COMMON_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("OwnMacAddress", "OwnIpAddress", "SubNetmask", "RouterIpAddress", "DnsServer1IpAddress", "DnsServer2IpAddress", "OwnHostName", "OwnDomain");
 	}
 	public COMMON_PRM(byte OwnMacAddress[], byte OwnIpAddress[], byte SubNetmask[], byte RouterIpAddress[], byte DnsServer1IpAddress[], byte DnsServer2IpAddress[], byte OwnHostName[], byte OwnDomain[]) {

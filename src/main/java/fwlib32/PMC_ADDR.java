@@ -16,7 +16,7 @@ public class PMC_ADDR extends Structure {
 	public PMC_ADDR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Path", "Kind", "Address");
 	}
 	public PMC_ADDR(short Path, short Kind, NativeLong Address) {

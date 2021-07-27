@@ -18,7 +18,7 @@ public class odbbinfo extends Structure {
 	public odbbinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("iochno", "grpno", "axis", "name", "suff", "reserve");
 	}
 	public odbbinfo(short iochno, short grpno, short axis, byte name, byte suff, short reserve[]) {

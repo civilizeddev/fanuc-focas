@@ -48,7 +48,7 @@ public class iodbrdna2 extends Structure {
 	public iodbrdna2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "sgnl1_name", "sgnl2_name", "sgnl3_name", "sgnl4_name", "sgnl5_name", "sgnl6_name", "sgnl7_name", "sgnl8_name", "sgnl9_name", "sgnl10_name", "sgnl11_name", "sgnl12_name", "sgnl13_name", "sgnl14_name", "sgnl15_name", "sgnl16_name");
 	}
 	public iodbrdna2(Pointer peer) {

@@ -21,7 +21,7 @@ public class odbpdfinf extends Structure {
 	public odbpdfinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("used_page", "all_page", "used_dir", "all_dir");
 	}
 	public odbpdfinf(NativeLong used_page, NativeLong all_page, NativeLong used_dir, NativeLong all_dir) {

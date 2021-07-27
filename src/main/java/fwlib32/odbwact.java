@@ -15,7 +15,7 @@ public class odbwact extends Structure {
 	public odbwact() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data");
 	}
 	public odbwact(NativeLong data[]) {

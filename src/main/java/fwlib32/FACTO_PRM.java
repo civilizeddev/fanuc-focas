@@ -13,7 +13,7 @@ public class FACTO_PRM extends Structure {
 	public FACTO_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("opposite");
 	}
 	public FACTO_PRM(FACTOLINK_CLIENT_PRM opposite[]) {

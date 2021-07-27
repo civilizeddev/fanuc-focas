@@ -27,7 +27,7 @@ public class EIP_TYPE_PRM extends Structure {
 			public pmc_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("Path", "Addr", "No", "Size");
 			}
 			public pmc_struct(short Path, short Addr, NativeLong No, NativeLong Size) {
@@ -55,7 +55,7 @@ public class EIP_TYPE_PRM extends Structure {
 			public macro_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("Path", "pad", "No", "Num");
 			}
 			public macro_struct(short Path, byte pad[], NativeLong No, NativeLong Num) {
@@ -103,7 +103,7 @@ public class EIP_TYPE_PRM extends Structure {
 	public EIP_TYPE_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Type", "pad", "prm", "TagName", "pad2");
 	}
 	public EIP_TYPE_PRM(short Type, byte pad[], prm_union prm, byte TagName[], byte pad2[]) {

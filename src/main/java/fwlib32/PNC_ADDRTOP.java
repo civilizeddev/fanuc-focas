@@ -16,7 +16,7 @@ public class PNC_ADDRTOP extends Structure {
 	public PNC_ADDRTOP() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Path", "Kind", "Addr");
 	}
 	public PNC_ADDRTOP(short Path, short Kind, NativeLong Addr) {

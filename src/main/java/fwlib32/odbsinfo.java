@@ -25,7 +25,7 @@ public class odbsinfo extends Structure {
 		public info_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("sramname", "sramsize", "divnumber", "fname");
 		}
 		public info_struct(byte sramname[], NativeLong sramsize, short divnumber, byte fname[]) {
@@ -52,7 +52,7 @@ public class odbsinfo extends Structure {
 	public odbsinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sramnum", "info");
 	}
 	public odbsinfo(NativeLong sramnum, fwlib32.odbparaif.info_struct info[]) {

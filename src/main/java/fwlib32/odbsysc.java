@@ -70,7 +70,7 @@ public class odbsysc extends Structure {
 	public odbsysc() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slot_no_p", "slot_no_l", "mod_id", "soft_id", "s_series", "s_version", "dummy", "m_rom", "s_rom", "svo_soft", "pmc_soft", "lad_soft", "mcr_soft", "spl1_soft", "spl2_soft", "frmmin", "drmmin", "srmmin", "pmcmin", "crtmin", "sv1min", "sv3min", "sicmin", "posmin", "drmmrc", "drmarc", "pmcmrc", "dmaarc", "iopt", "hdiio", "frmsub", "drmsub", "srmsub", "sv5sub", "sv7sub", "sicsub", "possub", "hamsub", "gm2gr1", "crtgr2", "gm1gr2", "gm2gr2", "cmmrb", "sv5axs", "sv7axs", "sicaxs", "posaxs", "hanaxs", "romr64", "srmr64", "dr1r64", "dr2r64", "iopio2", "hdiio2", "cmmrb2", "romfap", "srmfap", "drmfap");
 	}
 	public odbsysc(Pointer peer) {

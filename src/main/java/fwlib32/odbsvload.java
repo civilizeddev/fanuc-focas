@@ -14,7 +14,7 @@ public class odbsvload extends Structure {
 	public odbsvload() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("svload");
 	}
 	public odbsvload(loadelm svload) {

@@ -22,7 +22,7 @@ public class tagODBIFSBPLSMDL extends Structure {
 	public tagODBIFSBPLSMDL() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slave_num", "name", "type", "pcb_id", "info");
 	}
 	public tagODBIFSBPLSMDL(short slave_num, byte name[], byte type[], short pcb_id, byte info[]) {

@@ -15,7 +15,7 @@ public class odb3dhdl extends Structure {
 	public odb3dhdl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("axes", "data");
 	}
 	public odb3dhdl(short axes[], NativeLong data[]) {

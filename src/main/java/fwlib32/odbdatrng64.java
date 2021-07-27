@@ -21,7 +21,7 @@ public class odbdatrng64 extends Structure {
 	public odbdatrng64() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data_min", "data_max", "dec", "status");
 	}
 	public odbdatrng64(double data_min, double data_max, NativeLong dec, NativeLong status) {

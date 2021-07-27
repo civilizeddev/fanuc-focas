@@ -25,7 +25,7 @@ public class odbpthis_gb extends Structure {
 		public date_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("year", "mon", "day", "hour", "min", "sec");
 		}
 		public date_struct(short year, byte mon, byte day, byte hour, byte min, byte sec) {
@@ -50,7 +50,7 @@ public class odbpthis_gb extends Structure {
 	public odbpthis_gb() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("date", "reserve1", "info1", "path_num", "reserve2");
 	}
 	public odbpthis_gb(date_struct date, byte reserve1, NativeLong info1, byte path_num, byte reserve2[]) {

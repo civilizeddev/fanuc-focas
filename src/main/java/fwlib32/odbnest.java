@@ -17,7 +17,7 @@ public class odbnest extends Structure {
 	public odbnest() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("attrib", "comment", "prog_name", "dummy");
 	}
 	public odbnest(NativeLong attrib, byte comment[], byte prog_name[], byte dummy[]) {

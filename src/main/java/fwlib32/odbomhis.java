@@ -28,7 +28,7 @@ public class odbomhis extends Structure {
 	public odbomhis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("om_no", "year", "month", "day", "hour", "minute", "second", "om_msg");
 	}
 	public odbomhis(short om_no, short year, short month, short day, short hour, short minute, short second, byte om_msg[]) {

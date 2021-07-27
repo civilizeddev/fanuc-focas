@@ -15,7 +15,7 @@ public class idbsdttrg extends Structure {
 	public idbsdttrg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("seq_no", "pmc_trg");
 	}
 	public idbsdttrg(NativeLong seq_no, pmc_data pmc_trg) {

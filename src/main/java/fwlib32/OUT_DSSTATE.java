@@ -20,7 +20,7 @@ public class OUT_DSSTATE extends Structure {
 	public OUT_DSSTATE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("DtsvrChannel", "pad", "Mode", "EmptyCount", "TotalSize", "WritePtr", "ReadPtr");
 	}
 	public OUT_DSSTATE(short DtsvrChannel, short pad, short Mode, short EmptyCount, NativeLong TotalSize, short WritePtr, short ReadPtr) {

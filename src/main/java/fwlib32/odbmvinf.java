@@ -14,7 +14,7 @@ public class odbmvinf extends Structure {
 	public odbmvinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("use_no1", "use_no2");
 	}
 	public odbmvinf(short use_no1, short use_no2) {

@@ -19,7 +19,7 @@ public class iodbdsset extends Structure {
 	public iodbdsset() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("host_ip", "host_uname", "host_passwd", "host_dir", "dtsv_mac", "dtsv_ip", "dtsv_mask");
 	}
 	public iodbdsset(byte host_ip[], byte host_uname[], byte host_passwd[], byte host_dir[], byte dtsv_mac[], byte dtsv_ip[], byte dtsv_mask[]) {

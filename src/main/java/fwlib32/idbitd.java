@@ -19,7 +19,7 @@ public class idbitd extends Structure {
 	public idbitd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public idbitd(short datano, short type, NativeLong data) {

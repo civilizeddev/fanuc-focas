@@ -15,7 +15,7 @@ public class odbsp2_grp4 extends Structure {
 	public odbsp2_grp4() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("resistance", "detect_res", "reserved");
 	}
 	public odbsp2_grp4(odbmdgdt resistance, byte detect_res, byte reserved[]) {

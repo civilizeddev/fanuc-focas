@@ -15,7 +15,7 @@ public class iodbsafe extends Structure {
 	public iodbsafe() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "data");
 	}
 	public iodbsafe(short slct, NativeLong data[]) {

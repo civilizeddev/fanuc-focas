@@ -21,7 +21,7 @@ public class odbpwofst extends Structure {
 	public odbpwofst() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("pwratio", "rfvolt", "year", "month", "day", "hour", "minute", "second");
 	}
 	public odbpwofst(NativeLong pwratio, NativeLong rfvolt, short year, short month, short day, short hour, short minute, short second) {

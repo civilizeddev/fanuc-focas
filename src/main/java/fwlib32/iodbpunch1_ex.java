@@ -55,7 +55,7 @@ public class iodbpunch1_ex extends Structure {
 	public iodbpunch1_ex() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("number", "attr", "u", "decimal", "reserve");
 	}
 	public iodbpunch1_ex(short number, short attr, u_union u, short decimal, short reserve) {

@@ -19,7 +19,7 @@ public class odbproo8 extends Structure {
 	public odbproo8() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "data", "mdata");
 	}
 	public odbproo8(short dummy[], NativeLong data, NativeLong mdata) {

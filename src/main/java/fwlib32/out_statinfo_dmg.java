@@ -18,7 +18,7 @@ public class out_statinfo_dmg extends Structure {
 	public out_statinfo_dmg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "dmg", "dummy1");
 	}
 	public out_statinfo_dmg(short dummy[], short dmg, short dummy1[]) {

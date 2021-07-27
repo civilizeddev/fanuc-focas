@@ -16,7 +16,7 @@ public class OUT_EIPA_SCNDATA extends Structure {
 	public OUT_EIPA_SCNDATA() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ConnectionId", "ConnectTime", "IpAddress");
 	}
 	public OUT_EIPA_SCNDATA(NativeLong ConnectionId, NativeLong ConnectTime, byte IpAddress[]) {

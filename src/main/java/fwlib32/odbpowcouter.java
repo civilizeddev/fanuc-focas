@@ -17,7 +17,7 @@ public class odbpowcouter extends Structure {
 	public odbpowcouter() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ave_pow", "ref_ofs", "ref_adrs", "ref_path");
 	}
 	public odbpowcouter(NativeLong ave_pow[], short ref_ofs, byte ref_adrs, byte ref_path) {

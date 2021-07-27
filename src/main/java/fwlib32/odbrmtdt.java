@@ -26,7 +26,7 @@ public class odbrmtdt extends Structure {
 	public odbrmtdt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("channel", "kind", "year", "month", "day", "hour", "minute", "second", "t_intrvl", "trg_data", "ins_ptr", "t_delta", "data");
 	}
 	public odbrmtdt(Pointer peer) {

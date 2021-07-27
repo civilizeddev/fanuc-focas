@@ -21,7 +21,7 @@ public class iodbslop extends Structure {
 	public iodbslop() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "upleng", "upsp", "dwleng", "dwsp", "upleng_dec", "dwleng_dec", "reserve");
 	}
 	public iodbslop(NativeLong slct, NativeLong upleng, short upsp[], NativeLong dwleng, short dwsp[], byte upleng_dec, byte dwleng_dec, short reserve[]) {

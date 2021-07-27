@@ -32,7 +32,7 @@ public class iodbrdna extends Structure {
 	public iodbrdna() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "sgnl1_name", "sgnl2_name", "sgnl3_name", "sgnl4_name", "sgnl5_name", "sgnl6_name", "sgnl7_name", "sgnl8_name");
 	}
 	public iodbrdna(Pointer peer) {

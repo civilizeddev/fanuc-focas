@@ -54,7 +54,7 @@ public class iodbembethprmw extends Structure {
 	public iodbembethprmw() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("embethprm");
 	}
 	public iodbembethprmw(embethprm_union embethprm) {

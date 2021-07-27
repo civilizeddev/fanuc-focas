@@ -20,7 +20,7 @@ public class odbprtct extends Structure {
 	public odbprtct() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("disp", "edit", "encd", "lock");
 	}
 	public odbprtct(short disp, short edit, short encd, short lock) {

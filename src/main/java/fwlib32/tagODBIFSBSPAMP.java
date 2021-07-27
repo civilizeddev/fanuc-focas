@@ -24,7 +24,7 @@ public class tagODBIFSBSPAMP extends Structure {
 	public tagODBIFSBSPAMP() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slave_num", "name", "series", "pwr", "as_spdl_num", "as_spdl_name");
 	}
 	public tagODBIFSBSPAMP(short slave_num, byte name[], byte series[], byte pwr[], short as_spdl_num, byte as_spdl_name[]) {

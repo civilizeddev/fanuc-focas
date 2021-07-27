@@ -17,7 +17,7 @@ public class odbpowccyc extends Structure {
 	public odbpowccyc() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cycletime", "powc_axis", "powc_spindle", "powc_outer");
 	}
 	public odbpowccyc(NativeLong cycletime, NativeLong powc_axis, NativeLong powc_spindle, NativeLong powc_outer) {

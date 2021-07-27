@@ -22,7 +22,7 @@ public class odbsp2_grp7 extends Structure {
 	public odbsp2_grp7() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("iab_amplt", "eab_amplt", "iab_ofs_a", "iab_ofs_b", "iab_noise", "eab_ofs_a", "eab_ofs_b", "eab_noise", "iab_max_flt", "eab_max_flt");
 	}
 	public odbsp2_grp7(Pointer peer) {

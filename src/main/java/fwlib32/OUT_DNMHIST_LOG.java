@@ -22,7 +22,7 @@ public class OUT_DNMHIST_LOG extends Structure {
 	public OUT_DNMHIST_LOG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Type", "reserved", "Mpu1", "Mpu2", "Sts1", "Slave", "Date", "Hour", "Minute", "Second");
 	}
 	public OUT_DNMHIST_LOG(Pointer peer) {

@@ -21,7 +21,7 @@ public class odbbaxis extends Structure {
 	public odbbaxis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("flag", "command", "speed", "sub_data");
 	}
 	public odbbaxis(short flag, short command, short speed, NativeLong sub_data) {

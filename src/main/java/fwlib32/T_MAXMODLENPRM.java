@@ -16,7 +16,7 @@ public class T_MAXMODLENPRM extends Structure {
 	public T_MAXMODLENPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_no", "slt_no", "max_mod_len", "pad");
 	}
 	public T_MAXMODLENPRM(byte slv_no, byte slt_no, byte max_mod_len, byte pad) {

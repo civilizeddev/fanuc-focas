@@ -19,7 +19,7 @@ public class FL_DEVTYPE extends Structure {
 	public FL_DEVTYPE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Kind1", "pad1", "FunctionFLnet1", "Kind2", "pad2", "FunctionFLnet2");
 	}
 	public FL_DEVTYPE(short Kind1, byte pad1[], NativeLong FunctionFLnet1, short Kind2, byte pad2[], NativeLong FunctionFLnet2) {

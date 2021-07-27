@@ -27,7 +27,7 @@ public class loadelm extends Structure {
 	public loadelm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data", "dec", "unit", "name", "suff1", "suff2", "reserve");
 	}
 	public loadelm(NativeLong data, short dec, short unit, byte name, byte suff1, byte suff2, byte reserve) {

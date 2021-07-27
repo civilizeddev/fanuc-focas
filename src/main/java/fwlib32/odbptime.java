@@ -20,7 +20,7 @@ public class odbptime extends Structure {
 		public data_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("prg_no", "hour", "minute", "second");
 		}
 		public data_struct(NativeLong prg_no, short hour, byte minute, byte second) {
@@ -43,7 +43,7 @@ public class odbptime extends Structure {
 	public odbptime() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("num", "data");
 	}
 	public odbptime(short num, fwlib32.iodbprm.data_struct data[]) {

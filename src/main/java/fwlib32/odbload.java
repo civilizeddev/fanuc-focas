@@ -15,7 +15,7 @@ public class odbload extends Structure {
 	public odbload() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public odbload(short datano, short type, short data[]) {

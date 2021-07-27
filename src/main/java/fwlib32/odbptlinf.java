@@ -18,7 +18,7 @@ public class odbptlinf extends Structure {
 	public odbptlinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("tld_max", "mlt_max", "reserve", "tld_size", "mlt_size", "reserves");
 	}
 	public odbptlinf(short tld_max, short mlt_max, short reserve, short tld_size[], short mlt_size[], short reserves[]) {

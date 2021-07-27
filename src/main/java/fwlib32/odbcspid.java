@@ -28,7 +28,7 @@ public class odbcspid extends Structure {
 	public odbcspid() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mt_spc", "mt_srn", "sbmt_spc", "sbmt_srn", "spm_spc", "spm_srn", "psm_spc", "psm_srn");
 	}
 	public odbcspid(byte mt_spc[], byte mt_srn[], byte sbmt_spc[], byte sbmt_srn[], byte spm_spc[], byte spm_srn[], byte psm_spc[], byte psm_srn[]) {

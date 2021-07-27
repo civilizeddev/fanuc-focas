@@ -20,7 +20,7 @@ public class OUT_DNMFIRM extends Structure {
 	public OUT_DNMFIRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("MpuStatus1", "MpuStatus2", "MasterStatus1", "CanRecvCounter", "CanSendCounter", "CanRecvErrorCounter", "CanSendErrorCounter", "FirmwareVersion");
 	}
 	public OUT_DNMFIRM(short MpuStatus1, short MpuStatus2, short MasterStatus1, short CanRecvCounter, short CanSendCounter, short CanRecvErrorCounter, short CanSendErrorCounter, short FirmwareVersion) {

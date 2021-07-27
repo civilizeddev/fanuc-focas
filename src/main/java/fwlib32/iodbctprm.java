@@ -29,7 +29,7 @@ public class iodbctprm extends Structure {
 			public data_160_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("acc_bipl", "acc_chg_time", "jerk_acc_diff", "jerk_acc_diff_lin", "jerk_acc_ratio", "max_acc", "t_con_aipl", "corner_feed_diff", "max_cut_fdrate");
 			}
 			public data_160_struct(NativeLong acc_bipl[], NativeLong acc_chg_time, NativeLong jerk_acc_diff[], NativeLong jerk_acc_diff_lin[], byte jerk_acc_ratio, NativeLong max_acc[], short t_con_aipl[], NativeLong corner_feed_diff[], NativeLong max_cut_fdrate[]) {
@@ -81,7 +81,7 @@ public class iodbctprm extends Structure {
 			public data_30i_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("acc_bipl", "acc_chg_time", "jerk_acc_diff", "jerk_acc_diff_lin", "jerk_acc_ratio", "max_acc", "t_con_aipl", "corner_feed_diff", "max_cut_fdrate");
 			}
 			public data_30i_struct(realprm acc_bipl[], realprm acc_chg_time, realprm jerk_acc_diff[], realprm jerk_acc_diff_lin[], byte jerk_acc_ratio, realprm max_acc[], short t_con_aipl[], realprm corner_feed_diff[], realprm max_cut_fdrate[]) {
@@ -220,7 +220,7 @@ public class iodbctprm extends Structure {
 		public prm_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("datano", "type", "u");
 		}
 		public prm_struct(short datano, short type, u_union u) {
@@ -242,7 +242,7 @@ public class iodbctprm extends Structure {
 	public iodbctprm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data", "prm");
 	}
 	public iodbctprm(data_union data, fwlib32.iodbctpr.prm_struct prm[]) {

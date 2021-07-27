@@ -14,7 +14,7 @@ public class tag_ODBMSUYTERM extends Structure {
 	public tag_ODBMSUYTERM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data", "dummy");
 	}
 	public tag_ODBMSUYTERM(short data, short dummy) {

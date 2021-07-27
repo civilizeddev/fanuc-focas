@@ -15,7 +15,7 @@ public class idbtlm_srchdt extends Structure {
 	public idbtlm_srchdt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("id_info", "srch_cond", "add_cond");
 	}
 	public idbtlm_srchdt(idbtlm id_info, short srch_cond, short add_cond) {

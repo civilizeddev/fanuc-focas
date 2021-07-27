@@ -26,7 +26,7 @@ public class out_dsinfo extends Structure {
 	public out_dsinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type", "dummy", "fnum", "total", "remain_h", "remain_l", "dir");
 	}
 	public out_dsinfo(short type, short dummy, NativeLong fnum, NativeLong total, NativeLong remain_h, NativeLong remain_l, byte dir[]) {

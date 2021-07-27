@@ -38,7 +38,7 @@ public class tagODBFSSBMT extends Structure {
 	public tagODBFSSBMT() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("axis_num", "reserve", "axis_name", "amp_name", "amp_seires", "amp_unit", "amp_cur", "amp_edt", "amp_axis_num", "test_year", "test_month", "test_day", "amp_mainte");
 	}
 	public tagODBFSSBMT(Pointer peer) {

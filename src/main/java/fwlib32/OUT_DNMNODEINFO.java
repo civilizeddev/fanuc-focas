@@ -18,7 +18,7 @@ public class OUT_DNMNODEINFO extends Structure {
 	public OUT_DNMNODEINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("MacId", "State", "RetryCounter", "VenderId", "DeviceType", "ProductCode");
 	}
 	public OUT_DNMNODEINFO(short MacId, short State, short RetryCounter, short VenderId, short DeviceType, short ProductCode) {

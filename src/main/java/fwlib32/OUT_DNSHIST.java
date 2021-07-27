@@ -15,7 +15,7 @@ public class OUT_DNSHIST extends Structure {
 	public OUT_DNSHIST() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Count", "reserved", "Log");
 	}
 	public OUT_DNSHIST(short Count, short reserved, OUT_DNSHIST_LOG Log[]) {

@@ -15,7 +15,7 @@ public class PND_PING_PARAM extends Structure {
 	public PND_PING_PARAM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("IpAddress", "Count", "pad");
 	}
 	public PND_PING_PARAM(byte IpAddress[], short Count, byte pad[]) {

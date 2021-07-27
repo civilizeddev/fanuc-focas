@@ -21,7 +21,7 @@ public class posinf extends Structure {
 		public pos_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("prec_pntr", "prec_time", "data", "dec", "unit");
 		}
 		public pos_struct(short prec_pntr, short prec_time, NativeLong data[], short dec, short unit) {
@@ -51,7 +51,7 @@ public class posinf extends Structure {
 		public feed_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("data", "dec", "unit");
 		}
 		public feed_struct(NativeLong data, short dec, short unit) {
@@ -73,7 +73,7 @@ public class posinf extends Structure {
 	public posinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("pos", "feed");
 	}
 	public posinf(pos_struct pos, feed_struct feed) {

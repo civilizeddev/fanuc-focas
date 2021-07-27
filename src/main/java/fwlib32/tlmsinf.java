@@ -23,7 +23,7 @@ public class tlmsinf extends Structure {
 	public tlmsinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("t", "m", "hm", "hm_dp", "tlofs_no");
 	}
 	public tlmsinf(NativeLong t, NativeLong m, NativeLong hm, NativeLong hm_dp, NativeLong tlofs_no) {

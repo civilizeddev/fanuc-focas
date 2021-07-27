@@ -23,7 +23,7 @@ public class OUT_EIPS_IDENTITY_INFO extends Structure {
 	public OUT_EIPS_IDENTITY_INFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Result", "pad1", "VendorId", "DeviceType", "ProductCode", "MajorRevision", "MinorRevision", "SerialNo", "ProductName", "pad2");
 	}
 	public OUT_EIPS_IDENTITY_INFO(Pointer peer) {

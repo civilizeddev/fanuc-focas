@@ -31,7 +31,7 @@ public class cfileinfo extends Structure {
 	public cfileinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("fname", "file_size", "file_attr", "year", "month", "day", "hour", "minute", "second");
 	}
 	public cfileinfo(byte fname[], NativeLong file_size, NativeLong file_attr, short year, short month, short day, short hour, short minute, short second) {

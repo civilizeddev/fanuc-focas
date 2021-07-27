@@ -20,7 +20,7 @@ public class odbgrppos extends Structure {
 	public odbgrppos() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("abs", "mcn", "feed_type", "reserved");
 	}
 	public odbgrppos(posval abs, posval mcn, short feed_type, short reserved) {

@@ -13,7 +13,7 @@ public class hspinfo extends Structure {
 	public hspinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prminfo");
 	}
 	public hspinfo(byte prminfo[]) {

@@ -36,7 +36,7 @@ public class odbdischrgalm extends Structure {
 	public odbdischrgalm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("year", "month", "day", "hour", "minute", "second", "almnum", "psec", "hpc", "hfq", "hdt", "hpa", "hce", "asq", "psu", "aps", "dummy", "rfi", "rfv", "dci", "dcv", "dcw", "almcd");
 	}
 	public odbdischrgalm(Pointer peer) {

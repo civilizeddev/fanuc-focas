@@ -20,7 +20,7 @@ public class tagODBVOLC extends Structure {
 	public tagODBVOLC() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("start_no", "start_ax", "end_no", "end_ax", "num", "type", "data");
 	}
 	public tagODBVOLC(NativeLong start_no, NativeLong start_ax, NativeLong end_no, NativeLong end_ax, NativeLong num, byte type, NativeLong data[]) {

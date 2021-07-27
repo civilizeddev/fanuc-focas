@@ -20,7 +20,7 @@ public class odbsysh_str extends Structure {
 	public odbsysh_str() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("group_id", "group_name", "hard_id", "hard_name", "id1", "id2", "slot_no", "dummy");
 	}
 	public odbsysh_str(short group_id, byte group_name[], short hard_id, byte hard_name[], byte id1[], byte id2[], byte slot_no[], byte dummy[]) {

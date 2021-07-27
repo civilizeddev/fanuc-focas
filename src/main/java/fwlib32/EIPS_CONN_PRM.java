@@ -25,7 +25,7 @@ public class EIPS_CONN_PRM extends Structure {
 	public EIPS_CONN_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("AssemblyInstance", "Type", "pad1", "Addr", "Size", "RPI", "TransportType", "HeaderFormat", "Priority", "pad2", "reserve", "pad3");
 	}
 	public EIPS_CONN_PRM(Pointer peer) {

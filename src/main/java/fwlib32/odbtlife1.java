@@ -19,7 +19,7 @@ public class odbtlife1 extends Structure {
 	public odbtlife1() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "type", "data");
 	}
 	public odbtlife1(short dummy, short type, NativeLong data) {

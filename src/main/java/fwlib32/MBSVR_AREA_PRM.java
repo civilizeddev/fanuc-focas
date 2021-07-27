@@ -16,7 +16,7 @@ public class MBSVR_AREA_PRM extends Structure {
 	public MBSVR_AREA_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("DatSize", "DatModAddr", "DatPmcAddr");
 	}
 	public MBSVR_AREA_PRM(NativeLong DatSize, NativeLong DatModAddr, PMC_ADDR DatPmcAddr) {

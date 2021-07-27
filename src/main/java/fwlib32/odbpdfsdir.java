@@ -17,7 +17,7 @@ public class odbpdfsdir extends Structure {
 	public odbpdfsdir() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sub_exist", "dummy", "d_f");
 	}
 	public odbpdfsdir(short sub_exist, short dummy, byte d_f[]) {

@@ -17,7 +17,7 @@ public class odbmgrp extends Structure {
 	public odbmgrp() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("m_code", "grp_no", "m_name", "dummy");
 	}
 	public odbmgrp(NativeLong m_code, short grp_no, byte m_name[], byte dummy) {

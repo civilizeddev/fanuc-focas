@@ -23,7 +23,7 @@ public class PND_SETTING_PARAM extends Structure {
 	public PND_SETTING_PARAM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("PnDeviceMode", "DiDataOnAbnormal", "pad1", "BasicOption1", "BasicOption2", "AllocOption1", "AllocOption2", "DiData", "DoData", "Status", "DeviceName");
 	}
 	public PND_SETTING_PARAM(Pointer peer) {

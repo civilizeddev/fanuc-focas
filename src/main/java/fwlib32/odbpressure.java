@@ -15,7 +15,7 @@ public class odbpressure extends Structure {
 	public odbpressure() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cmd_val", "feedbak_val");
 	}
 	public odbpressure(NativeLong cmd_val, NativeLong feedbak_val) {

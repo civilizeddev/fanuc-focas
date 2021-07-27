@@ -15,7 +15,7 @@ public class odbsyss3 extends Structure {
 	public odbsyss3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("soft_id", "soft_series", "soft_edition");
 	}
 	public odbsyss3(short soft_id, byte soft_series[], byte soft_edition[]) {

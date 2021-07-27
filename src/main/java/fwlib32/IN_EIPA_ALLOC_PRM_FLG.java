@@ -17,7 +17,7 @@ public class IN_EIPA_ALLOC_PRM_FLG extends Structure {
 	public IN_EIPA_ALLOC_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("State", "Option", "pad", "DI", "DO");
 	}
 	public IN_EIPA_ALLOC_PRM_FLG(byte State, byte Option, byte pad[], IN_EIP_TYPE_PRM_FLG DI, IN_EIP_TYPE_PRM_FLG DO) {

@@ -20,7 +20,7 @@ public class odbcbi extends Structure {
 	public odbcbi() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cb_no", "nme_set", "shp_no", "cd_form");
 	}
 	public odbcbi(short cb_no, odbnme nme_set, byte shp_no, byte cd_form) {

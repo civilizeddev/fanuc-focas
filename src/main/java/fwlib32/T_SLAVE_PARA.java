@@ -19,7 +19,7 @@ public class T_SLAVE_PARA extends Structure {
 	public T_SLAVE_PARA() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_ind_para", "sl_flag", "slave_type", "reserved", "prm_data", "cfg_data", "slv_usr");
 	}
 	public T_SLAVE_PARA(T_SLAVE_IND_PARA slv_ind_para, byte sl_flag, byte slave_type, byte reserved[], T_PRM_DATA prm_data, T_CFG_DATA cfg_data, T_SLV_USR_DATA slv_usr) {

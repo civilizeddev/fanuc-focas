@@ -28,7 +28,7 @@ public class OUT_EIPS_DETAIL_INFO extends Structure {
 	public OUT_EIPS_DETAIL_INFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Result", "pad1", "IpAddress", "GeneralCode", "pad2", "ExtendedCode", "ConnectTime", "O2T_RPI", "T2O_RPI", "O2T_API", "T2O_API", "RecvPacket", "SendPacket", "LostPacket", "pad3");
 	}
 	public OUT_EIPS_DETAIL_INFO(Pointer peer) {

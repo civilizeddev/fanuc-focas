@@ -21,7 +21,7 @@ public class iodbtgi3 extends Structure {
 	public iodbtgi3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("s_grp", "dummy", "e_grp", "life_rest");
 	}
 	public iodbtgi3(short s_grp, short dummy, short e_grp, NativeLong life_rest[]) {

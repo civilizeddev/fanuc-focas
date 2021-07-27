@@ -40,7 +40,7 @@ public class EIP_MULTI_ADDR extends Structure {
 	public EIP_MULTI_ADDR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Prm");
 	}
 	public EIP_MULTI_ADDR(Prm_union Prm) {

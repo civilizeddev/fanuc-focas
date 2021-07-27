@@ -19,7 +19,7 @@ public class iodbjogcmdaxis extends Structure {
 	public iodbjogcmdaxis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name", "data", "dec");
 	}
 	public iodbjogcmdaxis(byte name[], NativeLong data, NativeLong dec) {

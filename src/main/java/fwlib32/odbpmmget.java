@@ -33,7 +33,7 @@ public class odbpmmget extends Structure {
 	public odbpmmget() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("pos", "feed", "data", "number", "axis", "type", "alaxis", "alnumber", "chanl", "group");
 	}
 	public odbpmmget(Pointer peer) {

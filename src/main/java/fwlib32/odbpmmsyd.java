@@ -18,7 +18,7 @@ public class odbpmmsyd extends Structure {
 	public odbpmmsyd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("system", "model", "series", "edition");
 	}
 	public odbpmmsyd(byte system[], byte model[], byte series[], byte edition[]) {

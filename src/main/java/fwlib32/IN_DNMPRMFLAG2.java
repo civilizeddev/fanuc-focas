@@ -40,7 +40,7 @@ public class IN_DNMPRMFLAG2 extends Structure {
 	public IN_DNMPRMFLAG2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("flg");
 	}
 	public IN_DNMPRMFLAG2(flg_union flg) {

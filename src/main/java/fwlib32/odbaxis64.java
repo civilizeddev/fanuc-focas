@@ -20,7 +20,7 @@ public class odbaxis64 extends Structure {
 	public odbaxis64() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy1", "type", "dummy2", "data");
 	}
 	public odbaxis64(short dummy1, short type, short dummy2[], realdata data[]) {

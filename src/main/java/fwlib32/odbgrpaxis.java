@@ -16,7 +16,7 @@ public class odbgrpaxis extends Structure {
 	public odbgrpaxis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("path_num", "draw_num");
 	}
 	public odbgrpaxis(short path_num, short draw_num) {

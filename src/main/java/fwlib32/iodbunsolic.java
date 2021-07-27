@@ -31,7 +31,7 @@ public class iodbunsolic extends Structure {
 			public pmc_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("type", "rdaddr", "rdno", "rdsize");
 			}
 			public pmc_struct(short type, short rdaddr, short rdno, short rdsize) {
@@ -58,7 +58,7 @@ public class iodbunsolic extends Structure {
 			public dmy_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("type", "dummy1", "dummy2");
 			}
 			public dmy_struct(short type, NativeLong dummy1, short dummy2) {
@@ -103,7 +103,7 @@ public class iodbunsolic extends Structure {
 	public iodbunsolic() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ipaddr", "port", "reqaddr", "pmcno", "retry", "timeout", "alivetime", "setno", "rddata");
 	}
 	public iodbunsolic(byte ipaddr[], short port, short reqaddr, short pmcno, short retry, short timeout, short alivetime, short setno, iodbunsolic.rddata_union rddata[]) {

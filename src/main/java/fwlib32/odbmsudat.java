@@ -15,7 +15,7 @@ public class odbmsudat extends Structure {
 	public odbmsudat() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("inf", "x_term", "y_term");
 	}
 	public odbmsudat(tag_ODBMSUINF inf, tag_ODBMSUXTERM x_term[], tag_ODBMSUYTERM y_term[]) {

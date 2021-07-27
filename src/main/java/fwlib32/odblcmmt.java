@@ -13,7 +13,7 @@ public class odblcmmt extends Structure {
 	public odblcmmt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("comment");
 	}
 	public odblcmmt(byte comment[]) {

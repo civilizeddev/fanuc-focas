@@ -18,7 +18,7 @@ public class tagODBIFSBFSSBUNT extends Structure {
 	public tagODBIFSBFSSBUNT() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_unt_num", "fssb_unt_num", "name");
 	}
 	public tagODBIFSBFSSBUNT(short slv_unt_num, short fssb_unt_num, byte name[]) {

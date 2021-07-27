@@ -14,7 +14,7 @@ public class OUT_DNMERR_RECORD extends Structure {
 	public OUT_DNMERR_RECORD() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("AbnormalCode", "DetailCode");
 	}
 	public OUT_DNMERR_RECORD(short AbnormalCode, short DetailCode) {

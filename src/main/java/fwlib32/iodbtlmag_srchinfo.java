@@ -14,7 +14,7 @@ public class iodbtlmag_srchinfo extends Structure {
 	public iodbtlmag_srchinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("startInfo", "result");
 	}
 	public iodbtlmag_srchinfo(iodbtlmag2 startInfo, iodbtlmag result) {

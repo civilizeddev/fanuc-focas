@@ -14,7 +14,7 @@ public class T_ERR_CODE extends Structure {
 	public T_ERR_CODE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("param_err_code", "inter_err_code");
 	}
 	public T_ERR_CODE(short param_err_code[], short inter_err_code[]) {

@@ -31,7 +31,7 @@ public class odbplsdata extends Structure {
 	public odbplsdata() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("pulse_type", "channel_state", "reserve1", "reserve2", "alarm", "cmd_val", "reserve3", "total_val", "reserve4");
 	}
 	public odbplsdata(short pulse_type, short channel_state, short reserve1, short reserve2, short alarm[], short cmd_val[], short reserve3[], NativeLong total_val[], NativeLong reserve4[]) {

@@ -15,7 +15,7 @@ public class odblofs extends Structure {
 	public odblofs() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mode", "ofsvct");
 	}
 	public odblofs(short mode, NativeLong ofsvct[]) {

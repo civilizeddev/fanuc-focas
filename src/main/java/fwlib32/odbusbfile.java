@@ -36,7 +36,7 @@ public class odbusbfile extends Structure {
 	public odbusbfile() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("size", "attribute", "long_name", "year", "mon", "day", "hour", "min", "sec", "dummy", "fname", "comment");
 	}
 	public odbusbfile(Pointer peer) {

@@ -33,7 +33,7 @@ public class odbshp extends Structure {
 	public odbshp() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ob_type", "obj_no", "shp_no", "fig_ele", "ref_pos", "tool_ref", "tool_dir", "ref_ang1", "ref_ang2", "n_unit");
 	}
 	public odbshp(Pointer peer) {

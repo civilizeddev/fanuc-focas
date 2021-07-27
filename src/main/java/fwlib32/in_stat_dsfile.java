@@ -16,7 +16,7 @@ public class in_stat_dsfile extends Structure {
 	public in_stat_dsfile() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("req_num", "size_type");
 	}
 	public in_stat_dsfile(short req_num, short size_type) {

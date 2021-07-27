@@ -36,7 +36,7 @@ public class odbhis extends Structure {
 			public rec_alm_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("rec_type", "alm_grp", "alm_no", "axis_no", "dummy");
 			}
 			public rec_alm_struct(short rec_type, short alm_grp, short alm_no, byte axis_no, byte dummy) {
@@ -68,7 +68,7 @@ public class odbhis extends Structure {
 			public rec_mdi_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("rec_type", "key_code", "pw_flag", "dummy");
 			}
 			public rec_mdi_struct(short rec_type, byte key_code, byte pw_flag, byte dummy[]) {
@@ -105,7 +105,7 @@ public class odbhis extends Structure {
 			public rec_sgn_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("rec_type", "sig_name", "sig_old", "sig_new", "dummy", "sig_no");
 			}
 			public rec_sgn_struct(short rec_type, byte sig_name, byte sig_old, byte sig_new, byte dummy, short sig_no) {
@@ -142,7 +142,7 @@ public class odbhis extends Structure {
 			public rec_date_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("rec_type", "year", "month", "day", "pw_flag", "dummy");
 			}
 			public rec_date_struct(short rec_type, byte year, byte month, byte day, byte pw_flag, byte dummy[]) {
@@ -181,7 +181,7 @@ public class odbhis extends Structure {
 			public rec_time_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("rec_type", "hour", "minute", "second", "pw_flag", "dummy");
 			}
 			public rec_time_struct(short rec_type, byte hour, byte minute, byte second, byte pw_flag, byte dummy[]) {
@@ -246,7 +246,7 @@ public class odbhis extends Structure {
 	public odbhis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("s_no", "type", "e_no", "data");
 	}
 	public odbhis(short s_no, short type, short e_no, fwlib32.iodbctprm.data_union data[]) {

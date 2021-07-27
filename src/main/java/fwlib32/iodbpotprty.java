@@ -19,7 +19,7 @@ public class iodbpotprty extends Structure {
 	public iodbpotprty() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("tool_no", "pot_type", "pot_info1", "pot_info2", "reserve", "cstm");
 	}
 	public iodbpotprty(short tool_no, short pot_type, byte pot_info1, byte pot_info2, byte reserve[], NativeLong cstm[]) {

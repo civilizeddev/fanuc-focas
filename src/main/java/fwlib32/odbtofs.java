@@ -19,7 +19,7 @@ public class odbtofs extends Structure {
 	public odbtofs() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public odbtofs(short datano, short type, NativeLong data) {

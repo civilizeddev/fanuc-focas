@@ -31,7 +31,7 @@ public class iodbpscd extends Structure {
 	public iodbpscd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "feed", "power", "freq", "duty", "g_press", "g_kind", "g_ready_t", "displace", "supple", "edge_slt", "appr_slt", "pwr_ctrl", "displace2", "gap_axis", "feed_dec", "supple_dec", "dsp2_dec");
 	}
 	public iodbpscd(Pointer peer) {

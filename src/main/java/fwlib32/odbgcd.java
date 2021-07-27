@@ -15,7 +15,7 @@ public class odbgcd extends Structure {
 	public odbgcd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("group", "flag", "code");
 	}
 	public odbgcd(short group, short flag, byte code[]) {

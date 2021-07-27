@@ -22,7 +22,7 @@ public class odbpmctitle extends Structure {
 	public odbpmctitle() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mtb", "machine", "type", "prgno", "prgvers", "prgdraw", "date", "design", "written", "remarks");
 	}
 	public odbpmctitle(Pointer peer) {

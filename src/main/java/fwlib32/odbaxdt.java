@@ -25,7 +25,7 @@ public class odbaxdt extends Structure {
 	public odbaxdt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name", "data", "dec", "unit", "flag", "reserve");
 	}
 	public odbaxdt(byte name[], NativeLong data, short dec, short unit, short flag, short reserve) {

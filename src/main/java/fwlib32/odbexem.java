@@ -21,7 +21,7 @@ public class odbexem extends Structure {
 		public m_code_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("no", "flag");
 		}
 		public m_code_struct(NativeLong no, short flag) {
@@ -42,7 +42,7 @@ public class odbexem extends Structure {
 	public odbexem() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("grp_no", "mem_no", "m_code", "m_name", "dummy");
 	}
 	public odbexem(short grp_no, short mem_no, odbexem.m_code_struct m_code[], byte m_name[], byte dummy) {

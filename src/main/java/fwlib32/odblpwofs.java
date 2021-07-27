@@ -19,7 +19,7 @@ public class odblpwofs extends Structure {
 	public odblpwofs() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("pwrofs_set", "pwrofs_coef", "pwrofs_upper", "pwrofs_max", "pwrofs_min", "pwrinofs_coef", "reserve");
 	}
 	public odblpwofs(short pwrofs_set, short pwrofs_coef, short pwrofs_upper, short pwrofs_max, short pwrofs_min, short pwrinofs_coef, byte reserve[]) {

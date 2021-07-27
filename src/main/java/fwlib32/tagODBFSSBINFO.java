@@ -20,7 +20,7 @@ public class tagODBFSSBINFO extends Structure {
 		public card_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("amp_num", "plsm_num");
 		}
 		public card_struct(short amp_num, short plsm_num) {
@@ -41,7 +41,7 @@ public class tagODBFSSBINFO extends Structure {
 	public tagODBFSSBINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("card_num", "card");
 	}
 	public tagODBFSSBINFO(short card_num, tagODBFSSBINFO.card_struct card[]) {

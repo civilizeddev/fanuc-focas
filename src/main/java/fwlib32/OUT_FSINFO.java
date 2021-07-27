@@ -15,7 +15,7 @@ public class OUT_FSINFO extends Structure {
 	public OUT_FSINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Number", "pad", "clntinfo");
 	}
 	public OUT_FSINFO(short Number, byte pad[], CLNT_INFO clntinfo[]) {

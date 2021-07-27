@@ -15,7 +15,7 @@ public class OUT_FLNTMSG extends Structure {
 	public OUT_FLNTMSG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Count", "reserve", "msgData");
 	}
 	public OUT_FLNTMSG(short Count, byte reserve[], OUT_FLNTEACHMSG msgData[]) {

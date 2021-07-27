@@ -36,7 +36,7 @@ public class odbmhis2 extends Structure {
 		public opm_his_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("dsp_flg", "om_no", "year", "month", "day", "hour", "minute", "second", "ope_msg");
 		}
 		public opm_his_struct(short dsp_flg, short om_no, short year, short month, short day, short hour, short minute, short second, byte ope_msg[]) {
@@ -66,7 +66,7 @@ public class odbmhis2 extends Structure {
 	public odbmhis2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("s_no", "e_no", "opm_his");
 	}
 	public odbmhis2(short s_no, short e_no, odbmhis2.opm_his_struct opm_his[]) {

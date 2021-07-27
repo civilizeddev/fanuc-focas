@@ -15,7 +15,7 @@ public class odbposfig extends Structure {
 	public odbposfig() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("val", "dec");
 	}
 	public odbposfig(NativeLong val, NativeLong dec) {

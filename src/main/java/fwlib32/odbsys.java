@@ -26,7 +26,7 @@ public class odbsys extends Structure {
 	public odbsys() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("addinfo", "max_axis", "cnc_type", "mt_type", "series", "version", "axes");
 	}
 	public odbsys(short addinfo, short max_axis, byte cnc_type[], byte mt_type[], byte series[], byte version[], byte axes[]) {

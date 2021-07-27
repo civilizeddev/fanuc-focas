@@ -21,7 +21,7 @@ public class iodblagst extends Structure {
 		public gasflow_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("slct", "pre_time", "pre_press", "proc_press", "end_time", "end_press", "reserve");
 		}
 		public gasflow_struct(short slct, short pre_time, short pre_press, short proc_press, short end_time, short end_press, short reserve[]) {
@@ -49,7 +49,7 @@ public class iodblagst extends Structure {
 	public iodblagst() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("gasflow");
 	}
 	public iodblagst(iodblagst.gasflow_struct gasflow[]) {

@@ -20,7 +20,7 @@ public class idbwrr64 extends Structure {
 	public idbwrr64() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "dummy", "data");
 	}
 	public idbwrr64(short datano, short type, short dummy[], realdata data[]) {

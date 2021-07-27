@@ -23,7 +23,7 @@ public class iodbpmainte extends Structure {
 	public iodbpmainte() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name", "type", "total", "remain", "stat");
 	}
 	public iodbpmainte(byte name[], NativeLong type, NativeLong total, NativeLong remain, NativeLong stat) {

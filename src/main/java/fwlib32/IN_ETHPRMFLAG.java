@@ -100,7 +100,7 @@ public class IN_ETHPRMFLAG extends Structure {
 	public IN_ETHPRMFLAG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("flg");
 	}
 	public IN_ETHPRMFLAG(flg_union flg) {

@@ -17,7 +17,7 @@ public class scdldata extends Structure {
 	public scdldata() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("file_no", "file_name", "repeat_num", "current_num", "dummy");
 	}
 	public scdldata(short file_no, byte file_name[], short repeat_num, short current_num, byte dummy[]) {

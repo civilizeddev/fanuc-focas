@@ -63,7 +63,7 @@ public class iodbbook extends Structure {
 	public iodbbook() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("param_no", "axis", "type", "u");
 	}
 	public iodbbook(short param_no, byte axis, byte type, u_union u) {

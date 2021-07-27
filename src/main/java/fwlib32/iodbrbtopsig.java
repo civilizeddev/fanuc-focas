@@ -15,7 +15,7 @@ public class iodbrbtopsig extends Structure {
 	public iodbrbtopsig() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("unit_type", "adr_type", "address");
 	}
 	public iodbrbtopsig(byte unit_type, byte adr_type, short address) {

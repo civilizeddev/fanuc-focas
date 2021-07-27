@@ -21,7 +21,7 @@ public class odblrninfol extends Structure {
 	public odblrninfol() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("axis", "name", "comment", "path", "dummy1");
 	}
 	public odblrninfol(byte axis[], byte name[], byte comment[], byte path, byte dummy1) {

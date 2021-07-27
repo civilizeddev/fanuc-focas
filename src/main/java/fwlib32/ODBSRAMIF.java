@@ -17,7 +17,7 @@ public class ODBSRAMIF extends Structure {
 	public ODBSRAMIF() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("protect", "size");
 	}
 	public ODBSRAMIF(NativeLong protect, NativeLong size) {

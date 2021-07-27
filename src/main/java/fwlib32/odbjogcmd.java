@@ -31,7 +31,7 @@ public class odbjogcmd extends Structure {
 	public odbjogcmd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("gcode", "mcode", "scode", "tcode", "bcode", "padr", "extscode", "axis", "axis_cnt");
 	}
 	public odbjogcmd(iodbjogcmdcode gcode, iodbjogcmdcode mcode, iodbjogcmdcode scode, iodbjogcmdcode tcode, iodbjogcmdcode bcode, iodbjogcmdcode padr, iodbjogcmdscode extscode[], iodbjogcmdaxis axis[], NativeLong axis_cnt) {

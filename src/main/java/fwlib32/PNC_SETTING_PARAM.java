@@ -20,7 +20,7 @@ public class PNC_SETTING_PARAM extends Structure {
 	public PNC_SETTING_PARAM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("PnControllerMode", "TotalDeviceNum", "BasicOption1", "reserve1", "DiData", "DoData", "Status", "reserve2");
 	}
 	public PNC_SETTING_PARAM(byte PnControllerMode, byte TotalDeviceNum, byte BasicOption1, byte reserve1, PNC_ADDR DiData, PNC_ADDR DoData, PNC_ADDR Status, byte reserve2[]) {

@@ -26,7 +26,7 @@ public class prgdir3 extends Structure {
 		public mdate_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("year", "month", "day", "hour", "minute", "dummy");
 		}
 		public mdate_struct(short year, short month, short day, short hour, short minute, short dummy) {
@@ -58,7 +58,7 @@ public class prgdir3 extends Structure {
 		public cdate_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("year", "month", "day", "hour", "minute", "dummy");
 		}
 		public cdate_struct(short year, short month, short day, short hour, short minute, short dummy) {
@@ -83,7 +83,7 @@ public class prgdir3 extends Structure {
 	public prgdir3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("number", "length", "page", "comment", "mdate", "cdate");
 	}
 	public prgdir3(NativeLong number, NativeLong length, NativeLong page, byte comment[], mdate_struct mdate, cdate_struct cdate) {

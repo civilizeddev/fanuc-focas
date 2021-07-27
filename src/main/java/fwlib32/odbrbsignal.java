@@ -16,7 +16,7 @@ public class odbrbsignal extends Structure {
 	public odbrbsignal() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type", "state", "no", "name");
 	}
 	public odbrbsignal(byte type, byte state, short no, byte name[]) {

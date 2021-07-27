@@ -15,7 +15,7 @@ public class odbsrcslyt extends Structure {
 	public odbsrcslyt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("spndl", "servo", "axis_name");
 	}
 	public odbsrcslyt(short spndl[], short servo[], byte axis_name[]) {

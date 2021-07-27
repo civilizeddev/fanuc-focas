@@ -19,7 +19,7 @@ public class ODBHDDDIR extends Structure {
 	public ODBHDDDIR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("file_name", "comment", "attribute", "reserved", "size", "date");
 	}
 	public ODBHDDDIR(byte file_name[], byte comment[], short attribute, short reserved, NativeLong size, byte date[]) {

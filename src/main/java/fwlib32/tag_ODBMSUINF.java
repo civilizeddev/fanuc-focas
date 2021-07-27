@@ -17,7 +17,7 @@ public class tag_ODBMSUINF extends Structure {
 	public tag_ODBMSUINF() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("pmc_no", "dummy", "x_top_adrs", "y_top_adrs");
 	}
 	public tag_ODBMSUINF(byte pmc_no, byte dummy[], NativeLong x_top_adrs, NativeLong y_top_adrs) {

@@ -14,7 +14,7 @@ public class T_SLVSLT_IND extends Structure {
 	public T_SLVSLT_IND() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_no", "slt_no");
 	}
 	public T_SLVSLT_IND(byte slv_no, byte slt_no) {

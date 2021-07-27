@@ -26,7 +26,7 @@ public class IN_CCLRPRMFLAG extends Structure {
 	public IN_CCLRPRMFLAG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("BaudRate", "ID", "UseIDCount", "DataOnAbnormal", "Status", "RY", "RYSize", "RX", "RXSize", "RWw", "RWwSize", "RWr", "RWrSize", "pad");
 	}
 	public IN_CCLRPRMFLAG(Pointer peer) {

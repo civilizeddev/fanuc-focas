@@ -19,7 +19,7 @@ public class COMMON_PRM_FLG extends Structure {
 	public COMMON_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("OwnIpAddress", "SubNetmask", "RouterIpAddress", "DnsServer1IpAddress", "DnsServer2IpAddress", "OwnHostName", "OwnDomain");
 	}
 	public COMMON_PRM_FLG(byte OwnIpAddress, byte SubNetmask, byte RouterIpAddress, byte DnsServer1IpAddress, byte DnsServer2IpAddress, byte OwnHostName, byte OwnDomain) {

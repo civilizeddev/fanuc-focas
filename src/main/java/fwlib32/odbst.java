@@ -30,7 +30,7 @@ public class odbst extends Structure {
 	public odbst() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("hdck", "tmmode", "aut", "run", "motion", "mstb", "emergency", "alarm", "edit");
 	}
 	public odbst(short hdck, short tmmode, short aut, short run, short motion, short mstb, short emergency, short alarm, short edit) {

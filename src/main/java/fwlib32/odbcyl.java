@@ -23,7 +23,7 @@ public class odbcyl extends Structure {
 	public odbcyl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sta_pnt", "end_pnt", "radius", "n_unit", "cb_form");
 	}
 	public odbcyl(NativeLong sta_pnt[], NativeLong end_pnt[], NativeLong radius, byte n_unit, byte cb_form) {

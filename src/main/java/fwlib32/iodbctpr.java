@@ -26,7 +26,7 @@ public class iodbctpr extends Structure {
 		public data_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("acc_bipl", "acc_chg_time", "jerk_acc_diff", "jerk_acc_diff_lin", "jerk_acc_ratio", "max_acc", "t_con_aipl", "corner_feed_diff", "max_cut_fdrate");
 		}
 		public data_struct(NativeLong acc_bipl[], NativeLong acc_chg_time, NativeLong jerk_acc_diff[], NativeLong jerk_acc_diff_lin[], byte jerk_acc_ratio, NativeLong max_acc[], short t_con_aipl[], NativeLong corner_feed_diff[], NativeLong max_cut_fdrate[]) {
@@ -128,7 +128,7 @@ public class iodbctpr extends Structure {
 		public prm_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("datano", "type", "u");
 		}
 		public prm_struct(short datano, short type, u_union u) {
@@ -150,7 +150,7 @@ public class iodbctpr extends Structure {
 	public iodbctpr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data", "prm");
 	}
 	public iodbctpr(data_struct data, iodbctpr.prm_struct prm[]) {

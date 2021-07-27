@@ -21,7 +21,7 @@ public class iodbrtmior extends Structure {
 	public iodbrtmior() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("adr_type", "adr_attr", "sno", "eno");
 	}
 	public iodbrtmior(short adr_type, NativeLong adr_attr, NativeLong sno, NativeLong eno) {

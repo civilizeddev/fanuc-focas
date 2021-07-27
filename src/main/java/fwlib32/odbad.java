@@ -18,7 +18,7 @@ public class odbad extends Structure {
 	public odbad() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public odbad(short datano, short type, short data) {

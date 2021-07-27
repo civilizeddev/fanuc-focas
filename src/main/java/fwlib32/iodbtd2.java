@@ -27,7 +27,7 @@ public class iodbtd2 extends Structure {
 	public iodbtd2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "dummy", "type", "tool_num", "h_code", "d_code", "tool_inf");
 	}
 	public iodbtd2(short datano, short dummy, NativeLong type, NativeLong tool_num, NativeLong h_code, NativeLong d_code, NativeLong tool_inf) {

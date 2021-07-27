@@ -17,7 +17,7 @@ public class iodbsuofs extends Structure {
 	public iodbsuofs() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("vect_val", "frc_dgt");
 	}
 	public iodbsuofs(NativeLong vect_val, NativeLong frc_dgt) {

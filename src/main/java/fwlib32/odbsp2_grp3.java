@@ -20,7 +20,7 @@ public class odbsp2_grp3 extends Structure {
 	public odbsp2_grp3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ps_vumb", "ps_vthd", "freq", "ps_vrms", "ps_cur", "dvolt", "ps_statf", "reserved");
 	}
 	public odbsp2_grp3(odbmdgdt ps_vumb, odbmdgdt ps_vthd, odbmdgdt freq, short ps_vrms, short ps_cur, short dvolt, byte ps_statf, byte reserved) {

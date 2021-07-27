@@ -17,7 +17,7 @@ public class DSMNTINFO extends Structure {
 	public DSMNTINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("empty_cnt", "total_size", "ReadPtr", "WritePtr");
 	}
 	public DSMNTINFO(short empty_cnt, NativeLong total_size, short ReadPtr, short WritePtr) {

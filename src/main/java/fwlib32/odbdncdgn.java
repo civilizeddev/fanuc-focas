@@ -20,7 +20,7 @@ public class odbdncdgn extends Structure {
 	public odbdncdgn() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ctrl_word", "can_word", "nc_file", "read_ptr", "write_ptr", "empty_cnt", "total_size");
 	}
 	public odbdncdgn(short ctrl_word, short can_word, byte nc_file[], short read_ptr, short write_ptr, short empty_cnt, NativeLong total_size) {

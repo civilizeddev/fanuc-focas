@@ -17,7 +17,7 @@ public class idbtlmgr_add_info extends Structure {
 	public idbtlmgr_add_info() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dsp_info", "data_kind");
 	}
 	public idbtlmgr_add_info(NativeLong dsp_info, short data_kind) {

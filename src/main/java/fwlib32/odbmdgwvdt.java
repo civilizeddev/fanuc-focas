@@ -23,7 +23,7 @@ public class odbmdgwvdt extends Structure {
 	public odbmdgwvdt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ldata", "p_dec", "num", "channel", "axis", "kind", "interval", "t_cycle", "unit", "sw_alm");
 	}
 	public odbmdgwvdt(Pointer peer) {

@@ -41,7 +41,7 @@ public class iodbtlgsext2 extends Structure {
 	public iodbtlgsext2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data1", "data2", "data3", "data4", "data5", "data6", "data7", "data8", "data9", "data10", "tooltype", "install", "holder", "toolname");
 	}
 	public iodbtlgsext2(Pointer peer) {

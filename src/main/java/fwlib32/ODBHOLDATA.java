@@ -24,7 +24,7 @@ public class ODBHOLDATA extends Structure {
 	public ODBHOLDATA() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mes_axis", "mes_parl", "mes_val1", "mes_dp1", "mes_val2", "mes_dp2", "mes_val3", "mes_dp3");
 	}
 	public ODBHOLDATA(byte mes_axis[], byte mes_parl[], NativeLong mes_val1[], NativeLong mes_dp1[], NativeLong mes_val2[], NativeLong mes_dp2[], NativeLong mes_val3[], NativeLong mes_dp3[]) {

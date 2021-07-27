@@ -19,7 +19,7 @@ public class IN_DNMPRMFLAG_SLAVE extends Structure {
 	public IN_DNMPRMFLAG_SLAVE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Communication", "DetailStatus", "Di", "DiSize", "Do", "DoSize", "reserved");
 	}
 	public IN_DNMPRMFLAG_SLAVE(byte Communication, byte DetailStatus, byte Di, byte DiSize, byte Do, byte DoSize, byte reserved[]) {

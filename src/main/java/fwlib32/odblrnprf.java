@@ -19,7 +19,7 @@ public class odblrnprf extends Structure {
 	public odblrnprf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("status", "comment", "path", "dummy1");
 	}
 	public odblrnprf(byte status, byte comment[], byte path, byte dummy1) {

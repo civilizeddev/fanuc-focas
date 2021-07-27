@@ -37,7 +37,7 @@ public class odbsysex extends Structure {
 		public path_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("system", "group", "attrib", "ctrl_axis", "ctrl_srvo", "ctrl_spdl", "mchn_no", "reserved");
 		}
 		public path_struct(short system, short group, short attrib, short ctrl_axis, short ctrl_srvo, short ctrl_spdl, short mchn_no, short reserved) {
@@ -64,7 +64,7 @@ public class odbsysex extends Structure {
 	public odbsysex() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("max_axis", "max_spdl", "max_path", "max_mchn", "ctrl_axis", "ctrl_srvo", "ctrl_spdl", "ctrl_path", "ctrl_mchn", "addinfo", "reserved", "path");
 	}
 	public odbsysex(Pointer peer) {

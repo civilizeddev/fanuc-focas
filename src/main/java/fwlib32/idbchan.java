@@ -18,7 +18,7 @@ public class idbchan extends Structure {
 	public idbchan() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("chno", "axis", "datanum", "datainf", "dataadr");
 	}
 	public idbchan(byte chno, byte axis, NativeLong datanum, short datainf, short dataadr) {

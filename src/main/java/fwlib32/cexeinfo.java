@@ -29,7 +29,7 @@ public class cexeinfo extends Structure {
 	public cexeinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cond", "cycle", "count", "time", "dummy1", "dummy2", "dummy3", "dummy4");
 	}
 	public cexeinfo(NativeLong cond, NativeLong cycle, NativeLong count, NativeLong time, NativeLong dummy1, NativeLong dummy2, NativeLong dummy3, NativeLong dummy4) {

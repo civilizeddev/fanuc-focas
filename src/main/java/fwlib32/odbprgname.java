@@ -13,7 +13,7 @@ public class odbprgname extends Structure {
 	public odbprgname() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name");
 	}
 	public odbprgname(byte name[]) {

@@ -16,7 +16,7 @@ public class OUT_ETHTASK extends Structure {
 	public OUT_ETHTASK() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Type", "Count", "pad", "task");
 	}
 	public OUT_ETHTASK(short Type, short Count, byte pad[], TSK_STS task[]) {

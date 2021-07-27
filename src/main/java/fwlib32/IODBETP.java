@@ -53,7 +53,7 @@ public class IODBETP extends Structure {
 	public IODBETP() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ParameterType", "prm");
 	}
 	public IODBETP(short ParameterType, prm_union prm) {

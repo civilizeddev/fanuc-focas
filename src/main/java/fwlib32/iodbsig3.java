@@ -28,7 +28,7 @@ public class iodbsig3 extends Structure {
 		public data_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("ent_no", "pmc_no", "sig_no", "sig_name", "mask_pat");
 		}
 		public data_struct(short ent_no, short pmc_no, short sig_no, byte sig_name, byte mask_pat) {
@@ -52,7 +52,7 @@ public class iodbsig3 extends Structure {
 	public iodbsig3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public iodbsig3(short datano, short type, fwlib32.iodbprm.data_struct data[]) {

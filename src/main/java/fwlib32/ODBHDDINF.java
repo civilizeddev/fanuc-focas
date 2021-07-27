@@ -17,7 +17,7 @@ public class ODBHDDINF extends Structure {
 	public ODBHDDINF() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("file_num", "remainder_l", "remainder_h", "current_dir");
 	}
 	public ODBHDDINF(NativeLong file_num, NativeLong remainder_l, NativeLong remainder_h, byte current_dir[]) {

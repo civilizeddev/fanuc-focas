@@ -15,7 +15,7 @@ public class FOCAS2_PRM_FLG extends Structure {
 	public FOCAS2_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("TcpPort", "UdpPort", "TimeInterval");
 	}
 	public FOCAS2_PRM_FLG(byte TcpPort, byte UdpPort, byte TimeInterval) {

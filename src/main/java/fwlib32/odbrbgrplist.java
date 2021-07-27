@@ -17,7 +17,7 @@ public class odbrbgrplist extends Structure {
 	public odbrbgrplist() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("select", "robot_program", "nc_program_folder", "nc_program_name", "comment");
 	}
 	public odbrbgrplist(byte select, byte robot_program, byte nc_program_folder[], byte nc_program_name[], byte comment[]) {

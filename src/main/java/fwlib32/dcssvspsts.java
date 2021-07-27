@@ -17,7 +17,7 @@ public class dcssvspsts extends Structure {
 	public dcssvspsts() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name", "dummy", "ncdata", "svspdata");
 	}
 	public dcssvspsts(byte name[], NativeLong dummy, double ncdata, double svspdata) {

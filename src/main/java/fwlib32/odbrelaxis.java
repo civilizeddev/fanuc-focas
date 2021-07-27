@@ -16,7 +16,7 @@ public class odbrelaxis extends Structure {
 	public odbrelaxis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("path", "rel_axis");
 	}
 	public odbrelaxis(short path, short rel_axis) {

@@ -15,7 +15,7 @@ public class iodbrbsummary extends Structure {
 	public iodbrbsummary() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("signal_type", "reserve", "no");
 	}
 	public iodbrbsummary(byte signal_type, byte reserve, short no) {

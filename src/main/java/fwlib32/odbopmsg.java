@@ -16,7 +16,7 @@ public class odbopmsg extends Structure {
 	public odbopmsg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("msg_kind", "msg");
 	}
 	public odbopmsg(short msg_kind, byte msg[]) {

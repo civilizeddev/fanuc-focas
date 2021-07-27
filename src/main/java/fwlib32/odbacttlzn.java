@@ -15,7 +15,7 @@ public class odbacttlzn extends Structure {
 	public odbacttlzn() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("act_no", "data");
 	}
 	public odbacttlzn(short act_no, NativeLong data[]) {

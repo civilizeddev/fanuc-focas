@@ -25,7 +25,7 @@ public class poselm extends Structure {
 	public poselm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data", "dec", "unit", "disp", "name", "suff");
 	}
 	public poselm(NativeLong data, short dec, short unit, short disp, byte name, byte suff) {

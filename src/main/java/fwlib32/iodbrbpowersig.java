@@ -17,7 +17,7 @@ public class iodbrbpowersig extends Structure {
 	public iodbrbpowersig() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("unit_type", "adr_type", "address", "bit", "reserve");
 	}
 	public iodbrbpowersig(byte unit_type, byte adr_type, short address, byte bit, byte reserve[]) {

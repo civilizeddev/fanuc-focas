@@ -14,7 +14,7 @@ public class prgdir extends Structure {
 	public prgdir() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prg_data");
 	}
 	public prgdir(byte prg_data[]) {

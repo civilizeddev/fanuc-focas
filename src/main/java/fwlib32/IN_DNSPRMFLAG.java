@@ -22,7 +22,7 @@ public class IN_DNSPRMFLAG extends Structure {
 	public IN_DNSPRMFLAG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("BaudRate", "DiDataOnAbnormal", "OwnMacId", "Di", "DiSize", "Do", "DoSize", "Status", "StatusSize", "pad");
 	}
 	public IN_DNSPRMFLAG(Pointer peer) {

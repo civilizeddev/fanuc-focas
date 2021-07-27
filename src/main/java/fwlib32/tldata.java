@@ -17,7 +17,7 @@ public class tldata extends Structure {
 	public tldata() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("tl", "tl_dp");
 	}
 	public tldata(NativeLong tl, NativeLong tl_dp) {

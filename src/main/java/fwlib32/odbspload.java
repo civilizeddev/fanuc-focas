@@ -16,7 +16,7 @@ public class odbspload extends Structure {
 	public odbspload() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("spload", "spspeed");
 	}
 	public odbspload(loadelm spload, loadelm spspeed) {

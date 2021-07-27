@@ -16,7 +16,7 @@ public class OUT_FLNTENTRY extends Structure {
 	public OUT_FLNTENTRY() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Node", "Reserved", "EntryNode");
 	}
 	public OUT_FLNTENTRY(byte Node, byte Reserved[], NativeLong EntryNode[]) {

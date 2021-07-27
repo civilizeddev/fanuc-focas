@@ -17,7 +17,7 @@ public class odbembedfinf extends Structure {
 	public odbembedfinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("used_page", "all_page");
 	}
 	public odbembedfinf(NativeLong used_page, NativeLong all_page) {

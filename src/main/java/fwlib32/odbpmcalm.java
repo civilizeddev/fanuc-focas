@@ -14,7 +14,7 @@ public class odbpmcalm extends Structure {
 	public odbpmcalm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("almmsg");
 	}
 	public odbpmcalm(byte almmsg[]) {

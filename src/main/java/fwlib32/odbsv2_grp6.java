@@ -28,7 +28,7 @@ public class odbsv2_grp6 extends Structure {
 	public odbsv2_grp6() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sv_up_err1", "sv_up_err2", "sv_lw_err1", "sv_lw_err2", "sv_up_jt1", "sv_up_jt2", "sv_lw_jt1", "sv_lw_jt2", "sdu_up_err1", "sdu_up_err2", "sdu_lw_err1", "sdu_lw_err2", "sdu_up_jt1", "sdu_up_jt2", "sdu_lw_jt1", "sdu_lw_jt2");
 	}
 	public odbsv2_grp6(Pointer peer) {

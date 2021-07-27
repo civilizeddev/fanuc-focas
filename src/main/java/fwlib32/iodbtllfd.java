@@ -22,7 +22,7 @@ public class iodbtllfd extends Structure {
 	public iodbtllfd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("order", "tool_num", "life_count", "rem_life", "max_life", "notice_life", "life_stat", "count_type", "reserve");
 	}
 	public iodbtllfd(short order, short tool_num, NativeLong life_count, NativeLong rem_life, NativeLong max_life, NativeLong notice_life, byte life_stat, byte count_type, short reserve) {

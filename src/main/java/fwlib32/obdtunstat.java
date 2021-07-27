@@ -13,7 +13,7 @@ public class obdtunstat extends Structure {
 	public obdtunstat() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("status");
 	}
 	public obdtunstat(short status[]) {

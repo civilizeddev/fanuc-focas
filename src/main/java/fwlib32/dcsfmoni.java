@@ -17,7 +17,7 @@ public class dcsfmoni extends Structure {
 	public dcsfmoni() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data_d", "data_p");
 	}
 	public dcsfmoni(NativeLong data_d, NativeLong data_p) {

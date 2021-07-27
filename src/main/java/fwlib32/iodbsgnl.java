@@ -42,7 +42,7 @@ public class iodbsgnl extends Structure {
 	public iodbsgnl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "mode", "hndl_ax", "hndl_mv", "rpd_ovrd", "jog_ovrd", "feed_ovrd", "spdl_ovrd", "blck_del", "sngl_blck", "machn_lock", "dry_run", "mem_prtct", "feed_hold");
 	}
 	public iodbsgnl(Pointer peer) {

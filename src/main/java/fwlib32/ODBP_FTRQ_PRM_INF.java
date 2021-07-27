@@ -20,7 +20,7 @@ public class ODBP_FTRQ_PRM_INF extends Structure {
 	public ODBP_FTRQ_PRM_INF() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("smpl_enbl", "cycle", "axis_num", "dummy1");
 	}
 	public ODBP_FTRQ_PRM_INF(byte smpl_enbl, byte cycle, byte axis_num, byte dummy1) {

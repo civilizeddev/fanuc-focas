@@ -21,7 +21,7 @@ public class iodbint extends Structure {
 	public iodbint() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano_s", "type", "datano_e", "data");
 	}
 	public iodbint(short datano_s, short type, short datano_e, NativeLong data[]) {

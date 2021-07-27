@@ -28,7 +28,7 @@ public class idbusbfile extends Structure {
 	public idbusbfile() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("path", "offset", "req_num", "req_attrib", "sort", "req_comment", "req_total", "dummy");
 	}
 	public idbusbfile(byte path[], NativeLong offset, short req_num, short req_attrib, byte sort, byte req_comment, byte req_total, byte dummy) {

@@ -26,7 +26,7 @@ public class iodbhpac extends Structure {
 		public tune_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("slct", "diff", "fine", "acc_lv", "bipl", "aipl", "corner", "clamp", "c_acc", "foward", "reserve");
 		}
 		public tune_struct(Pointer peer) {
@@ -42,7 +42,7 @@ public class iodbhpac extends Structure {
 	public iodbhpac() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("tune");
 	}
 	public iodbhpac(fwlib32.iodbhppr.tune_struct tune[]) {

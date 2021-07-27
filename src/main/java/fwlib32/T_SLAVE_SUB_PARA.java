@@ -15,7 +15,7 @@ public class T_SLAVE_SUB_PARA extends Structure {
 	public T_SLAVE_SUB_PARA() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_ind_para", "slv_enable", "slt_num");
 	}
 	public T_SLAVE_SUB_PARA(T_SLAVE_IND_PARA slv_ind_para, byte slv_enable, byte slt_num) {

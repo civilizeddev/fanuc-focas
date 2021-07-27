@@ -16,7 +16,7 @@ public class iodbtlmgr_edg extends Structure {
 	public iodbtlmgr_edg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data_no", "edge_no");
 	}
 	public iodbtlmgr_edg(short data_no, short edge_no) {

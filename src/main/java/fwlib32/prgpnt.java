@@ -17,7 +17,7 @@ public class prgpnt extends Structure {
 	public prgpnt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prog_no", "blk_no");
 	}
 	public prgpnt(NativeLong prog_no, NativeLong blk_no) {

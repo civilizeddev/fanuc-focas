@@ -17,7 +17,7 @@ public class IN_EIP_COMMON_PRM_FLG extends Structure {
 	public IN_EIP_COMMON_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("TcpPort", "UdpPort", "DiDataOnAbnormal", "Option1", "pad");
 	}
 	public IN_EIP_COMMON_PRM_FLG(byte TcpPort, byte UdpPort, byte DiDataOnAbnormal, byte Option1, byte pad[]) {

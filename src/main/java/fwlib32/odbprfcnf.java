@@ -18,7 +18,7 @@ public class odbprfcnf extends Structure {
 	public odbprfcnf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("master_ser", "master_ver", "slave_ser", "slave_ver", "cntl_ser", "cntl_ver");
 	}
 	public odbprfcnf(byte master_ser[], byte master_ver[], byte slave_ser[], byte slave_ver[], byte cntl_ser[], byte cntl_ver[]) {

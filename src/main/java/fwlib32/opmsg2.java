@@ -20,7 +20,7 @@ public class opmsg2 extends Structure {
 	public opmsg2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "char_num", "data");
 	}
 	public opmsg2(short datano, short type, short char_num, byte data[]) {

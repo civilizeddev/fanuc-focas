@@ -16,7 +16,7 @@ public class odbspdi extends Structure {
 	public odbspdi() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sgnl1", "sgnl2", "sgnl3", "sgnl4");
 	}
 	public odbspdi(byte sgnl1, byte sgnl2, byte sgnl3, byte sgnl4) {

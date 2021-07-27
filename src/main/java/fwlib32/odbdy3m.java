@@ -42,7 +42,7 @@ public class odbdy3m extends Structure {
 			public faxis_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("absolute", "machine", "relative", "distance");
 			}
 			public faxis_struct(NativeLong absolute[], NativeLong machine[], NativeLong relative[], NativeLong distance[]) {
@@ -82,7 +82,7 @@ public class odbdy3m extends Structure {
 			public oaxis_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("absolute", "machine", "relative", "distance");
 			}
 			public oaxis_struct(NativeLong absolute, NativeLong machine, NativeLong relative, NativeLong distance) {
@@ -128,7 +128,7 @@ public class odbdy3m extends Structure {
 	public odbdy3m() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "axis", "alarm", "prgnum", "prgmnum", "seqnum", "actf", "acts", "pos");
 	}
 	public odbdy3m(short dummy, short axis, NativeLong alarm, NativeLong prgnum, NativeLong prgmnum, NativeLong seqnum, NativeLong actf, NativeLong acts, pos_union pos) {

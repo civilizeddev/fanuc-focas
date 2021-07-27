@@ -17,7 +17,7 @@ public class idb3dmstop extends Structure {
 		public path_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("plus", "minus");
 		}
 		public path_struct(NativeLong plus, NativeLong minus) {
@@ -38,7 +38,7 @@ public class idb3dmstop extends Structure {
 	public idb3dmstop() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("path");
 	}
 	public idb3dmstop(fwlib32.odbsysex.path_struct path[]) {

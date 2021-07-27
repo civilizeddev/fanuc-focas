@@ -15,7 +15,7 @@ public class OUT_ECTTYPE extends Structure {
 	public OUT_ECTTYPE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Kind", "Slot", "FunctionEctSlv");
 	}
 	public OUT_ECTTYPE(byte Kind, byte Slot, short FunctionEctSlv) {

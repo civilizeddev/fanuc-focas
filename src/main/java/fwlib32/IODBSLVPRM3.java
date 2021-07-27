@@ -26,7 +26,7 @@ public class IODBSLVPRM3 extends Structure {
 	public IODBSLVPRM3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ident_no", "slv_flag", "slv_type", "reserve1", "slv_stat", "wd_fact1", "wd_fact2", "min_tsdr", "reserve2", "grp_ident", "user_plen", "user_pdata", "slv_ulen", "slv_udata");
 	}
 	public IODBSLVPRM3(Pointer peer) {

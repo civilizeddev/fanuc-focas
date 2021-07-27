@@ -19,7 +19,7 @@ public class iodbovl extends Structure {
 	public iodbovl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public iodbovl(short datano, short type, NativeLong data[]) {

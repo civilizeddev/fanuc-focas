@@ -23,7 +23,7 @@ public class iodbtimer extends Structure {
 			public date_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("year", "month", "date");
 			}
 			public date_struct(short year, short month, short date) {
@@ -49,7 +49,7 @@ public class iodbtimer extends Structure {
 			public time_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("hour", "minute", "second");
 			}
 			public time_struct(short hour, short minute, short second) {
@@ -94,7 +94,7 @@ public class iodbtimer extends Structure {
 	public iodbtimer() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type", "dummy", "data");
 	}
 	public iodbtimer(short type, short dummy, data_union data) {

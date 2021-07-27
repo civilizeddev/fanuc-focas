@@ -16,7 +16,7 @@ public class odbmir extends Structure {
 	public odbmir() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mode", "mir_flag", "mir_pos");
 	}
 	public odbmir(short mode, NativeLong mir_flag, NativeLong mir_pos[]) {

@@ -14,7 +14,7 @@ public class ODBETMSG extends Structure {
 	public ODBETMSG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("title", "message");
 	}
 	public ODBETMSG(byte title[], byte message[]) {

@@ -15,7 +15,7 @@ public class trgdata extends Structure {
 	public trgdata() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("seq_no", "pmc_trg");
 	}
 	public trgdata(NativeLong seq_no, pmc_data pmc_trg) {

@@ -22,7 +22,7 @@ public class OUT_ETHLOG1SHOT extends Structure {
 	public OUT_ETHLOG1SHOT() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Type", "MsgId", "Year", "Month", "Day", "Hour", "Minute", "Second", "reserve", "Text");
 	}
 	public OUT_ETHLOG1SHOT(Pointer peer) {

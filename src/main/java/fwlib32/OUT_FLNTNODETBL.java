@@ -25,7 +25,7 @@ public class OUT_FLNTNODETBL extends Structure {
 	public OUT_FLNTNODETBL() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("NodeName", "VendorName", "MakerType", "Area1Address", "Area1Size", "Area2Address", "Area2Size", "Rct", "Uls", "TokenWatch", "MinFrame", "Lks", "Status");
 	}
 	public OUT_FLNTNODETBL(Pointer peer) {

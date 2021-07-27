@@ -17,7 +17,7 @@ public class odblactn extends Structure {
 	public odblactn() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "act_proc", "act_pirce", "act_slop", "reserve");
 	}
 	public odblactn(short slct, short act_proc, short act_pirce, short act_slop, short reserve[]) {

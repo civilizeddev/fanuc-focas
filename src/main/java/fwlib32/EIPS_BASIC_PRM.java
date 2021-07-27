@@ -23,7 +23,7 @@ public class EIPS_BASIC_PRM extends Structure {
 	public EIPS_BASIC_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Common", "Network", "pad", "Option2", "AllocMax", "ConnectMax", "RPI_Min", "RPI_Max", "StatusAddr", "StatusSize");
 	}
 	public EIPS_BASIC_PRM(Pointer peer) {

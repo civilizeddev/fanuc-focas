@@ -13,7 +13,7 @@ public class MAINTAIN_PRM_FLG extends Structure {
 	public MAINTAIN_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("opposite");
 	}
 	public MAINTAIN_PRM_FLG(PING_PRM_FLG opposite) {

@@ -18,7 +18,7 @@ public class iodbmdginfo extends Structure {
 	public iodbmdginfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("alm_no", "type", "axis", "path", "reserved");
 	}
 	public iodbmdginfo(NativeLong alm_no, short type, short axis, short path, short reserved) {

@@ -17,7 +17,7 @@ public class HOSTPRM extends Structure {
 	public HOSTPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("DataServerPort", "DataServerIPAddress", "DataServerUserName", "DataServerPassword", "DataServerLoginDirectory");
 	}
 	public HOSTPRM(short DataServerPort, byte DataServerIPAddress[], byte DataServerUserName[], byte DataServerPassword[], byte DataServerLoginDirectory[]) {

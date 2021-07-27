@@ -23,7 +23,7 @@ public class rmtdgn_info extends Structure {
 	public rmtdgn_info() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("receipt_num", "time", "status", "err_num", "err_msg");
 	}
 	public rmtdgn_info(NativeLong receipt_num, NativeLong time, short status, short err_num, byte err_msg[]) {

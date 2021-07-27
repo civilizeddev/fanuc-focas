@@ -15,7 +15,7 @@ public class OUT_MBSVRINFO extends Structure {
 	public OUT_MBSVRINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Number", "pad", "clntinfo");
 	}
 	public OUT_MBSVRINFO(short Number, byte pad[], MBSVR_CLNT_INFO clntinfo[]) {

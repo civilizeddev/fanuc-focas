@@ -19,7 +19,7 @@ public class cmnddata extends Structure {
 	public cmnddata() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("val", "dec", "dummy");
 	}
 	public cmnddata(double val, NativeLong dec, NativeLong dummy) {

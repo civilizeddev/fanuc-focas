@@ -17,7 +17,7 @@ public class iodbjogcmdcode extends Structure {
 	public iodbjogcmdcode() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("adrs", "num");
 	}
 	public iodbjogcmdcode(byte adrs, NativeLong num) {

@@ -20,7 +20,7 @@ public class tagODBIFSBSLUSV extends Structure {
 	public tagODBIFSBSLUSV() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slave_num", "axis_num", "axis_name", "tndm", "reserve");
 	}
 	public tagODBIFSBSLUSV(short slave_num, short axis_num, byte axis_name[], byte tndm, byte reserve[]) {

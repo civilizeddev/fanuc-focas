@@ -15,7 +15,7 @@ public class iodbtime extends Structure {
 	public iodbtime() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("minute", "msec");
 	}
 	public iodbtime(NativeLong minute, NativeLong msec) {

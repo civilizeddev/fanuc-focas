@@ -19,7 +19,7 @@ public class OUT_PBMNODEINFO extends Structure {
 	public OUT_PBMNODEINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_no", "commstat", "status1", "status2", "status3", "master", "ident");
 	}
 	public OUT_PBMNODEINFO(byte slv_no, byte commstat, byte status1, byte status2, byte status3, byte master, short ident) {

@@ -17,7 +17,7 @@ public class odbofslen extends Structure {
 	public odbofslen() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("len", "dec");
 	}
 	public odbofslen(NativeLong len, NativeLong dec) {

@@ -20,7 +20,7 @@ public class iodbindexprm extends Structure {
 	public iodbindexprm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ofs_limit", "detect_width", "jog_clamp", "matrix_single", "torque_ovr", "ofs_adjust", "dummy");
 	}
 	public iodbindexprm(NativeLong ofs_limit, NativeLong detect_width, short jog_clamp[], byte matrix_single, byte torque_ovr, byte ofs_adjust, byte dummy[]) {

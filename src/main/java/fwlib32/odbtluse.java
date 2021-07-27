@@ -21,7 +21,7 @@ public class odbtluse extends Structure {
 	public odbtluse() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("s_grp", "dummy", "e_grp", "data");
 	}
 	public odbtluse(short s_grp, short dummy, short e_grp, NativeLong data[]) {

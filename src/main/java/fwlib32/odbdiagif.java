@@ -19,7 +19,7 @@ public class odbdiagif extends Structure {
 		public info_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("diag_no", "diag_type");
 		}
 		public info_struct(short diag_no, short diag_type) {
@@ -40,7 +40,7 @@ public class odbdiagif extends Structure {
 	public odbdiagif() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("info_no", "prev_no", "next_no", "info");
 	}
 	public odbdiagif(short info_no, short prev_no, short next_no, fwlib32.odbparaif.info_struct info[]) {

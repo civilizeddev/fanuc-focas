@@ -47,7 +47,7 @@ public class odbpmcaxisinfo extends Structure {
 	public odbpmcaxisinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datastatus", "axisstatus", "commandsignal", "statussignal", "dummy", "instruction", "speedsignal", "axisctrldata", "subinstnum", "subinstlength", "subinstdata1", "subinstdata2", "subinstdata3", "subinstdata4", "subinstdata5", "subinstdata6", "subinstdata7");
 	}
 	public odbpmcaxisinfo(Pointer peer) {

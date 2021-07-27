@@ -15,7 +15,7 @@ public class idblswork extends Structure {
 	public idblswork() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "skeyinf", "reserve");
 	}
 	public idblswork(short slct, short skeyinf, short reserve[]) {

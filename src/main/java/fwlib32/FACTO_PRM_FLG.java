@@ -13,7 +13,7 @@ public class FACTO_PRM_FLG extends Structure {
 	public FACTO_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("opposite");
 	}
 	public FACTO_PRM_FLG(FACTO_CLIENT_PRM_FLG opposite[]) {

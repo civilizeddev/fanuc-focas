@@ -22,7 +22,7 @@ public class odbdsdir extends Structure {
 		public data_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("file_name", "comment", "size", "date");
 		}
 		public data_struct(byte file_name[], byte comment[], NativeLong size, byte date[]) {
@@ -51,7 +51,7 @@ public class odbdsdir extends Structure {
 	public odbdsdir() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("file_num", "remainder", "data_num", "data");
 	}
 	public odbdsdir(NativeLong file_num, NativeLong remainder, short data_num, fwlib32.iodbprm.data_struct data[]) {

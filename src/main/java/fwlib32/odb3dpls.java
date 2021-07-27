@@ -18,7 +18,7 @@ public class odb3dpls extends Structure {
 	public odb3dpls() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("right_angle_x", "right_angle_y", "tool_axis", "tool_tip_a_b", "tool_tip_c");
 	}
 	public odb3dpls(NativeLong right_angle_x, NativeLong right_angle_y, NativeLong tool_axis, NativeLong tool_tip_a_b, NativeLong tool_tip_c) {

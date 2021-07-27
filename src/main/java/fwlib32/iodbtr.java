@@ -27,7 +27,7 @@ public class iodbtr extends Structure {
 		public data_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("ntool", "life", "count");
 		}
 		public data_struct(NativeLong ntool, NativeLong life, NativeLong count) {
@@ -49,7 +49,7 @@ public class iodbtr extends Structure {
 	public iodbtr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano_s", "dummy", "datano_e", "data");
 	}
 	public iodbtr(short datano_s, short dummy, short datano_e, fwlib32.iodbprm.data_struct data[]) {

@@ -18,7 +18,7 @@ public class odbspn extends Structure {
 	public odbspn() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public odbspn(short datano, short type, short data[]) {

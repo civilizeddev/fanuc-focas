@@ -19,7 +19,7 @@ public class odbact2 extends Structure {
 	public odbact2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public odbact2(short datano, short type, NativeLong data[]) {

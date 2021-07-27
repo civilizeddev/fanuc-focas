@@ -15,7 +15,7 @@ public class FACTOLINK_CLIENT_PRM extends Structure {
 	public FACTOLINK_CLIENT_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("HostName", "Port");
 	}
 	public FACTOLINK_CLIENT_PRM(byte HostName[], NativeLong Port) {

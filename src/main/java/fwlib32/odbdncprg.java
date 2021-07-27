@@ -17,7 +17,7 @@ public class odbdncprg extends Structure {
 	public odbdncprg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name", "o_num");
 	}
 	public odbdncprg(byte name[], NativeLong o_num) {

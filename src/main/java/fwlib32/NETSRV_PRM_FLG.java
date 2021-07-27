@@ -19,7 +19,7 @@ public class NETSRV_PRM_FLG extends Structure {
 	public NETSRV_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("HostName", "Port", "TimeInterval", "UdpPeriod", "MachineNumber", "AcceptanceReply", "ErrorReply");
 	}
 	public NETSRV_PRM_FLG(byte HostName, byte Port, byte TimeInterval, byte UdpPeriod, byte MachineNumber, byte AcceptanceReply, byte ErrorReply) {

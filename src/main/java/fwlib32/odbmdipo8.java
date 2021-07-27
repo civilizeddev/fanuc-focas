@@ -21,7 +21,7 @@ public class odbmdipo8 extends Structure {
 	public odbmdipo8() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mdiprog", "mdipntr", "crntprog", "crntpntr");
 	}
 	public odbmdipo8(NativeLong mdiprog, NativeLong mdipntr, NativeLong crntprog, NativeLong crntpntr) {

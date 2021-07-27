@@ -17,7 +17,7 @@ public class prgdir2o8 extends Structure {
 	public prgdir2o8() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("number", "length", "comment", "dummy");
 	}
 	public prgdir2o8(NativeLong number, NativeLong length, byte comment[], byte dummy) {

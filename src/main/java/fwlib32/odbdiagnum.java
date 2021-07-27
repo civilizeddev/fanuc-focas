@@ -15,7 +15,7 @@ public class odbdiagnum extends Structure {
 	public odbdiagnum() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("diag_min", "diag_max", "total_no");
 	}
 	public odbdiagnum(short diag_min, short diag_max, short total_no) {

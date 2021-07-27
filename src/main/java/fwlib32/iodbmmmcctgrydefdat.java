@@ -14,7 +14,7 @@ public class iodbmmmcctgrydefdat extends Structure {
 	public iodbmmmcctgrydefdat() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cmsg_id");
 	}
 	public iodbmmmcctgrydefdat(NativeLong cmsg_id) {

@@ -14,7 +14,7 @@ public class IN_PND_PARAM extends Structure {
 	public IN_PND_PARAM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("flg", "prm");
 	}
 	public IN_PND_PARAM(PND_PARAM_FLG flg, PND_PARAM prm) {

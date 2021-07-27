@@ -15,7 +15,7 @@ public class OUT_PNC_CNTRLR_INFO extends Structure {
 	public OUT_PNC_CNTRLR_INFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Status", "pad", "DiDoRefreshTime");
 	}
 	public OUT_PNC_CNTRLR_INFO(byte Status, byte pad, short DiDoRefreshTime) {

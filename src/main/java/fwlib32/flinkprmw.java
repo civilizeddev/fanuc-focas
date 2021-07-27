@@ -14,7 +14,7 @@ public class flinkprmw extends Structure {
 	public flinkprmw() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("IPAddress", "Port");
 	}
 	public flinkprmw(byte IPAddress[], short Port) {

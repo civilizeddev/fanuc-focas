@@ -15,7 +15,7 @@ public class IODBINDEADR extends Structure {
 	public IODBINDEADR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "indi_type", "indi_addr");
 	}
 	public IODBINDEADR(byte dummy, byte indi_type, short indi_addr) {

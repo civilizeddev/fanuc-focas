@@ -15,7 +15,7 @@ public class odbsfsgsiginfex extends Structure {
 	public odbsfsgsiginfex() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sfsg_siginf", "select", "reserve");
 	}
 	public odbsfsgsiginfex(iodbsfsgsiginf sfsg_siginf, short select, short reserve) {

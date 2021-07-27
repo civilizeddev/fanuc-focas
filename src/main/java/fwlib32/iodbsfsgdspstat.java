@@ -15,7 +15,7 @@ public class iodbsfsgdspstat extends Structure {
 	public iodbsfsgdspstat() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("extract", "symbol", "extend");
 	}
 	public iodbsfsgdspstat(short extract, short symbol, short extend) {

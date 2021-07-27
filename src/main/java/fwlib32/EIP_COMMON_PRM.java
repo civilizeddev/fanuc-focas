@@ -17,7 +17,7 @@ public class EIP_COMMON_PRM extends Structure {
 	public EIP_COMMON_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("TcpPort", "UdpPort", "DiDataOnAbnormal", "Option1", "pad");
 	}
 	public EIP_COMMON_PRM(short TcpPort, short UdpPort, byte DiDataOnAbnormal, byte Option1, byte pad[]) {

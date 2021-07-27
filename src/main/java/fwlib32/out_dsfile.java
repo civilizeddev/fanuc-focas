@@ -33,7 +33,7 @@ public class out_dsfile extends Structure {
 	public out_dsfile() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("year", "mon", "day", "hour", "min", "sec", "size", "attr", "file", "info");
 	}
 	public out_dsfile(Pointer peer) {

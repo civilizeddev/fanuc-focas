@@ -30,7 +30,7 @@ public class iodbpirc extends Structure {
 	public iodbpirc() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "power", "freq", "duty", "i_freq", "i_duty", "step_t", "step_sum", "pier_t", "g_press", "g_kind", "g_time", "def_pos", "def_pos2", "gap_axis", "def_pos2_dec", "reserve");
 	}
 	public iodbpirc(Pointer peer) {

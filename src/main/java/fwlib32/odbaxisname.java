@@ -16,7 +16,7 @@ public class odbaxisname extends Structure {
 	public odbaxisname() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name", "suff");
 	}
 	public odbaxisname(byte name, byte suff) {

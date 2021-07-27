@@ -14,7 +14,7 @@ public class odberr extends Structure {
 	public odberr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("err_no", "err_dtno");
 	}
 	public odberr(short err_no, short err_dtno) {

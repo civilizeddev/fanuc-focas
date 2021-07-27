@@ -18,7 +18,7 @@ public class odbchopping extends Structure {
 	public odbchopping() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cur_pos", "cur_speed", "real_udp", "real_ldp", "stroke_cnt");
 	}
 	public odbchopping(realnum cur_pos, realnum cur_speed, realnum real_udp, realnum real_ldp, NativeLong stroke_cnt) {

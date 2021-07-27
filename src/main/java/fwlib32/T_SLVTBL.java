@@ -20,7 +20,7 @@ public class T_SLVTBL extends Structure {
 	public T_SLVTBL() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_ind_para", "slv_enable", "slt_num", "dgn_path", "dgn_kind", "dgn_top_address", "dgn_size", "pad");
 	}
 	public T_SLVTBL(T_SLAVE_IND_PARA slv_ind_para, byte slv_enable, byte slt_num, byte dgn_path, byte dgn_kind, short dgn_top_address, byte dgn_size, byte pad) {

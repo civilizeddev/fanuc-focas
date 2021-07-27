@@ -15,7 +15,7 @@ public class odbpofs extends Structure {
 	public odbpofs() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mode", "ofsvct");
 	}
 	public odbpofs(short mode, NativeLong ofsvct[]) {

@@ -41,7 +41,7 @@ public class IN_FLNTPRMFLG extends Structure {
 	public IN_FLNTPRMFLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("OwnIpAddress", "NodeName", "Area1CmnMemAddr", "Area1CmnMemSize", "Area2CmnMemAddr", "Area2CmnMemSize", "TokenWatch", "MinFrame", "OwnStatus", "EntryNode", "Area1PmcAddr", "Area1ExchgAddr", "Area1ExchgSize", "Area2PmcAddr", "Area2ExchgAddr", "Area2ExchgSize", "Area2PmcDoAddr", "Area2ExchgDoSize", "Area2PmcDiAddr", "Area2ConditionAddr", "Area2AlterAddr", "Area2ExchgDiAddr", "Area2ExchgDiSize", "ClientMsgAddr", "ClientMsgSize", "ServerMsgAddr", "ServerMsgSize", "Option1", "Option2");
 	}
 	public IN_FLNTPRMFLG(Pointer peer) {

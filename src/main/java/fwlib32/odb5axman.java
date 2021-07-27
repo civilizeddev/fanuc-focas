@@ -28,7 +28,7 @@ public class odb5axman extends Structure {
 	public odb5axman() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type1", "type2", "type3", "data1", "data2", "data3", "c1", "c2", "dummy", "td", "r1", "r2", "vr", "h1", "h2");
 	}
 	public odb5axman(Pointer peer) {

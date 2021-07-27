@@ -49,7 +49,7 @@ public class iodbtlm2 extends Structure {
 	public iodbtlm2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("number", "reserve", "item");
 	}
 	public iodbtlm2(short number, short reserve, item_union item) {

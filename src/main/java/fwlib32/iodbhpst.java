@@ -24,7 +24,7 @@ public class iodbhpst extends Structure {
 	public iodbhpst() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "hpcc", "multi", "ovr1", "ign_f", "foward", "max_f", "ovr2", "ovr3", "ovr4", "reserve");
 	}
 	public iodbhpst(Pointer peer) {

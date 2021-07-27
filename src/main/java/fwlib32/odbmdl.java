@@ -28,7 +28,7 @@ public class odbmdl extends Structure {
 			public aux_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("aux_data", "flag1", "flag2");
 			}
 			public aux_struct(NativeLong aux_data, byte flag1, byte flag2) {
@@ -54,7 +54,7 @@ public class odbmdl extends Structure {
 			public raux1_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("aux_data", "flag1", "flag2");
 			}
 			public raux1_struct(NativeLong aux_data, byte flag1, byte flag2) {
@@ -80,7 +80,7 @@ public class odbmdl extends Structure {
 			public raux2_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("aux_data", "flag1", "flag2");
 			}
 			public raux2_struct(NativeLong aux_data, byte flag1, byte flag2) {
@@ -146,7 +146,7 @@ public class odbmdl extends Structure {
 	public odbmdl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "modal");
 	}
 	public odbmdl(short datano, short type, modal_union modal) {

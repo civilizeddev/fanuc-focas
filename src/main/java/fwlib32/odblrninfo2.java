@@ -32,7 +32,7 @@ public class odblrninfo2 extends Structure {
 	public odblrninfo2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name", "dummy1", "axis", "year", "month", "day", "hour", "minute", "second", "comment", "dummy2");
 	}
 	public odblrninfo2(Pointer peer) {

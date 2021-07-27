@@ -20,7 +20,7 @@ public class iodbzofs64 extends Structure {
 	public iodbzofs64() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "dummy", "data");
 	}
 	public iodbzofs64(short datano, short type, short dummy[], realdata data[]) {

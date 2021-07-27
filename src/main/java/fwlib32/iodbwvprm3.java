@@ -38,7 +38,7 @@ public class iodbwvprm3 extends Structure {
 				public ax_struct() {
 					super();
 				}
-				protected List<? > getFieldOrder() {
+				protected List<String> getFieldOrder() {
 					return Arrays.asList("axis", "reserve3");
 				}
 				public ax_struct(NativeLong axis, NativeLong reserve3) {
@@ -65,7 +65,7 @@ public class iodbwvprm3 extends Structure {
 				public io_struct() {
 					super();
 				}
-				protected List<? > getFieldOrder() {
+				protected List<String> getFieldOrder() {
 					return Arrays.asList("unittype", "adr", "bit", "no", "reserve3");
 				}
 				public io_struct(short unittype, byte adr, byte bit, short no, short reserve3) {
@@ -112,7 +112,7 @@ public class iodbwvprm3 extends Structure {
 		public ch_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("kind", "reserve2", "u");
 		}
 		public ch_struct(short kind, short reserve2, u_union u) {
@@ -134,7 +134,7 @@ public class iodbwvprm3 extends Structure {
 	public iodbwvprm3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("condition", "trg_unittype", "trg_adr", "trg_bit", "trg_no", "alm_kind", "alm_no", "alm_axis", "reserve1", "delay", "t_range", "wav_cycle", "dio_cycle", "ch");
 	}
 	public iodbwvprm3(Pointer peer) {

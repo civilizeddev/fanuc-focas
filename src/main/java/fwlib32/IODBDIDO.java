@@ -23,7 +23,7 @@ public class IODBDIDO extends Structure {
 	public IODBDIDO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slave_no", "slot_no", "di_size", "di_type", "di_addr", "do_size", "do_type", "do_addr", "shift", "module_dlen", "module_data");
 	}
 	public IODBDIDO(Pointer peer) {

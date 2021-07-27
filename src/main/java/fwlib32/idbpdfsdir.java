@@ -17,7 +17,7 @@ public class idbpdfsdir extends Structure {
 	public idbpdfsdir() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("path", "req_num", "dummy");
 	}
 	public idbpdfsdir(byte path[], short req_num, short dummy) {

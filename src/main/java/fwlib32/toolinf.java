@@ -16,7 +16,7 @@ public class toolinf extends Structure {
 	public toolinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("tcode", "magazin", "pot");
 	}
 	public toolinf(NativeLong tcode, NativeLong magazin, NativeLong pot) {

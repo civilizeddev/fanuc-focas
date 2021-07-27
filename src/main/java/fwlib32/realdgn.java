@@ -17,7 +17,7 @@ public class realdgn extends Structure {
 	public realdgn() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dgn_val", "dec_val");
 	}
 	public realdgn(NativeLong dgn_val, NativeLong dec_val) {

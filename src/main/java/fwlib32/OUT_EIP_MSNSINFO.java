@@ -15,7 +15,7 @@ public class OUT_EIP_MSNSINFO extends Structure {
 	public OUT_EIP_MSNSINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ModuleStatus", "NetworkStatus", "pad");
 	}
 	public OUT_EIP_MSNSINFO(byte ModuleStatus, byte NetworkStatus, byte pad[]) {

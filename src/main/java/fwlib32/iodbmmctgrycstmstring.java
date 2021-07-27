@@ -14,7 +14,7 @@ public class iodbmmctgrycstmstring extends Structure {
 	public iodbmmctgrycstmstring() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("string", "reserve");
 	}
 	public iodbmmctgrycstmstring(byte string[], byte reserve[]) {

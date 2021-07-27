@@ -23,7 +23,7 @@ public class odbpmcadrinfo extends Structure {
 	public odbpmcadrinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sPmcUnit", "sAdrType", "iAdrNum", "sBitPos", "sDataType");
 	}
 	public odbpmcadrinfo(short sPmcUnit, short sAdrType, NativeLong iAdrNum, short sBitPos, short sDataType) {

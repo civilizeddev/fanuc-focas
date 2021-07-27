@@ -13,7 +13,7 @@ public class OUT_ALLSLVTBL extends Structure {
 	public OUT_ALLSLVTBL() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_tbl");
 	}
 	public OUT_ALLSLVTBL(T_SLVTBL slv_tbl[]) {

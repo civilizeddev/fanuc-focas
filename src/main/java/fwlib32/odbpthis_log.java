@@ -15,7 +15,7 @@ public class odbpthis_log extends Structure {
 	public odbpthis_log() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("issub", "kind", "number");
 	}
 	public odbpthis_log(byte issub, byte kind, short number) {

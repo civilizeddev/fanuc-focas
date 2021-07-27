@@ -13,7 +13,7 @@ public class OUT_DNMNODE extends Structure {
 	public OUT_DNMNODE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("node");
 	}
 	public OUT_DNMNODE(byte node[]) {

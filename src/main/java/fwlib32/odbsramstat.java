@@ -16,7 +16,7 @@ public class odbsramstat extends Structure {
 	public odbsramstat() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("msg_kind", "msg");
 	}
 	public odbsramstat(short msg_kind, byte msg[]) {

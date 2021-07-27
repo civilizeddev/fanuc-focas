@@ -17,7 +17,7 @@ public class iodbovmst extends Structure {
 	public iodbovmst() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("adrs", "num");
 	}
 	public iodbovmst(byte adrs, NativeLong num) {

@@ -18,7 +18,7 @@ public class tagODBIFSBSLUPM extends Structure {
 	public tagODBIFSBSLUPM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slave_num", "axis_num", "axis_name");
 	}
 	public tagODBIFSBSLUPM(short slave_num, short axis_num[], byte axis_name[]) {

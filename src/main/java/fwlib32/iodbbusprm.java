@@ -33,7 +33,7 @@ public class iodbbusprm extends Structure {
 	public iodbbusprm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("fdl_add", "baudrate", "tsl", "min_tsdr", "max_tsdr", "tqui", "tset", "ttr", "gap", "hsa", "max_retry", "bp_flag", "min_slv_int", "poll_tout", "data_cntl", "reserve1", "cls2_name", "user_dlen", "user_data", "reserve2");
 	}
 	public iodbbusprm(Pointer peer) {

@@ -15,7 +15,7 @@ public class odbkeyinfo extends Structure {
 	public odbkeyinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("key");
 	}
 	public odbkeyinfo(NativeLong key[]) {

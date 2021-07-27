@@ -21,7 +21,7 @@ public class odbpmmprp extends Structure {
 	public odbpmmprp() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data", "number", "axis", "type");
 	}
 	public odbpmmprp(NativeLong data, short number, byte axis, byte type) {

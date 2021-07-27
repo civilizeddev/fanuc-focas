@@ -29,7 +29,7 @@ public class odbpthis_aux extends Structure {
 	public odbpthis_aux() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("l_value", "l_value_e", "l_value_sub", "l_value_e_sub", "repeat_sub", "repeat_e_sub", "m_code", "info1", "number", "number_sub", "table_kind", "m_count", "master_indx_no_pt", "master_indx_no_rel", "l_frac", "reserve1");
 	}
 	public odbpthis_aux(Pointer peer) {

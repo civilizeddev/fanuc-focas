@@ -14,7 +14,7 @@ public class tagODBVOLCOMP extends Structure {
 	public tagODBVOLCOMP() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("comp");
 	}
 	public tagODBVOLCOMP(NativeLong comp[]) {

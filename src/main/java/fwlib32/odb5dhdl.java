@@ -18,7 +18,7 @@ public class odb5dhdl extends Structure {
 	public odb5dhdl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name", "data", "dec", "flag", "axis");
 	}
 	public odb5dhdl(byte name[], NativeLong data, short dec, short flag, short axis) {

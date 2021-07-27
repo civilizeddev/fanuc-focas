@@ -24,7 +24,7 @@ public class odbpthis_pt extends Structure {
 	public odbpthis_pt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("time", "dist_err", "ov_time", "info1", "alarm_no", "alarm_type", "alarm_axis", "path_axis_num", "path_spdl_num", "time_frac", "reserve1");
 	}
 	public odbpthis_pt(Pointer peer) {

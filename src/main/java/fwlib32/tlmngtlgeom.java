@@ -17,7 +17,7 @@ public class tlmngtlgeom extends Structure {
 	public tlmngtlgeom() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("l_pot_num", "r_pot_num", "u_pot_num", "d_pot_num", "tl_geom_num");
 	}
 	public tlmngtlgeom(byte l_pot_num, byte r_pot_num, byte u_pot_num, byte d_pot_num, byte tl_geom_num) {

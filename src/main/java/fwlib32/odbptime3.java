@@ -16,7 +16,7 @@ public class odbptime3 extends Structure {
 	public odbptime3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("hour", "min", "sec", "dummy");
 	}
 	public odbptime3(short hour, short min, short sec, short dummy) {

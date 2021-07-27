@@ -15,7 +15,7 @@ public class odbmdgdtmsg extends Structure {
 	public odbmdgdtmsg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("message", "imgid");
 	}
 	public odbmdgdtmsg(byte message[], NativeLong imgid) {

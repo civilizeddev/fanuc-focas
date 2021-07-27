@@ -21,7 +21,7 @@ public class odbpln extends Structure {
 	public odbpln() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("point", "vect", "n_unit", "cb_form");
 	}
 	public odbpln(NativeLong point[], NativeLong vect[], byte n_unit, byte cb_form) {

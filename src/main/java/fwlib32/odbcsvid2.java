@@ -40,7 +40,7 @@ public class odbcsvid2 extends Structure {
 	public odbcsvid2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mt_spc", "mt_srn", "plc_spc", "plc_srn", "svm_spc", "svm_srn", "psm_spc", "psm_srn", "svs_see", "pss_see", "pm1_spc", "pm1_srn", "pm2_spc", "pm2_srn");
 	}
 	public odbcsvid2(Pointer peer) {

@@ -16,7 +16,7 @@ public class wseterror extends Structure {
 	public wseterror() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data", "dec", "dummy");
 	}
 	public wseterror(NativeLong data, short dec, short dummy) {

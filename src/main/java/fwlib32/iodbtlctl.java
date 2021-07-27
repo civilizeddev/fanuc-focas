@@ -22,7 +22,7 @@ public class iodbtlctl extends Structure {
 	public iodbtlctl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "used_tool", "turret_indx", "zero_tl_no", "t_axis_move", "total_punch", "t_axis_dec", "reserve", "reserves");
 	}
 	public iodbtlctl(short slct, short used_tool, short turret_indx, NativeLong zero_tl_no, NativeLong t_axis_move, NativeLong total_punch[], byte t_axis_dec, byte reserve, short reserves[]) {

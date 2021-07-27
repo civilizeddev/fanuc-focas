@@ -18,7 +18,7 @@ public class IODBSLVID extends Structure {
 	public IODBSLVID() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dis_enb", "slave_no", "nsl", "dgn_size", "dgn_type", "dgn_addr");
 	}
 	public IODBSLVID(short dis_enb, short slave_no, short nsl, byte dgn_size, byte dgn_type, short dgn_addr) {

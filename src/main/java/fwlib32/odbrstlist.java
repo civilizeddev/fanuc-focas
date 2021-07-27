@@ -17,7 +17,7 @@ public class odbrstlist extends Structure {
 	public odbrstlist() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prg_name", "dummy", "seq_no", "c_blck_cnt");
 	}
 	public odbrstlist(byte prg_name[], byte dummy[], NativeLong seq_no, NativeLong c_blck_cnt) {

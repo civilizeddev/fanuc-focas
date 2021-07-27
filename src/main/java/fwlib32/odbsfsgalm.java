@@ -14,7 +14,7 @@ public class odbsfsgalm extends Structure {
 	public odbsfsgalm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("alm_type", "alm_no");
 	}
 	public odbsfsgalm(short alm_type, short alm_no) {

@@ -14,7 +14,7 @@ public class odbaxsts_bg extends Structure {
 	public odbaxsts_bg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("flag");
 	}
 	public odbaxsts_bg(NativeLong flag) {

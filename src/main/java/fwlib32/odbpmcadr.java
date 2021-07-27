@@ -23,7 +23,7 @@ public class odbpmcadr extends Structure {
 	public odbpmcadr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("pmc_adr", "adr_attr", "adr", "top", "num");
 	}
 	public odbpmcadr(short pmc_adr, short adr_attr, NativeLong adr, NativeLong top, NativeLong num) {

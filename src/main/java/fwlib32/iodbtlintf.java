@@ -13,7 +13,7 @@ public class iodbtlintf extends Structure {
 	public iodbtlintf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("inf_tool");
 	}
 	public iodbtlintf(short inf_tool[]) {

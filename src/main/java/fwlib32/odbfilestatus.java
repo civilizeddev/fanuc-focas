@@ -21,7 +21,7 @@ public class odbfilestatus extends Structure {
 	public odbfilestatus() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("size", "min", "hour", "day", "month", "year", "reserve", "filename");
 	}
 	public odbfilestatus(NativeLong size, byte min, byte hour, byte day, byte month, short year, byte reserve[], byte filename[]) {

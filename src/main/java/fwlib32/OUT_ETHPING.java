@@ -15,7 +15,7 @@ public class OUT_ETHPING extends Structure {
 	public OUT_ETHPING() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Device", "Count", "reply");
 	}
 	public OUT_ETHPING(short Device, short Count, OUT_ETHPING1SHOT reply[]) {

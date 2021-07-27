@@ -14,7 +14,7 @@ public class T_MAS_USR extends Structure {
 	public T_MAS_USR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("master_user_data_len", "master_user_data");
 	}
 	public T_MAS_USR(short master_user_data_len, byte master_user_data[]) {

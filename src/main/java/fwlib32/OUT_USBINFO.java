@@ -19,7 +19,7 @@ public class OUT_USBINFO extends Structure {
 	public OUT_USBINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("UsbStatus", "VendorID", "ProductID", "DeviceRelease", "Manufacturer", "ProductName", "SerialNumber");
 	}
 	public OUT_USBINFO(short UsbStatus, short VendorID, short ProductID, short DeviceRelease, byte Manufacturer[], byte ProductName[], byte SerialNumber[]) {

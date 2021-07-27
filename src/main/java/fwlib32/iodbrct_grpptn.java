@@ -16,7 +16,7 @@ public class iodbrct_grpptn extends Structure {
 	public iodbrct_grpptn() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("grp_num", "ptn_num");
 	}
 	public iodbrct_grpptn(short grp_num, short ptn_num) {

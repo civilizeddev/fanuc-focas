@@ -20,7 +20,7 @@ public class OUT_FLNTEACHMSG extends Structure {
 	public OUT_FLNTEACHMSG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("MsgId", "Year", "Month", "Day", "Hour", "Minute", "Second", "Text");
 	}
 	public OUT_FLNTEACHMSG(short MsgId, byte Year, byte Month, byte Day, byte Hour, byte Minute, byte Second, byte Text[]) {

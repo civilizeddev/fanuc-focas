@@ -17,7 +17,7 @@ public class realmes extends Structure {
 	public realmes() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mes_val", "dec_val");
 	}
 	public realmes(NativeLong mes_val, NativeLong dec_val) {

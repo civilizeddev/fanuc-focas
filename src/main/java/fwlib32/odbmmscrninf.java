@@ -14,7 +14,7 @@ public class odbmmscrninf extends Structure {
 	public odbmmscrninf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("scrn_id");
 	}
 	public odbmmscrninf(NativeLong scrn_id) {

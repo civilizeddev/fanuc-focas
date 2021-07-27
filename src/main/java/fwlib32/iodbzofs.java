@@ -19,7 +19,7 @@ public class iodbzofs extends Structure {
 	public iodbzofs() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "data");
 	}
 	public iodbzofs(short datano, short type, NativeLong data[]) {

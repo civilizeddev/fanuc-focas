@@ -27,7 +27,7 @@ public class iodbedge extends Structure {
 	public iodbedge() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "angle", "power", "freq", "duty", "pier_t", "g_press", "g_kind", "r_len", "r_feed", "r_freq", "r_duty", "gap", "reserve");
 	}
 	public iodbedge(Pointer peer) {

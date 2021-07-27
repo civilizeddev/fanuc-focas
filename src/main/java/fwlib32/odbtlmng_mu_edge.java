@@ -18,7 +18,7 @@ public class odbtlmng_mu_edge extends Structure {
 	public odbtlmng_mu_edge() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data_no", "edge_no", "edge_data");
 	}
 	public odbtlmng_mu_edge(short data_no, short edge_no, odbtlmng_edge_data edge_data) {

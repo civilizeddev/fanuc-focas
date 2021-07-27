@@ -16,7 +16,7 @@ public class odbbuf extends Structure {
 	public odbbuf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "data");
 	}
 	public odbbuf(short dummy[], short data) {

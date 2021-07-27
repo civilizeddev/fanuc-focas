@@ -15,7 +15,7 @@ public class iodbtlzn extends Structure {
 	public iodbtlzn() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "data");
 	}
 	public iodbtlzn(short slct, NativeLong data[]) {

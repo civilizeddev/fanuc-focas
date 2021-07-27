@@ -16,7 +16,7 @@ public class odbup extends Structure {
 	public odbup() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "data");
 	}
 	public odbup(short dummy[], byte data[]) {

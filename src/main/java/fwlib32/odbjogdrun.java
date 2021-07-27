@@ -14,7 +14,7 @@ public class odbjogdrun extends Structure {
 	public odbjogdrun() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("jogdrun");
 	}
 	public odbjogdrun(speedelm jogdrun) {

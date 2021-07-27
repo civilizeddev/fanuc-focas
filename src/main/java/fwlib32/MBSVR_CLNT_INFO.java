@@ -15,7 +15,7 @@ public class MBSVR_CLNT_INFO extends Structure {
 	public MBSVR_CLNT_INFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("IpAddress", "ConnectTime");
 	}
 	public MBSVR_CLNT_INFO(byte IpAddress[], NativeLong ConnectTime) {

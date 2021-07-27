@@ -24,7 +24,7 @@ public class odbmsrhstinf extends Structure {
 	public odbmsrhstinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("year", "month", "day", "hour", "minute", "second", "msu_num", "path_num", "pmc_num", "nonsave", "save_trigger", "reserve");
 	}
 	public odbmsrhstinf(Pointer peer) {

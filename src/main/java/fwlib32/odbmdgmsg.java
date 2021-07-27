@@ -23,7 +23,7 @@ public class odbmdgmsg extends Structure {
 	public odbmdgmsg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("alm_no", "msgidx", "reserved", "type", "part", "level", "add_inf", "mark", "message", "cause");
 	}
 	public odbmdgmsg(Pointer peer) {

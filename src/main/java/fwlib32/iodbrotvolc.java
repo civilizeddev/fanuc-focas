@@ -15,7 +15,7 @@ public class iodbrotvolc extends Structure {
 	public iodbrotvolc() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("lin", "rot");
 	}
 	public iodbrotvolc(NativeLong lin[], NativeLong rot[]) {

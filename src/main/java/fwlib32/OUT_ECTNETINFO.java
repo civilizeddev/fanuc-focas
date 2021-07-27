@@ -14,7 +14,7 @@ public class OUT_ECTNETINFO extends Structure {
 	public OUT_ECTNETINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Esm", "Mode");
 	}
 	public OUT_ECTNETINFO(short Esm, short Mode) {

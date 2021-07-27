@@ -40,7 +40,7 @@ public class OUT_PBMCOMINFO extends Structure {
 	public OUT_PBMCOMINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cominfo");
 	}
 	public OUT_PBMCOMINFO(cominfo_union cominfo) {

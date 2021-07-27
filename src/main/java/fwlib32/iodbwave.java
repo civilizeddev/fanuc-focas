@@ -31,7 +31,7 @@ public class iodbwave extends Structure {
 				public io_struct() {
 					super();
 				}
-				protected List<? > getFieldOrder() {
+				protected List<String> getFieldOrder() {
 					return Arrays.asList("adr", "bit", "no");
 				}
 				public io_struct(byte adr, byte bit, short no) {
@@ -76,7 +76,7 @@ public class iodbwave extends Structure {
 		public ch_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("kind", "u");
 		}
 		public ch_struct(short kind, u_union u) {
@@ -97,7 +97,7 @@ public class iodbwave extends Structure {
 	public iodbwave() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("condition", "trg_adr", "trg_bit", "trg_no", "delay", "t_range", "ch");
 	}
 	public iodbwave(short condition, byte trg_adr, byte trg_bit, short trg_no, short delay, short t_range, iodbwave.ch_struct ch[]) {

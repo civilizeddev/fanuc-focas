@@ -16,7 +16,7 @@ public class odbprfinfo extends Structure {
 	public odbprfinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("series", "vers1", "vers2", "profi");
 	}
 	public odbprfinfo(short series, short vers1, short vers2, short profi) {

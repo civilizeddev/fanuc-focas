@@ -20,7 +20,7 @@ public class odbcancmd extends Structure {
 	public odbcancmd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("p_data", "q_data", "r_data", "z_data");
 	}
 	public odbcancmd(cmnddata p_data, cmnddata q_data, cmnddata r_data, cmnddata z_data) {

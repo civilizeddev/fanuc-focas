@@ -18,7 +18,7 @@ public class DNS_STATUS_INFO extends Structure {
 	public DNS_STATUS_INFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Status", "MpuStatus", "MpuState", "MpuAlarmCode", "MpuVerInfo", "pad");
 	}
 	public DNS_STATUS_INFO(byte Status, byte MpuStatus, byte MpuState, byte MpuAlarmCode, byte MpuVerInfo, byte pad[]) {

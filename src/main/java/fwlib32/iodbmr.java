@@ -25,7 +25,7 @@ public class iodbmr extends Structure {
 		public data_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("mcr_val", "dec_val");
 		}
 		public data_struct(NativeLong mcr_val, short dec_val) {
@@ -46,7 +46,7 @@ public class iodbmr extends Structure {
 	public iodbmr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano_s", "dummy", "datano_e", "data");
 	}
 	public iodbmr(short datano_s, short dummy, short datano_e, fwlib32.iodbprm.data_struct data[]) {

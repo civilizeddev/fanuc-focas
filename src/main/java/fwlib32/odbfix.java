@@ -23,7 +23,7 @@ public class odbfix extends Structure {
 	public odbfix() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mode", "pln_axes", "drl_axes", "i_pos", "r_pos", "z_pos", "cmd_cnt", "act_cnt", "cut", "shift");
 	}
 	public odbfix(Pointer peer) {

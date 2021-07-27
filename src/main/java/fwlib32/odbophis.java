@@ -29,7 +29,7 @@ public class odbophis extends Structure {
 			public rec_mdi_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("key_code", "pw_flag", "dummy");
 			}
 			public rec_mdi_struct(byte key_code, byte pw_flag, short dummy) {
@@ -61,7 +61,7 @@ public class odbophis extends Structure {
 			public rec_sgn_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("sig_name", "sig_no", "sig_old", "sig_new", "dummy");
 			}
 			public rec_sgn_struct(short sig_name, short sig_no, byte sig_old, byte sig_new, short dummy) {
@@ -105,7 +105,7 @@ public class odbophis extends Structure {
 			public rec_alm_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("alm_grp", "alm_no", "axis_no", "year", "month", "day", "hour", "minute", "second", "dummy");
 			}
 			public rec_alm_struct(Pointer peer) {
@@ -137,7 +137,7 @@ public class odbophis extends Structure {
 			public rec_date_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("evnt_type", "year", "month", "day", "hour", "minute", "second", "dummy");
 			}
 			public rec_date_struct(short evnt_type, short year, short month, short day, short hour, short minute, short second, short dummy) {
@@ -197,7 +197,7 @@ public class odbophis extends Structure {
 	public odbophis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("rec_len", "rec_type", "u");
 	}
 	public odbophis(short rec_len, short rec_type, u_union u) {

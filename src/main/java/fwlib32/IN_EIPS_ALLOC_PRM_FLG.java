@@ -33,7 +33,7 @@ public class IN_EIPS_ALLOC_PRM_FLG extends Structure {
 	public IN_EIPS_ALLOC_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("IpAddress", "Option1", "Option2", "DataUnit", "Endian", "ConfigInstance", "pad1", "ConnT2O", "ConnO2T", "reserve1", "reserve2", "ProductTrigger", "Timeout", "Reconnect", "VendorID", "DeviceType", "ProductCode", "MajorRevision", "MinorRevision", "Compatibility", "pad2");
 	}
 	public IN_EIPS_ALLOC_PRM_FLG(Pointer peer) {

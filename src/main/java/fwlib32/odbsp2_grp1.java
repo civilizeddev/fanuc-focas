@@ -21,7 +21,7 @@ public class odbsp2_grp1 extends Structure {
 	public odbsp2_grp1() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("motion", "cmd_spd", "mode", "gear", "osel", "reserved", "sig_in", "sig_out");
 	}
 	public odbsp2_grp1(NativeLong motion, short cmd_spd, byte mode, byte gear, byte osel, byte reserved[], odbsigdio sig_in, odbsigdio sig_out) {

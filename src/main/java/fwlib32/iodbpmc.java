@@ -62,7 +62,7 @@ public class iodbpmc extends Structure {
 	public iodbpmc() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type_a", "type_d", "datano_s", "datano_e", "u");
 	}
 	public iodbpmc(short type_a, short type_d, short datano_s, short datano_e, u_union u) {

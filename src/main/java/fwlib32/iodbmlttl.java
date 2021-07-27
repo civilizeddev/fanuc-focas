@@ -32,7 +32,7 @@ public class iodbmlttl extends Structure {
 	public iodbmlttl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "m_tl_no", "m_tl_radius", "m_tl_angle", "x_axis_ofs", "y_axis_ofs", "tl_shape", "tl_size_i", "tl_size_j", "tl_angle", "m_radius_dec", "m_angle_dec", "x_axis_dec", "y_axis_dec", "tl_size_i_dec", "tl_size_j_dec", "tl_angle_dec", "reserve", "reserves");
 	}
 	public iodbmlttl(Pointer peer) {

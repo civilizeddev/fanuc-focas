@@ -16,7 +16,7 @@ public class iodbtlmgr_check extends Structure {
 	public iodbtlmgr_check() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("T_code", "tool_num", "reserve");
 	}
 	public iodbtlmgr_check(NativeLong T_code, short tool_num, short reserve) {

@@ -18,7 +18,7 @@ public class idblppfbfg extends Structure {
 	public idblppfbfg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("s_no", "slct", "s_freq", "e_freq", "s_duty", "e_duty");
 	}
 	public idblppfbfg(short s_no, short slct, short s_freq, short e_freq, short s_duty, short e_duty) {

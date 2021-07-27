@@ -18,7 +18,7 @@ public class T_DGN_ADDR_ALLOC extends Structure {
 	public T_DGN_ADDR_ALLOC() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_ind_para", "dgn_path", "dgn_kind", "dgn_top_address", "dgn_size", "pad");
 	}
 	public T_DGN_ADDR_ALLOC(T_SLAVE_IND_PARA slv_ind_para, byte dgn_path, byte dgn_kind, short dgn_top_address, byte dgn_size, byte pad) {

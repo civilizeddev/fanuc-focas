@@ -35,7 +35,7 @@ public class odbtg extends Structure {
 		public data_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("tuse_num", "tool_num", "length_num", "radius_num", "tinfo");
 		}
 		public data_struct(NativeLong tuse_num, NativeLong tool_num, NativeLong length_num, NativeLong radius_num, NativeLong tinfo) {
@@ -59,7 +59,7 @@ public class odbtg extends Structure {
 	public odbtg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("grp_num", "dummy", "ntool", "life", "count", "data");
 	}
 	public odbtg(short grp_num, short dummy[], NativeLong ntool, NativeLong life, NativeLong count, fwlib32.iodbprm.data_struct data[]) {

@@ -16,7 +16,7 @@ public class EIP_UNUSE_ADDR extends Structure {
 	public EIP_UNUSE_ADDR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Param1", "Param2", "Param3");
 	}
 	public EIP_UNUSE_ADDR(short Param1, short Param2, NativeLong Param3) {

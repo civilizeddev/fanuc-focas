@@ -19,7 +19,7 @@ public class iodbaxis extends Structure {
 	public iodbaxis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("axnum", "data", "dp");
 	}
 	public iodbaxis(int axnum, NativeLong data[], NativeLong dp[]) {

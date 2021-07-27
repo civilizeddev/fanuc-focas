@@ -17,7 +17,7 @@ public class iodblppfbdt extends Structure {
 	public iodblppfbdt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ppower", "dummy", "freq", "duty", "rpower");
 	}
 	public iodblppfbdt(short ppower, short dummy, short freq[], short duty[], short rpower[]) {

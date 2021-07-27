@@ -20,7 +20,7 @@ public class tagODBIFSBLINE extends Structure {
 	public tagODBIFSBLINE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("hrv_ln", "ax_num_ln", "sp_num_ln", "pm_num_ln");
 	}
 	public tagODBIFSBLINE(short hrv_ln, short ax_num_ln, short sp_num_ln, short pm_num_ln) {

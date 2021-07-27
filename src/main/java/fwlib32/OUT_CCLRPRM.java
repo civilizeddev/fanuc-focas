@@ -29,7 +29,7 @@ public class OUT_CCLRPRM extends Structure {
 	public OUT_CCLRPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("BaudRate", "ID", "UseIDCount", "DataOnAbnormal", "Status", "RY", "RYSize", "pad1", "RX", "RXSize", "pad2", "RWw", "RWwSize", "pad3", "RWr", "RWrSize", "pad4");
 	}
 	public OUT_CCLRPRM(Pointer peer) {

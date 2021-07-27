@@ -16,7 +16,7 @@ public class MBSVR_AREA_PRM_FLG extends Structure {
 	public MBSVR_AREA_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("DatSize", "DatModAddr", "DatPmcAddr", "dummy");
 	}
 	public MBSVR_AREA_PRM_FLG(byte DatSize, byte DatModAddr, byte DatPmcAddr, byte dummy) {

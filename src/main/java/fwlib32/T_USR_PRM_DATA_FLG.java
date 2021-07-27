@@ -14,7 +14,7 @@ public class T_USR_PRM_DATA_FLG extends Structure {
 	public T_USR_PRM_DATA_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("user_prm_data_len", "user_prm_data");
 	}
 	public T_USR_PRM_DATA_FLG(byte user_prm_data_len, byte user_prm_data) {

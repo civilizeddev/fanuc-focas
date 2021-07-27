@@ -31,7 +31,7 @@ public class T_BUS_PARA extends Structure {
 	public T_BUS_PARA() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("fdl_add", "baud_rate", "tsl", "min_tsdr", "max_tsdr", "tqui", "tset", "ttr", "g", "hsa", "max_retry_limit", "bp_flag", "min_slave_interval", "poll_timeout", "data_control_time", "reserved", "master_class2_name", "mas_usr");
 	}
 	public T_BUS_PARA(Pointer peer) {

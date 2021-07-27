@@ -22,7 +22,7 @@ public class odbsv2_grp7 extends Structure {
 	public odbsv2_grp7() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("id_intp", "id_com", "id_wrn", "ed_intp", "ed_com", "ed_wrn", "sv_dat1", "sv_dat2", "sv_dat3", "sv_dat4");
 	}
 	public odbsv2_grp7(Pointer peer) {

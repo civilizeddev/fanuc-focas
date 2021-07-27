@@ -17,7 +17,7 @@ public class odbpdfdrv extends Structure {
 	public odbpdfdrv() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("max_num", "dummy", "drive");
 	}
 	public odbpdfdrv(short max_num, short dummy, byte drive[]) {

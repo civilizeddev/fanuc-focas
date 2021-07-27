@@ -22,7 +22,7 @@ public class EMBLSI extends Structure {
 	public EMBLSI() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Collision", "CarrierSenseLost", "DelayOver", "Underrun", "SendParityError", "AlignmentError", "CrcError", "Overrun", "FrameLengthViolation", "RecvParityError");
 	}
 	public EMBLSI(Pointer peer) {

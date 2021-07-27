@@ -20,7 +20,7 @@ public class iodbpi extends Structure {
 	public iodbpi() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano_s", "dummy", "datano_e", "data");
 	}
 	public iodbpi(short datano_s, short dummy, short datano_e, byte data[]) {

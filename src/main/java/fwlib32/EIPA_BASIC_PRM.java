@@ -25,7 +25,7 @@ public class EIPA_BASIC_PRM extends Structure {
 		public Status_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("Path", "Addr", "No");
 		}
 		public Status_struct(short Path, short Addr, NativeLong No) {
@@ -47,7 +47,7 @@ public class EIPA_BASIC_PRM extends Structure {
 	public EIPA_BASIC_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Common", "Option2", "AllocMax", "ConnectMax", "RPI_Min", "RPI_Max", "Status", "StatusSize");
 	}
 	public EIPA_BASIC_PRM(EIP_COMMON_PRM Common, byte Option2, byte AllocMax, short ConnectMax, short RPI_Min, short RPI_Max, Status_struct Status, NativeLong StatusSize) {

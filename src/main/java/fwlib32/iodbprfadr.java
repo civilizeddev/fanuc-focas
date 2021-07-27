@@ -23,7 +23,7 @@ public class iodbprfadr extends Structure {
 	public iodbprfadr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("di_size", "di_type", "di_addr", "reserve1", "do_size", "do_type", "do_addr", "reserve2", "dgn_size", "dgn_type", "dgn_addr");
 	}
 	public iodbprfadr(Pointer peer) {

@@ -14,7 +14,7 @@ public class IN_EIPS_ALLOC extends Structure {
 	public IN_EIPS_ALLOC() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("flg", "prm");
 	}
 	public IN_EIPS_ALLOC(IN_EIPS_ALLOC_PRM_FLG flg, EIPS_ALLOC_PRM prm) {

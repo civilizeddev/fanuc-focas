@@ -17,7 +17,7 @@ public class odbexeprg extends Structure {
 	public odbexeprg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name", "o_num");
 	}
 	public odbexeprg(byte name[], NativeLong o_num) {

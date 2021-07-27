@@ -23,7 +23,7 @@ public class odbsp2_grp2 extends Structure {
 	public odbsp2_grp2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("pos_err", "syn_err", "sp_spd", "mt_spd", "mt_cur", "ldmtr", "trq_cmd", "heat_mt", "heat_amp", "reserved");
 	}
 	public odbsp2_grp2(Pointer peer) {

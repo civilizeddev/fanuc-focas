@@ -17,7 +17,7 @@ public class odbslvst extends Structure {
 	public odbslvst() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cnfg_stat", "prm_stat", "wdg_stat", "live_stat", "ident_no");
 	}
 	public odbslvst(byte cnfg_stat, byte prm_stat, byte wdg_stat, byte live_stat, short ident_no) {

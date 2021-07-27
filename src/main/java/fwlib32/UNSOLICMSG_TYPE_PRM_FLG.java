@@ -23,7 +23,7 @@ public class UNSOLICMSG_TYPE_PRM_FLG extends Structure {
 			public Pmc_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("PathKindAddress", "Size");
 			}
 			public Pmc_struct(byte PathKindAddress, byte Size) {
@@ -47,7 +47,7 @@ public class UNSOLICMSG_TYPE_PRM_FLG extends Structure {
 			public Macro_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("PathNo", "Number");
 			}
 			public Macro_struct(byte PathNo, byte Number) {
@@ -91,7 +91,7 @@ public class UNSOLICMSG_TYPE_PRM_FLG extends Structure {
 	public UNSOLICMSG_TYPE_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Type", "dummy1", "Prm", "dummy2");
 	}
 	public UNSOLICMSG_TYPE_PRM_FLG(byte Type, byte dummy1[], Prm_union Prm, byte dummy2[]) {

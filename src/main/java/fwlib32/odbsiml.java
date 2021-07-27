@@ -19,7 +19,7 @@ public class odbsiml extends Structure {
 	public odbsiml() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("t_code", "b_code", "axis_no", "machine", "dec", "fscsl");
 	}
 	public odbsiml(NativeLong t_code, NativeLong b_code, NativeLong axis_no, NativeLong machine[], NativeLong dec[], NativeLong fscsl) {

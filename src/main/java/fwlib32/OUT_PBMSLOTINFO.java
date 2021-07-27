@@ -25,7 +25,7 @@ public class OUT_PBMSLOTINFO extends Structure {
 	public OUT_PBMSLOTINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_no", "slt_no", "di_size", "do_size", "di_path", "do_path", "di_kind", "do_kind", "di_top_address", "do_top_address", "module_type", "commstat", "reserved");
 	}
 	public OUT_PBMSLOTINFO(Pointer peer) {

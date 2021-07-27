@@ -22,7 +22,7 @@ public class UNSOLICMSG_PRM_FLG extends Structure {
 	public UNSOLICMSG_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("HostName", "Port", "RetryCount", "Timeout", "AliveTime", "dummy1", "Control", "TransmissionNumber", "dummy2", "Transmission");
 	}
 	public UNSOLICMSG_PRM_FLG(Pointer peer) {

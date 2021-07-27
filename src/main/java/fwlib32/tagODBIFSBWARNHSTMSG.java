@@ -27,7 +27,7 @@ public class tagODBIFSBWARNHSTMSG extends Structure {
 	public tagODBIFSBWARNHSTMSG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("year", "month", "day", "hour", "minute", "second", "dummy", "msg_dat");
 	}
 	public tagODBIFSBWARNHSTMSG(short year, byte month, byte day, byte hour, byte minute, byte second, byte dummy, tagODBIFSBWARNINGMSG msg_dat) {

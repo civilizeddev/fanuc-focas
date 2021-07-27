@@ -22,7 +22,7 @@ public class OUT_ETHTYPE3 extends Structure {
 	public OUT_ETHTYPE3() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Kind", "KindFLnet", "Pad", "FunctionEmb", "FunctionEmbPcm", "FunctionBoard", "FunctionEmbCe", "FunctionEmbCePcm", "FunctionReserve");
 	}
 	public OUT_ETHTYPE3(NativeLong Kind, short KindFLnet, short Pad, NativeLong FunctionEmb, NativeLong FunctionEmbPcm, NativeLong FunctionBoard, NativeLong FunctionEmbCe, NativeLong FunctionEmbCePcm, NativeLong FunctionReserve) {

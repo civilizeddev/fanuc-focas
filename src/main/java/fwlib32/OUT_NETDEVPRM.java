@@ -40,7 +40,7 @@ public class OUT_NETDEVPRM extends Structure {
 	public OUT_NETDEVPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prm");
 	}
 	public OUT_NETDEVPRM(prm_union prm) {

@@ -15,7 +15,7 @@ public class PNC_PARAM_W extends Structure {
 	public PNC_PARAM_W() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Common", "Ping", "Setting");
 	}
 	public PNC_PARAM_W(PNC_COMMON_PARAM_W Common, PNC_PING_PARAM Ping, PNC_SETTING_PARAM_W Setting) {

@@ -15,7 +15,7 @@ public class fwlibprmw extends Structure {
 	public fwlibprmw() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("TcpPort", "UdpPort", "UdpInterval");
 	}
 	public fwlibprmw(short TcpPort, short UdpPort, short UdpInterval) {

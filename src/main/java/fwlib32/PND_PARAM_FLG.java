@@ -32,7 +32,7 @@ public class PND_PARAM_FLG extends Structure {
 	public PND_PARAM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("OwnIpAddress", "SubNetmask", "RouterIpAddress", "DnsServer1IpAddress", "DnsServer2IpAddress", "OwnHostName", "OwnDomain", "PingIpAddress", "PingCount", "PnDeviceMode", "DiDataOnAbnormal", "BasicOption1", "BasicOption2", "AllocOption1", "AllocOption2", "DiData", "DoData", "Status", "DeviceName", "pad2");
 	}
 	public PND_PARAM_FLG(Pointer peer) {

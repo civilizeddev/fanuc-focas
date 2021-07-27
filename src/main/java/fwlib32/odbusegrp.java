@@ -25,7 +25,7 @@ public class odbusegrp extends Structure {
 	public odbusegrp() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("next", "use", "slct", "opt_next", "opt_use", "opt_slct");
 	}
 	public odbusegrp(NativeLong next, NativeLong use, NativeLong slct, NativeLong opt_next, NativeLong opt_use, NativeLong opt_slct) {

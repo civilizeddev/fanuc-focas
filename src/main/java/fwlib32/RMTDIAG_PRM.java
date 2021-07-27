@@ -15,7 +15,7 @@ public class RMTDIAG_PRM extends Structure {
 	public RMTDIAG_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("MtbInformation", "MachineInformation", "opposite");
 	}
 	public RMTDIAG_PRM(byte MtbInformation[], byte MachineInformation[], RMTDIAG_CLIENT_PRM opposite[]) {

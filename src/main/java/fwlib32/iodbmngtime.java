@@ -15,7 +15,7 @@ public class iodbmngtime extends Structure {
 	public iodbmngtime() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("life", "total");
 	}
 	public iodbmngtime(NativeLong life, NativeLong total) {

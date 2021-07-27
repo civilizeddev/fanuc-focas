@@ -19,7 +19,7 @@ public class sramaddr extends Structure {
 	public sramaddr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type", "size", "offset");
 	}
 	public sramaddr(short type, NativeLong size, NativeLong offset) {

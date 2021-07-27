@@ -30,7 +30,7 @@ public class odbdischrg extends Structure {
 	public odbdischrg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("aps", "year", "month", "day", "hour", "minute", "second", "hpc", "hfq", "hdt", "hpa", "hce", "rfi", "rfv", "dci", "dcv", "dcw");
 	}
 	public odbdischrg(Pointer peer) {

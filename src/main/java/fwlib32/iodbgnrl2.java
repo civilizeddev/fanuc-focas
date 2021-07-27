@@ -18,7 +18,7 @@ public class iodbgnrl2 extends Structure {
 	public iodbgnrl2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "sgnal");
 	}
 	public iodbgnrl2(short datano, short type, short sgnal) {

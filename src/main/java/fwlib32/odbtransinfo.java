@@ -25,7 +25,7 @@ public class odbtransinfo extends Structure {
 	public odbtransinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mas_buff_size", "trans_start_reqflag", "trans_end_reqflag", "trans_start_respflag", "trans_end_respflag", "all_transfer_size", "data_id", "reserve", "data_write_pt", "data_read_pt", "accumulation_counter", "forwarding_status");
 	}
 	public odbtransinfo(Pointer peer) {

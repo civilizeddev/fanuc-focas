@@ -16,7 +16,7 @@ public class OPMSGMPS extends Structure {
 	public OPMSGMPS() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "char_num", "data");
 	}
 	public OPMSGMPS(short datano, short type, short char_num, byte data[]) {

@@ -15,7 +15,7 @@ public class odbrenplt extends Structure {
 	public odbrenplt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("delay_time", "data_flag", "pos_data");
 	}
 	public odbrenplt(short delay_time, short data_flag, short pos_data[]) {

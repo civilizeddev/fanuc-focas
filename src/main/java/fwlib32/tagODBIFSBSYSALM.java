@@ -24,7 +24,7 @@ public class tagODBIFSBSYSALM extends Structure {
 	public tagODBIFSBSYSALM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("num_sys_alm", "error_line", "error_slvnum1", "error_slvnum2", "year", "mon", "day", "hour", "min", "sec", "alarm_cause");
 	}
 	public tagODBIFSBSYSALM(Pointer peer) {

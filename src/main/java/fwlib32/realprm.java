@@ -17,7 +17,7 @@ public class realprm extends Structure {
 	public realprm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prm_val", "dec_val");
 	}
 	public realprm(NativeLong prm_val, NativeLong dec_val) {

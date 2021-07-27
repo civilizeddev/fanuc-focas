@@ -58,7 +58,7 @@ public class iodbsimuelm2 extends Structure {
 			public rapid_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("mv_p");
 			}
 			public rapid_struct(NativeLong mv_p[]) {
@@ -82,7 +82,7 @@ public class iodbsimuelm2 extends Structure {
 			public line_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("mv_p");
 			}
 			public line_struct(NativeLong mv_p[]) {
@@ -107,7 +107,7 @@ public class iodbsimuelm2 extends Structure {
 			public arc_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("mv_p", "cnt_p");
 			}
 			public arc_struct(NativeLong mv_p[], NativeLong cnt_p[]) {
@@ -135,7 +135,7 @@ public class iodbsimuelm2 extends Structure {
 			public thrd1_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("mv_p", "ptch");
 			}
 			public thrd1_struct(NativeLong mv_p[], NativeLong ptch) {
@@ -162,7 +162,7 @@ public class iodbsimuelm2 extends Structure {
 			public thrd2_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("mv_p", "ptch", "mv_p2");
 			}
 			public thrd2_struct(NativeLong mv_p[], NativeLong ptch, NativeLong mv_p2[]) {
@@ -190,7 +190,7 @@ public class iodbsimuelm2 extends Structure {
 			public dummy_d_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("mv_p");
 			}
 			public dummy_d_struct(NativeLong mv_p[]) {
@@ -255,7 +255,7 @@ public class iodbsimuelm2 extends Structure {
 	public iodbsimuelm2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type", "rot_w", "type2", "plane", "tcode", "data", "dm_type", "cssc_md", "dm_x", "dm_y", "dm_z", "cnt_x", "cord", "tlchng", "fd_type", "mcode", "dummy4", "cylndr", "aux", "dcode", "smax", "dwell", "fcode", "scode", "nummcd", "fcddec", "shift", "fbsft", "tilt", "dummy6", "mcode2", "mcode3", "mcode4", "mcode5", "reserve");
 	}
 	public iodbsimuelm2(Pointer peer) {

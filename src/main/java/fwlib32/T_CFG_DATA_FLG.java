@@ -14,7 +14,7 @@ public class T_CFG_DATA_FLG extends Structure {
 	public T_CFG_DATA_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("cfg_data_len", "cfg_data");
 	}
 	public T_CFG_DATA_FLG(byte cfg_data_len, byte cfg_data) {

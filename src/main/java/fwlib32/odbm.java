@@ -21,7 +21,7 @@ public class odbm extends Structure {
 	public odbm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "dummy", "mcr_val", "dec_val");
 	}
 	public odbm(short datano, short dummy, NativeLong mcr_val, short dec_val) {

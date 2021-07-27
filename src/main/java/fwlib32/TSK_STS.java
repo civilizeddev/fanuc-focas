@@ -14,7 +14,7 @@ public class TSK_STS extends Structure {
 	public TSK_STS() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("StsId", "Status");
 	}
 	public TSK_STS(short StsId, byte Status[]) {

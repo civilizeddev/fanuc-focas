@@ -19,7 +19,7 @@ public class odb3dcd extends Structure {
 	public odb3dcd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mode", "dno", "cd_axes", "center", "direct", "angle");
 	}
 	public odb3dcd(short mode, short dno, short cd_axes[], NativeLong center[], NativeLong direct[], NativeLong angle[]) {

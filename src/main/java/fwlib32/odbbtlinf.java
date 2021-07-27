@@ -18,7 +18,7 @@ public class odbbtlinf extends Structure {
 	public odbbtlinf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ofs_type", "use_no", "sub_no");
 	}
 	public odbbtlinf(short ofs_type, short use_no, short sub_no) {

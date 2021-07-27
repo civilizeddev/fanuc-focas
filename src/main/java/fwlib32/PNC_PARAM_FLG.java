@@ -24,7 +24,7 @@ public class PNC_PARAM_FLG extends Structure {
 	public PNC_PARAM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("OwnIpAddress", "SubNetmask", "RouterIpAddress", "PingIpAddress", "PingCount", "PnControllerMode", "BasicOption1", "reserve1", "DiAddrTop", "DoAddrTop", "Status", "reserve2");
 	}
 	public PNC_PARAM_FLG(Pointer peer) {

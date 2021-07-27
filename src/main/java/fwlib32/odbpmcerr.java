@@ -14,7 +14,7 @@ public class odbpmcerr extends Structure {
 	public odbpmcerr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("err_no", "err_dtno");
 	}
 	public odbpmcerr(short err_no, short err_dtno) {

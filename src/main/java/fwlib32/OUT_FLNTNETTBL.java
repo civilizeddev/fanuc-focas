@@ -18,7 +18,7 @@ public class OUT_FLNTNETTBL extends Structure {
 	public OUT_FLNTNETTBL() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("TokenNode", "MinFrame", "Rct", "Rcm", "MaxRcm", "MinRcm");
 	}
 	public OUT_FLNTNETTBL(byte TokenNode, byte MinFrame, short Rct, short Rcm, short MaxRcm, short MinRcm) {

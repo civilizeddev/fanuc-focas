@@ -17,7 +17,7 @@ public class odbsvfback extends Structure {
 	public odbsvfback() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "dtype", "fback", "afback");
 	}
 	public odbsvfback(short dummy, short dtype, NativeLong fback[], NativeLong afback[]) {

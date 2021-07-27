@@ -14,7 +14,7 @@ public class prginf extends Structure {
 	public prginf() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prgid");
 	}
 	public prginf(NativeLong prgid[]) {

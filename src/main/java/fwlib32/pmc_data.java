@@ -16,7 +16,7 @@ public class pmc_data extends Structure {
 	public pmc_data() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("unittype", "adr", "bit", "no");
 	}
 	public pmc_data(short unittype, byte adr, byte bit, short no) {

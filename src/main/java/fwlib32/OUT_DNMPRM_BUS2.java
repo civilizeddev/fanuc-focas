@@ -25,7 +25,7 @@ public class OUT_DNMPRM_BUS2 extends Structure {
 	public OUT_DNMPRM_BUS2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Network", "BaudRate", "DiDataOnAbnormal", "OwnMacId", "CommonStatus", "CommonStatusSize", "CycleTimeSetting", "CycleTimeCurrent", "CycleTimeMaximum", "CycleTimeMinimum", "RefreshTime", "Option", "reserved");
 	}
 	public OUT_DNMPRM_BUS2(Pointer peer) {

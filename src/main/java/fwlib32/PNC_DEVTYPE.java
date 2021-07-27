@@ -16,7 +16,7 @@ public class PNC_DEVTYPE extends Structure {
 	public PNC_DEVTYPE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Kind", "pad", "FunctionPnc");
 	}
 	public PNC_DEVTYPE(short Kind, byte pad[], NativeLong FunctionPnc) {

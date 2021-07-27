@@ -14,7 +14,7 @@ public class IN_EIPS_BASIC extends Structure {
 	public IN_EIPS_BASIC() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("flg", "prm");
 	}
 	public IN_EIPS_BASIC(IN_EIPS_BASIC_PRM_FLG flg, EIPS_BASIC_PRM prm) {

@@ -13,7 +13,7 @@ public class OUT_DNMERR extends Structure {
 	public OUT_DNMERR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("record");
 	}
 	public OUT_DNMERR(OUT_DNMERR_RECORD record[]) {

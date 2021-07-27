@@ -21,7 +21,7 @@ public class iodbtgi4 extends Structure {
 	public iodbtgi4() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("grp_no", "n_tool", "count_value", "counter", "count_type", "opt_grpno", "life_rest");
 	}
 	public iodbtgi4(short grp_no, NativeLong n_tool, NativeLong count_value, NativeLong counter, NativeLong count_type, NativeLong opt_grpno, NativeLong life_rest) {

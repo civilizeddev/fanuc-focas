@@ -16,7 +16,7 @@ public class odbhnd extends Structure {
 	public odbhnd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("input", "output");
 	}
 	public odbhnd(poselm input, poselm output) {

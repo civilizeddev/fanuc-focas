@@ -15,7 +15,7 @@ public class T_MODULE_DATA_FLG extends Structure {
 	public T_MODULE_DATA_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slt_ind_para", "module_len", "module_data");
 	}
 	public T_MODULE_DATA_FLG(T_SLOT_IND_PARA_FLG slt_ind_para, byte module_len, byte module_data) {

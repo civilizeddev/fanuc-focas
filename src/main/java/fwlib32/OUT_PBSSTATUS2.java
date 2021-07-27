@@ -19,7 +19,7 @@ public class OUT_PBSSTATUS2 extends Structure {
 	public OUT_PBSSTATUS2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("config_sts", "param_sts", "watchdog_sts", "pad1", "ident_no", "sts", "pad2");
 	}
 	public OUT_PBSSTATUS2(byte config_sts, byte param_sts, byte watchdog_sts, byte pad1, short ident_no, byte sts, byte pad2) {

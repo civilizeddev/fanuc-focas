@@ -14,7 +14,7 @@ public class iodbmagprty2 extends Structure {
 	public iodbmagprty2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mag", "reserve");
 	}
 	public iodbmagprty2(short mag, short reserve) {

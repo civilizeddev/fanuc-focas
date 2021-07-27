@@ -25,7 +25,7 @@ public class speedelm extends Structure {
 	public speedelm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data", "dec", "unit", "disp", "name", "suff");
 	}
 	public speedelm(NativeLong data, short dec, short unit, short disp, byte name, byte suff) {

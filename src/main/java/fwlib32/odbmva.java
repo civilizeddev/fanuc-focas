@@ -25,7 +25,7 @@ public class odbmva extends Structure {
 		public lin_ax_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("axis_no", "mov_dir");
 		}
 		public lin_ax_struct(short axis_no, short mov_dir) {
@@ -59,7 +59,7 @@ public class odbmva extends Structure {
 		public rot_ax_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("axis_no", "c_ax_dir", "c_pos", "inc_ang", "rot_dir", "reserve");
 		}
 		public rot_ax_struct(short axis_no, short c_ax_dir, NativeLong c_pos[], NativeLong inc_ang, short rot_dir, short reserve) {
@@ -91,7 +91,7 @@ public class odbmva extends Structure {
 		public rot_ele_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("master", "slave");
 		}
 		public rot_ele_struct(short master, short slave) {
@@ -112,7 +112,7 @@ public class odbmva extends Structure {
 	public odbmva() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sync_obj", "path", "lin_ax", "rot_ax", "rot_ele");
 	}
 	public odbmva(short sync_obj, short path, odbmva.lin_ax_struct lin_ax[], odbmva.rot_ax_struct rot_ax[], odbmva.rot_ele_struct rot_ele[]) {

@@ -42,7 +42,7 @@ public class tagIODBFSSBAXIS extends Structure {
 	public tagIODBFSSBAXIS() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("axis_num", "reserve1", "axis_name", "amp_name", "m1", "m2", "m3", "m4", "dsp1", "cs", "tndm", "reserve2");
 	}
 	public tagIODBFSSBAXIS(Pointer peer) {

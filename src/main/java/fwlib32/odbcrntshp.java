@@ -28,7 +28,7 @@ public class odbcrntshp extends Structure {
 			public par_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("base_pos", "vect1", "vect2", "vect3");
 			}
 			public par_struct(double base_pos[], double vect1[], double vect2[], double vect3[]) {
@@ -63,7 +63,7 @@ public class odbcrntshp extends Structure {
 			public cyl_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("vect1", "vect2", "v");
 			}
 			public cyl_struct(double vect1[], double vect2[], double v) {
@@ -92,7 +92,7 @@ public class odbcrntshp extends Structure {
 			public pln_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("point", "vect");
 			}
 			public pln_struct(double point[], double vect[]) {
@@ -145,7 +145,7 @@ public class odbcrntshp extends Structure {
 	public odbcrntshp() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("fig_type", "reserve", "fig", "cb_form", "reserve2");
 	}
 	public odbcrntshp(NativeLong fig_type, NativeLong reserve, fig_union fig, byte cb_form, byte reserve2[]) {

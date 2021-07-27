@@ -17,7 +17,7 @@ public class odbahdck extends Structure {
 		public info_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("stat", "data");
 		}
 		public info_struct(short stat, short data) {
@@ -38,7 +38,7 @@ public class odbahdck extends Structure {
 	public odbahdck() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dat_path", "info");
 	}
 	public odbahdck(short dat_path, fwlib32.odbparaif.info_struct info[]) {

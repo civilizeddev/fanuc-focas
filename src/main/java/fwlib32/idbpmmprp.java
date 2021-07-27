@@ -21,7 +21,7 @@ public class idbpmmprp extends Structure {
 	public idbpmmprp() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("chanl", "group", "folder", "warn");
 	}
 	public idbpmmprp(NativeLong chanl, NativeLong group, byte folder[], NativeLong warn) {

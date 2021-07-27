@@ -23,7 +23,7 @@ public class IN_DNMPRM_SLAVE extends Structure {
 	public IN_DNMPRM_SLAVE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("reserved1", "Communication", "reserved2", "DetailStatus", "reserved3", "Di", "DiSize", "reserved4", "Do", "DoSize", "reserved5");
 	}
 	public IN_DNMPRM_SLAVE(Pointer peer) {

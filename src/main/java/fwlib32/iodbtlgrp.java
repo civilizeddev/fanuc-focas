@@ -31,7 +31,7 @@ public class iodbtlgrp extends Structure {
 	public iodbtlgrp() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ntool", "nfree", "life", "count", "use_tool", "opt_grpno", "life_rest", "rest_sig", "count_type");
 	}
 	public iodbtlgrp(NativeLong ntool, NativeLong nfree, NativeLong life, NativeLong count, NativeLong use_tool, NativeLong opt_grpno, NativeLong life_rest, short rest_sig, short count_type) {

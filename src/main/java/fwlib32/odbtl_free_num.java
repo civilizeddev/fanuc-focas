@@ -24,7 +24,7 @@ public class odbtl_free_num extends Structure {
 	public odbtl_free_num() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("edge_gp", "ofs_h", "ofs_d", "ofs_g", "ofs_w", "reserve");
 	}
 	public odbtl_free_num(short edge_gp, short ofs_h, short ofs_d, short ofs_g, short ofs_w, short reserve[]) {

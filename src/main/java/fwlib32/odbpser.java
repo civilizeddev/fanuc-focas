@@ -15,7 +15,7 @@ public class odbpser extends Structure {
 	public odbpser() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("poserr1", "poserr2");
 	}
 	public odbpser(NativeLong poserr1, NativeLong poserr2) {

@@ -20,7 +20,7 @@ public class dcscrsalm extends Structure {
 		public pmc_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("pmc_adr");
 		}
 		public pmc_struct(byte pmc_adr[]) {
@@ -45,7 +45,7 @@ public class dcscrsalm extends Structure {
 		public dcspmc_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("pmc_adr");
 		}
 		public dcspmc_struct(byte pmc_adr[]) {
@@ -67,7 +67,7 @@ public class dcscrsalm extends Structure {
 	public dcscrsalm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("existFlag", "pmc_no", "pmc", "dcspmc");
 	}
 	public dcscrsalm(NativeLong existFlag, NativeLong pmc_no, pmc_struct pmc, dcspmc_struct dcspmc) {

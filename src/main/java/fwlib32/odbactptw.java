@@ -21,7 +21,7 @@ public class odbactptw extends Structure {
 	public odbactptw() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mprgno", "mblkno", "sprgno", "sblkno");
 	}
 	public odbactptw(NativeLong mprgno, NativeLong mblkno, NativeLong sprgno, NativeLong sblkno) {

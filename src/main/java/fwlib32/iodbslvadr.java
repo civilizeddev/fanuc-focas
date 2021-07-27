@@ -20,7 +20,7 @@ public class iodbslvadr extends Structure {
 	public iodbslvadr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slave_no", "di_size", "di_type", "di_addr", "do_size", "do_type", "do_addr", "reserve");
 	}
 	public iodbslvadr(byte slave_no, byte di_size, byte di_type, short di_addr, byte do_size, byte do_type, short do_addr, byte reserve[]) {

@@ -17,7 +17,7 @@ public class odbpowchis extends Structure {
 	public odbpowchis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("get_time", "powc_axis", "powc_spindle", "powc_outer");
 	}
 	public odbpowchis(NativeLong get_time, NativeLong powc_axis, NativeLong powc_spindle, NativeLong powc_outer) {

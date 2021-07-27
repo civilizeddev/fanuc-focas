@@ -15,7 +15,7 @@ public class dcsmca extends Structure {
 	public dcsmca() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mgrp_no", "mcc_test_inf");
 	}
 	public dcsmca(NativeLong mgrp_no, fwlib32.dcsmcc.ByReference mcc_test_inf) {

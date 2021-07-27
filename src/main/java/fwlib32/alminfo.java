@@ -24,7 +24,7 @@ public class alminfo extends Structure {
 				public alm_struct() {
 					super();
 				}
-				protected List<? > getFieldOrder() {
+				protected List<String> getFieldOrder() {
 					return Arrays.asList("axis", "alm_no");
 				}
 				public alm_struct(NativeLong axis, short alm_no) {
@@ -45,7 +45,7 @@ public class alminfo extends Structure {
 			public alm1_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("alm", "data_end");
 			}
 			public alm1_struct(fwlib32.iodbpsd64.u_union.alm1_struct.alm_struct alm[], NativeLong data_end) {
@@ -76,7 +76,7 @@ public class alminfo extends Structure {
 				public alm_struct() {
 					super();
 				}
-				protected List<? > getFieldOrder() {
+				protected List<String> getFieldOrder() {
 					return Arrays.asList("axis", "alm_no", "msg_len", "alm_msg");
 				}
 				public alm_struct(NativeLong axis, short alm_no, short msg_len, byte alm_msg[]) {
@@ -101,7 +101,7 @@ public class alminfo extends Structure {
 			public alm2_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("alm", "data_end");
 			}
 			public alm2_struct(fwlib32.iodbpsd64.u_union.alm1_struct.alm_struct alm[], NativeLong data_end) {
@@ -147,7 +147,7 @@ public class alminfo extends Structure {
 	public alminfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("u");
 	}
 	public alminfo(u_union u) {

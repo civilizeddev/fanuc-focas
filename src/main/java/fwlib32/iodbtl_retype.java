@@ -16,7 +16,7 @@ public class iodbtl_retype extends Structure {
 	public iodbtl_retype() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type", "data_type", "renew", "reserve");
 	}
 	public iodbtl_retype(byte type, byte data_type, byte renew, byte reserve) {

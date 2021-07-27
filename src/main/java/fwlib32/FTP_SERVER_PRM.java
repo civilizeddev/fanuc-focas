@@ -15,7 +15,7 @@ public class FTP_SERVER_PRM extends Structure {
 	public FTP_SERVER_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("UserName", "Password", "LoginDirectory");
 	}
 	public FTP_SERVER_PRM(byte UserName[], byte Password[], byte LoginDirectory[]) {

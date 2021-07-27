@@ -24,7 +24,7 @@ public class tagODBPLSMDL extends Structure {
 	public tagODBPLSMDL() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("ln_num", "slave_num", "name", "type", "pcb_id", "function");
 	}
 	public tagODBPLSMDL(short ln_num, short slave_num, byte name[], byte type[], byte pcb_id[], byte function[]) {

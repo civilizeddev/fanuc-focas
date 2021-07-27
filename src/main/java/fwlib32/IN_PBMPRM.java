@@ -70,7 +70,7 @@ public class IN_PBMPRM extends Structure {
 	public IN_PBMPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prm");
 	}
 	public IN_PBMPRM(prm_union prm) {

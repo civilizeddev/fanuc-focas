@@ -15,7 +15,7 @@ public class ODBMCSHEAD extends Structure {
 	public ODBMCSHEAD() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("layout", "string1", "string2");
 	}
 	public ODBMCSHEAD(byte layout, byte string1[], byte string2[]) {

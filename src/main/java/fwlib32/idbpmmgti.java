@@ -17,7 +17,7 @@ public class idbpmmgti extends Structure {
 	public idbpmmgti() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("top", "num");
 	}
 	public idbpmmgti(NativeLong top, NativeLong num) {

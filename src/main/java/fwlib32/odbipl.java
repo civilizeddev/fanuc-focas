@@ -18,7 +18,7 @@ public class odbipl extends Structure {
 	public odbipl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("outpt", "ipltp", "mv", "inp");
 	}
 	public odbipl(byte outpt, byte ipltp, byte mv, byte inp) {

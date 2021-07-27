@@ -26,7 +26,7 @@ public class odbwvdt2 extends Structure {
 			public w_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("axis", "kind");
 			}
 			public w_struct(short axis, byte kind) {
@@ -51,7 +51,7 @@ public class odbwvdt2 extends Structure {
 			public io_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("no", "adr", "bit");
 			}
 			public io_struct(short no, byte adr, byte bit) {
@@ -103,7 +103,7 @@ public class odbwvdt2 extends Structure {
 		public start_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("year", "month", "day", "hour", "minute", "second");
 		}
 		public start_struct(byte year, byte month, byte day, byte hour, byte minute, byte second) {
@@ -135,7 +135,7 @@ public class odbwvdt2 extends Structure {
 		public stop_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("year", "month", "day", "hour", "minute", "second");
 		}
 		public stop_struct(byte year, byte month, byte day, byte hour, byte minute, byte second) {
@@ -160,7 +160,7 @@ public class odbwvdt2 extends Structure {
 	public odbwvdt2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("channel", "u", "start", "stop", "t_cycle", "adjust", "data");
 	}
 	public odbwvdt2(short channel, u_union u, start_struct start, stop_struct stop, short t_cycle, short adjust, short data[]) {

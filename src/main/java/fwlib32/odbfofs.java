@@ -15,7 +15,7 @@ public class odbfofs extends Structure {
 	public odbfofs() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mcrval", "decval");
 	}
 	public odbfofs(NativeLong mcrval, short decval) {

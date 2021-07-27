@@ -16,7 +16,7 @@ public class iodbsigad extends Structure {
 	public iodbsigad() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("adr", "reserve", "no", "size");
 	}
 	public iodbsigad(byte adr, byte reserve, short no, short size) {

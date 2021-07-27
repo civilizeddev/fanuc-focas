@@ -20,7 +20,7 @@ public class msg extends Structure {
 	public msg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "char_num", "data");
 	}
 	public msg(short datano, short type, short char_num, byte data[]) {

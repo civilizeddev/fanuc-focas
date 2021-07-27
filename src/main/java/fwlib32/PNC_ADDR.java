@@ -17,7 +17,7 @@ public class PNC_ADDR extends Structure {
 	public PNC_ADDR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Path", "Kind", "Addr", "Size");
 	}
 	public PNC_ADDR(short Path, short Kind, NativeLong Addr, NativeLong Size) {

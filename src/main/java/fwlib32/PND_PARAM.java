@@ -15,7 +15,7 @@ public class PND_PARAM extends Structure {
 	public PND_PARAM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Common", "Ping", "Setting");
 	}
 	public PND_PARAM(PND_COMMON_PARAM Common, PND_PING_PARAM Ping, PND_SETTING_PARAM Setting) {

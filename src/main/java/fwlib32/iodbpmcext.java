@@ -26,7 +26,7 @@ public class iodbpmcext extends Structure {
 	public iodbpmcext() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type_a", "type_d", "datano_s", "datano_e", "err_code", "reserved", "data");
 	}
 	public iodbpmcext(short type_a, short type_d, short datano_s, short datano_e, short err_code, short reserved, Pointer data) {

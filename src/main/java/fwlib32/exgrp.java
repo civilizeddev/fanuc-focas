@@ -17,7 +17,7 @@ public class exgrp extends Structure {
 	public exgrp() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("grp_no", "opt_grpno");
 	}
 	public exgrp(NativeLong grp_no, NativeLong opt_grpno) {

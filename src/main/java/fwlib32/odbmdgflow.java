@@ -19,7 +19,7 @@ public class odbmdgflow extends Structure {
 	public odbmdgflow() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("msgidx", "yesidx", "noidx", "reserved", "message", "detail", "operate");
 	}
 	public odbmdgflow(short msgidx, short yesidx, short noidx, short reserved, byte message[], short detail, short operate) {

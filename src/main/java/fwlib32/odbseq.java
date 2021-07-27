@@ -17,7 +17,7 @@ public class odbseq extends Structure {
 	public odbseq() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "data");
 	}
 	public odbseq(short dummy[], NativeLong data) {

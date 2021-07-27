@@ -26,7 +26,7 @@ public class iodbpwrctl extends Structure {
 	public iodbpwrctl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slct", "power_min", "pwr_sp_zr", "freq_min", "freq_sp_zr", "duty_min", "duty_sp_zr", "feed_r_dec", "reserve", "feed_r", "ag_press_min", "ag_press_sp_zr", "reserves");
 	}
 	public iodbpwrctl(Pointer peer) {

@@ -18,7 +18,7 @@ public class odbomif extends Structure {
 	public odbomif() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("om_max", "om_sum", "om_char");
 	}
 	public odbomif(short om_max, short om_sum, short om_char) {

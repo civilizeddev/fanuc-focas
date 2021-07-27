@@ -15,7 +15,7 @@ public class STSNTF_PRM_FLG extends Structure {
 	public STSNTF_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("PopSvrPort", "SmtpSvrPort", "UserAccount");
 	}
 	public STSNTF_PRM_FLG(byte PopSvrPort, byte SmtpSvrPort, USER_ACCOUNT_PRM_FLG UserAccount[]) {

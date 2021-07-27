@@ -13,7 +13,7 @@ public class idbrbsignal extends Structure {
 	public idbrbsignal() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("name");
 	}
 	public idbrbsignal(byte name[]) {

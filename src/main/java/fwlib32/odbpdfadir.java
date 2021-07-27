@@ -39,7 +39,7 @@ public class odbpdfadir extends Structure {
 	public odbpdfadir() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data_kind", "year", "mon", "day", "hour", "min", "sec", "dummy", "dummy2", "size", "attr", "d_f", "comment", "o_time");
 	}
 	public odbpdfadir(Pointer peer) {

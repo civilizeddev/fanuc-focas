@@ -18,7 +18,7 @@ public class tag_ODBMSUXTERM extends Structure {
 	public tag_ODBMSUXTERM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("kind", "ch", "atrb", "dec", "data");
 	}
 	public tag_ODBMSUXTERM(byte kind, byte ch, byte atrb, byte dec, NativeLong data) {

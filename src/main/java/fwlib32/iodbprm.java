@@ -28,7 +28,7 @@ public class iodbprm extends Structure {
 		public data_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("prm_val", "dec_val");
 		}
 		public data_struct(NativeLong prm_val, NativeLong dec_val) {
@@ -49,7 +49,7 @@ public class iodbprm extends Structure {
 	public iodbprm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "axis", "info", "unit", "data");
 	}
 	public iodbprm(NativeLong datano, short type, short axis, short info, short unit, iodbprm.data_struct data[]) {

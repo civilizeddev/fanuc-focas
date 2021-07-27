@@ -36,7 +36,7 @@ public class odbfig extends Structure {
 			public par_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("ref_vtx", "adj_vtx1", "adj_vtx2", "adj_vtx3");
 			}
 			public par_struct(NativeLong ref_vtx[], NativeLong adj_vtx1[], NativeLong adj_vtx2[], NativeLong adj_vtx3[]) {
@@ -74,7 +74,7 @@ public class odbfig extends Structure {
 			public cyl_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("sta_pnt", "end_pnt", "radius");
 			}
 			public cyl_struct(NativeLong sta_pnt[], NativeLong end_pnt[], NativeLong radius) {
@@ -105,7 +105,7 @@ public class odbfig extends Structure {
 			public pln_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("point", "vect");
 			}
 			public pln_struct(NativeLong point[], NativeLong vect[]) {
@@ -158,7 +158,7 @@ public class odbfig extends Structure {
 	public odbfig() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("fig_type", "fig", "fig_no", "n_unit", "cb_form");
 	}
 	public odbfig(NativeLong fig_type, fig_union fig, short fig_no, byte n_unit, byte cb_form) {

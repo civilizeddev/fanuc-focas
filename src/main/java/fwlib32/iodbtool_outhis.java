@@ -16,7 +16,7 @@ public class iodbtool_outhis extends Structure {
 	public iodbtool_outhis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("tool_no", "cause", "date", "tool_f2");
 	}
 	public iodbtool_outhis(short tool_no, short cause, iodbtool_date date, iodbtlmng_f2 tool_f2) {

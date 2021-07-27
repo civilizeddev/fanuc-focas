@@ -28,7 +28,7 @@ public class OUT_PND_MNTINFO extends Structure {
 	public OUT_PND_MNTINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Status", "pad", "VendorID", "DeviceID", "InputSize", "OutputSize", "RcvRead", "RcvWrite", "RcvRt", "RcvRtU", "RcvPause", "RcvLldp", "InputCycleTime", "OutputCycleTime", "DoRefreshTime", "DiRefreshTIme");
 	}
 	public OUT_PND_MNTINFO(Pointer peer) {

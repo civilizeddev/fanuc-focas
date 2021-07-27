@@ -17,7 +17,7 @@ public class IN_EIPS_BASIC_PRM_FLG extends Structure {
 	public IN_EIPS_BASIC_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Common", "Option2", "StatusAddr", "StatusSize", "pad");
 	}
 	public IN_EIPS_BASIC_PRM_FLG(IN_EIP_COMMON_PRM_FLG Common, byte Option2, byte StatusAddr, byte StatusSize, byte pad) {

@@ -17,7 +17,7 @@ public class OUT_FLNTSFERRTBL extends Structure {
 	public OUT_FLNTSFERRTBL() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("SelfNode", "Reserved", "EntryNode", "nodeErr");
 	}
 	public OUT_FLNTSFERRTBL(byte SelfNode, byte Reserved[], NativeLong EntryNode, NODE_ERR nodeErr[]) {

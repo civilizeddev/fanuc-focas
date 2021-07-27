@@ -22,7 +22,7 @@ public class odblat_grp1 extends Structure {
 	public odblat_grp1() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("nnum", "prog", "year", "mon", "day", "hour", "min", "sec", "reserved");
 	}
 	public odblat_grp1(NativeLong nnum, byte prog[], byte year, byte mon, byte day, byte hour, byte min, byte sec, byte reserved[]) {

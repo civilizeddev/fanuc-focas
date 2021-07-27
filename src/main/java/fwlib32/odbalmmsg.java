@@ -19,7 +19,7 @@ public class odbalmmsg extends Structure {
 	public odbalmmsg() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("alm_no", "type", "axis", "dummy", "msg_len", "alm_msg");
 	}
 	public odbalmmsg(NativeLong alm_no, short type, short axis, short dummy, short msg_len, byte alm_msg[]) {

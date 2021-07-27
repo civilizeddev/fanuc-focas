@@ -16,7 +16,7 @@ public class EACH_STS extends Structure {
 	public EACH_STS() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("StatusFlag", "ErrDetectNode", "ErrSendNode", "Reserved");
 	}
 	public EACH_STS(byte StatusFlag, byte ErrDetectNode, byte ErrSendNode, byte Reserved[]) {

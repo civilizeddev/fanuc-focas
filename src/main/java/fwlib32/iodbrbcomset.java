@@ -19,7 +19,7 @@ public class iodbrbcomset extends Structure {
 	public iodbrbcomset() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("di_top", "do_top", "power_on", "di_offset", "do_offset", "property", "reserve");
 	}
 	public iodbrbcomset(iodbrbtopsig di_top, iodbrbtopsig do_top, iodbrbpowersig power_on, short di_offset, short do_offset, byte property, byte reserve[]) {

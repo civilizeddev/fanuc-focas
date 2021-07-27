@@ -28,7 +28,7 @@ public class odblalmhis extends Structure {
 		public alm_his_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("lalm_wrg", "alm_grp", "alm_wrg_no", "year", "month", "day", "hour", "minute", "second", "len_msg", "alm_msg", "reserve");
 		}
 		public alm_his_struct(Pointer peer) {
@@ -44,7 +44,7 @@ public class odblalmhis extends Structure {
 	public odblalmhis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("s_no", "e_no", "alm_his");
 	}
 	public odblalmhis(short s_no, short e_no, fwlib32.odbahis.alm_his_struct alm_his[]) {

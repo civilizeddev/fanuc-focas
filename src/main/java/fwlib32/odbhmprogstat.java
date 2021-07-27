@@ -19,7 +19,7 @@ public class odbhmprogstat extends Structure {
 	public odbhmprogstat() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("run", "disp", "alm_no", "reserve", "prog_no", "block_no");
 	}
 	public odbhmprogstat(short run, short disp, short alm_no, short reserve, NativeLong prog_no, NativeLong block_no) {

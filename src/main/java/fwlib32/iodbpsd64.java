@@ -97,7 +97,7 @@ public class iodbpsd64 extends Structure {
 	public iodbpsd64() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "axis", "dummy", "u");
 	}
 	public iodbpsd64(short datano, short type, short axis, short dummy, u_union u) {

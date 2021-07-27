@@ -19,7 +19,7 @@ public class tagIODBPITCHBLK extends Structure {
 		public pginf_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("s_no", "e_no", "attr");
 		}
 		public pginf_struct(NativeLong s_no, NativeLong e_no, short attr) {
@@ -41,7 +41,7 @@ public class tagIODBPITCHBLK extends Structure {
 	public tagIODBPITCHBLK() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("group_num", "pginf");
 	}
 	public tagIODBPITCHBLK(short group_num, tagIODBPITCHBLK.pginf_struct pginf[]) {

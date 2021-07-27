@@ -16,7 +16,7 @@ public class OUT_FLNTDEVINFO2 extends Structure {
 	public OUT_FLNTDEVINFO2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Kind", "Pad", "FunctionFLnet");
 	}
 	public OUT_FLNTDEVINFO2(short Kind, short Pad, NativeLong FunctionFLnet) {

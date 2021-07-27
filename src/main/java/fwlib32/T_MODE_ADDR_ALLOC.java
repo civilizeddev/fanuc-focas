@@ -17,7 +17,7 @@ public class T_MODE_ADDR_ALLOC extends Structure {
 	public T_MODE_ADDR_ALLOC() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("md_path", "md_kind", "md_top_address", "md_size", "pad");
 	}
 	public T_MODE_ADDR_ALLOC(byte md_path, byte md_kind, short md_top_address, byte md_size, byte pad) {

@@ -22,7 +22,7 @@ public class dcsmcc extends Structure {
 		public time_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("hour", "minute", "second");
 		}
 		public time_struct(NativeLong hour, NativeLong minute, NativeLong second) {
@@ -44,7 +44,7 @@ public class dcsmcc extends Structure {
 	public dcsmcc() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("time", "testno", "sign");
 	}
 	public dcsmcc(time_struct time, NativeLong testno, NativeLong sign) {

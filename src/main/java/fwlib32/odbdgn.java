@@ -90,7 +90,7 @@ public class odbdgn extends Structure {
 	public odbdgn() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "u");
 	}
 	public odbdgn(short datano, short type, u_union u) {

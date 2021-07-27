@@ -14,7 +14,7 @@ public class T_SLV_USR_DATA_FLG extends Structure {
 	public T_SLV_USR_DATA_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slave_user_data_len", "slave_user_data");
 	}
 	public T_SLV_USR_DATA_FLG(byte slave_user_data_len, byte slave_user_data) {

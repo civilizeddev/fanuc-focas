@@ -16,7 +16,7 @@ public class prgdirtm extends Structure {
 	public prgdirtm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("prg_no", "comment", "cuttime");
 	}
 	public prgdirtm(NativeLong prg_no, byte comment[], byte cuttime[]) {

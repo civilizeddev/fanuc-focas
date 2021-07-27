@@ -22,7 +22,7 @@ public class OUT_PBSPRM extends Structure {
 	public OUT_PBSPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slave_no", "pad", "di_size", "do_size", "di_path", "do_path", "di_kind", "do_kind", "di_top_address", "do_top_address");
 	}
 	public OUT_PBSPRM(Pointer peer) {

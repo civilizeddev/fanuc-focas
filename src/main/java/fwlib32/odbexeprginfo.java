@@ -14,7 +14,7 @@ public class odbexeprginfo extends Structure {
 	public odbexeprginfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("before_buffering", "after_buffering");
 	}
 	public odbexeprginfo(tagEXEPRG before_buffering, tagEXEPRG after_buffering) {

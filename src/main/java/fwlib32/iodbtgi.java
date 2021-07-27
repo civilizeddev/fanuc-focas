@@ -29,7 +29,7 @@ public class iodbtgi extends Structure {
 		public data_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("n_tool", "count_value", "counter", "count_type");
 		}
 		public data_struct(NativeLong n_tool, NativeLong count_value, NativeLong counter, NativeLong count_type) {
@@ -52,7 +52,7 @@ public class iodbtgi extends Structure {
 	public iodbtgi() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("s_grp", "dummy", "e_grp", "data");
 	}
 	public iodbtgi(short s_grp, short dummy, short e_grp, fwlib32.iodbprm.data_struct data[]) {

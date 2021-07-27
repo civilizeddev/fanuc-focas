@@ -18,7 +18,7 @@ public class tagODBIFSBSLUSP extends Structure {
 	public tagODBIFSBSLUSP() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slave_num", "spdl_num", "spdl_name");
 	}
 	public tagODBIFSBSLUSP(short slave_num, short spdl_num, byte spdl_name[]) {

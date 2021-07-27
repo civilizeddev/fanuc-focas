@@ -26,7 +26,7 @@ public class IN_PBSPRMFLG2 extends Structure {
 	public IN_PBSPRMFLG2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slave_no", "pad1", "di_size", "do_size", "di_path", "do_path", "di_kind", "do_kind", "di_top_address", "do_top_address", "sts_path", "sts_kind", "sts_top_address", "pad2");
 	}
 	public IN_PBSPRMFLG2(Pointer peer) {

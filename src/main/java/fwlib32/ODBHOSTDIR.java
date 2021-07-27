@@ -13,7 +13,7 @@ public class ODBHOSTDIR extends Structure {
 	public ODBHOSTDIR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("host_file");
 	}
 	public ODBHOSTDIR(byte host_file[]) {

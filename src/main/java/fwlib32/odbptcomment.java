@@ -18,7 +18,7 @@ public class odbptcomment extends Structure {
 	public odbptcomment() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("t_code", "comment_count", "pto_mode", "dummy1", "comment");
 	}
 	public odbptcomment(NativeLong t_code, byte comment_count, byte pto_mode, byte dummy1[], byte comment[]) {

@@ -16,7 +16,7 @@ public class iodbtool_inhis extends Structure {
 	public iodbtool_inhis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("tool_no", "reserve", "date", "tool_f2");
 	}
 	public iodbtool_inhis(short tool_no, short reserve, iodbtool_date date, iodbtlmng_f2 tool_f2) {

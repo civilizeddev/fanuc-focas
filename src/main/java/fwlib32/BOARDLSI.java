@@ -23,7 +23,7 @@ public class BOARDLSI extends Structure {
 	public BOARDLSI() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("SendRetryOver", "Collision", "CarrierSenseLost", "NoCarrier", "InvalidFrameLength", "CrcError", "ShortFrame", "LongFrame", "OddFrame", "Overflow", "PhyLsiError");
 	}
 	public BOARDLSI(Pointer peer) {

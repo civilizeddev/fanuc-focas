@@ -90,7 +90,7 @@ public class iodbpsd extends Structure {
 	public iodbpsd() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano", "type", "u");
 	}
 	public iodbpsd(short datano, short type, u_union u) {

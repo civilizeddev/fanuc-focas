@@ -28,7 +28,7 @@ public class odbnc extends Structure {
 			public bin_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("reg_prg", "unreg_prg", "used_mem", "unused_mem");
 			}
 			public bin_struct(short reg_prg, short unreg_prg, NativeLong used_mem, NativeLong unused_mem) {
@@ -76,7 +76,7 @@ public class odbnc extends Structure {
 	public odbnc() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("u");
 	}
 	public odbnc(u_union u) {

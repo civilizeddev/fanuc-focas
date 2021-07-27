@@ -20,7 +20,7 @@ public class odbusbinfo extends Structure {
 	public odbusbinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("f_num", "next_entry", "dummy", "total");
 	}
 	public odbusbinfo(short f_num, byte next_entry, byte dummy, NativeLong total) {

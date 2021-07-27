@@ -16,7 +16,7 @@ public class EIP_PMC_ADDR extends Structure {
 	public EIP_PMC_ADDR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Path", "Addr", "No");
 	}
 	public EIP_PMC_ADDR(short Path, short Addr, NativeLong No) {

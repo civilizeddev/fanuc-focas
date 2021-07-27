@@ -14,7 +14,7 @@ public class USER_ACCOUNT_PRM extends Structure {
 	public USER_ACCOUNT_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("UserName", "Password");
 	}
 	public USER_ACCOUNT_PRM(byte UserName[], byte Password[]) {

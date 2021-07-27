@@ -18,7 +18,7 @@ public class odbcaxis extends Structure {
 	public odbcaxis() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("dummy", "type", "data");
 	}
 	public odbcaxis(short dummy, short type, byte data[]) {

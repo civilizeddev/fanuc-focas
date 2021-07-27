@@ -20,7 +20,7 @@ public class idbtwp_rpy_fmt extends Structure {
 	public idbtwp_rpy_fmt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("orign", "i", "j", "k", "turn", "reserve0", "reserve");
 	}
 	public idbtwp_rpy_fmt(double orign[], double i, double j, double k, short turn, short reserve0, NativeLong reserve[]) {

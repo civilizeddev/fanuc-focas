@@ -14,7 +14,7 @@ public class OUT_UNSOLICSTATE extends Structure {
 	public OUT_UNSOLICSTATE() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("IpAddress", "status");
 	}
 	public OUT_UNSOLICSTATE(byte IpAddress[], short status) {

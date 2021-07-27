@@ -47,7 +47,7 @@ public class iodbto extends Structure {
 			public m_ofs_at_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("tip", "data");
 			}
 			public m_ofs_at_struct(short tip, NativeLong data[]) {
@@ -73,7 +73,7 @@ public class iodbto extends Structure {
 			public m_ofs_bt_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("tip", "data");
 			}
 			public m_ofs_bt_struct(short tip, NativeLong data[]) {
@@ -99,7 +99,7 @@ public class iodbto extends Structure {
 			public m_ofs_ct_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("tip", "data");
 			}
 			public m_ofs_ct_struct(short tip, NativeLong data[]) {
@@ -125,7 +125,7 @@ public class iodbto extends Structure {
 			public t_ofs_a_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("tip", "data");
 			}
 			public t_ofs_a_struct(short tip, NativeLong data[]) {
@@ -151,7 +151,7 @@ public class iodbto extends Structure {
 			public t_ofs_b_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("tip", "data");
 			}
 			public t_ofs_b_struct(short tip, NativeLong data[]) {
@@ -176,7 +176,7 @@ public class iodbto extends Structure {
 			public t_ofs_ex_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("data");
 			}
 			public t_ofs_ex_struct(NativeLong data[]) {
@@ -267,7 +267,7 @@ public class iodbto extends Structure {
 	public iodbto() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano_s", "type", "datano_e", "u");
 	}
 	public iodbto(short datano_s, short type, short datano_e, u_union u) {

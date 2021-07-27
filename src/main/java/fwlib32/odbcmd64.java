@@ -23,7 +23,7 @@ public class odbcmd64 extends Structure {
 	public odbcmd64() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("adrs", "num", "flag", "dec_val", "cmd_val");
 	}
 	public odbcmd64(byte adrs, byte num, short flag, NativeLong dec_val, double cmd_val) {

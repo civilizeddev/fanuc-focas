@@ -21,7 +21,7 @@ public class iodbbto extends Structure {
 	public iodbbto() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano_s", "type", "datano_e", "ofs");
 	}
 	public iodbbto(short datano_s, short type, short datano_e, NativeLong ofs[]) {

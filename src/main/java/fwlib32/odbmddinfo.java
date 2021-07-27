@@ -35,7 +35,7 @@ public class odbmddinfo extends Structure {
 	public odbmddinfo() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("status", "prot", "year", "month", "day", "hour", "min", "sec", "reg_code", "cur_code", "modulate");
 	}
 	public odbmddinfo(Pointer peer) {

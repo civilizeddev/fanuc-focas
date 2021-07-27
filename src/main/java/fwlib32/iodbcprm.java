@@ -27,7 +27,7 @@ public class iodbcprm extends Structure {
 	public iodbcprm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("NcApli", "Dummy1", "HostApli", "Dummy2", "StatPstv", "StatNgtv", "Statmask", "AlarmStat", "PsclHaddr", "PsclLaddr", "SvcMode1", "SvcMode2", "FileTout", "RemTout");
 	}
 	public iodbcprm(Pointer peer) {

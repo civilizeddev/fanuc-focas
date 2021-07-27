@@ -16,7 +16,7 @@ public class idbmgrp extends Structure {
 	public idbmgrp() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("s_no", "dummy", "num", "group");
 	}
 	public idbmgrp(short s_no, short dummy, short num, short group[]) {

@@ -97,7 +97,7 @@ public class iodbrct_item extends Structure {
 		public data_info() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("enable", "dummy2", "uParam");
 		}
 		public data_info(byte enable, byte dummy2[], uParam_union uParam) {
@@ -121,7 +121,7 @@ public class iodbrct_item extends Structure {
 	public iodbrct_item() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("item_num", "type", "axsp_num", "ptn_num", "dummy", "attr", "ptn");
 	}
 	public iodbrct_item(short item_num, byte type, byte axsp_num, byte ptn_num, byte dummy, short attr, iodbrct_item.data_info ptn[]) {

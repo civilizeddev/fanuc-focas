@@ -48,7 +48,7 @@ public class idbtlm extends Structure {
 	public idbtlm() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data_id", "item");
 	}
 	public idbtlm(short data_id, item_union item) {

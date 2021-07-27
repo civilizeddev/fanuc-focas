@@ -15,7 +15,7 @@ public class embtcpprmw extends Structure {
 	public embtcpprmw() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("IPAddress", "SubNetMask", "RouterIPAddress");
 	}
 	public embtcpprmw(byte IPAddress[], byte SubNetMask[], byte RouterIPAddress[]) {

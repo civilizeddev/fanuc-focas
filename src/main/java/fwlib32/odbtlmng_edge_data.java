@@ -49,7 +49,7 @@ public class odbtlmng_edge_data extends Structure {
 	public odbtlmng_edge_data() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("u");
 	}
 	public odbtlmng_edge_data(u_union u) {

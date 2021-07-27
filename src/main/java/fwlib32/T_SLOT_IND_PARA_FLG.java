@@ -14,7 +14,7 @@ public class T_SLOT_IND_PARA_FLG extends Structure {
 	public T_SLOT_IND_PARA_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slv_no", "slt_no");
 	}
 	public T_SLOT_IND_PARA_FLG(byte slv_no, byte slt_no) {

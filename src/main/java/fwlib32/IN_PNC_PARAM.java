@@ -14,7 +14,7 @@ public class IN_PNC_PARAM extends Structure {
 	public IN_PNC_PARAM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("flg", "prm");
 	}
 	public IN_PNC_PARAM(PNC_PARAM_FLG flg, PNC_PARAM_W prm) {

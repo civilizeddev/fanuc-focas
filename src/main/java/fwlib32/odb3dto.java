@@ -16,7 +16,7 @@ public class odb3dto extends Structure {
 	public odb3dto() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mode", "ofs_axes", "ofsvct");
 	}
 	public odb3dto(short mode, short ofs_axes[], NativeLong ofsvct[]) {

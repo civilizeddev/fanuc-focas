@@ -27,7 +27,7 @@ public class odbfinform extends Structure {
 		public info_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("sysname", "fromsize", "fromattrib");
 		}
 		public info_struct(byte sysname[], NativeLong fromsize, NativeLong fromattrib) {
@@ -51,7 +51,7 @@ public class odbfinform extends Structure {
 	public odbfinform() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slotno", "slotname", "fromnum", "info");
 	}
 	public odbfinform(NativeLong slotno, byte slotname[], NativeLong fromnum, fwlib32.odbparaif.info_struct info[]) {

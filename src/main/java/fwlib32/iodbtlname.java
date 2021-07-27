@@ -19,7 +19,7 @@ public class iodbtlname extends Structure {
 		public sp_name_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("sp_pos1", "sp_pos2", "sp_pos3", "sp_pos4");
 		}
 		public sp_name_struct(byte sp_pos1[], byte sp_pos2[], byte sp_pos3[], byte sp_pos4[]) {
@@ -55,7 +55,7 @@ public class iodbtlname extends Structure {
 		public wt_name_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("wt_pos1", "wt_pos2", "wt_pos3", "wt_pos4");
 		}
 		public wt_name_struct(byte wt_pos1[], byte wt_pos2[], byte wt_pos3[], byte wt_pos4[]) {
@@ -86,7 +86,7 @@ public class iodbtlname extends Structure {
 	public iodbtlname() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("sp_name", "wt_name");
 	}
 	public iodbtlname(sp_name_struct sp_name, wt_name_struct wt_name) {

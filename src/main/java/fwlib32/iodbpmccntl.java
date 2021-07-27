@@ -22,7 +22,7 @@ public class iodbpmccntl extends Structure {
 		public info_struct() {
 			super();
 		}
-		protected List<? > getFieldOrder() {
+		protected List<String> getFieldOrder() {
 			return Arrays.asList("tbl_prm", "data_type", "data_size", "data_dsp", "dummy");
 		}
 		public info_struct(byte tbl_prm, byte data_type, short data_size, short data_dsp, short dummy) {
@@ -46,7 +46,7 @@ public class iodbpmccntl extends Structure {
 	public iodbpmccntl() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("datano_s", "dummy", "datano_e", "info");
 	}
 	public iodbpmccntl(short datano_s, short dummy, short datano_e, fwlib32.odbparaif.info_struct info[]) {

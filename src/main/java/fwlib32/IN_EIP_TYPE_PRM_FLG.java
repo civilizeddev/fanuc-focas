@@ -18,7 +18,7 @@ public class IN_EIP_TYPE_PRM_FLG extends Structure {
 	public IN_EIP_TYPE_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Type", "pad1", "Address", "Size", "TagName", "pad2");
 	}
 	public IN_EIP_TYPE_PRM_FLG(byte Type, byte pad1[], byte Address, byte Size, byte TagName, byte pad2[]) {

@@ -25,7 +25,7 @@ public class IODBTLGS extends Structure {
 	public IODBTLGS() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("data1", "data2", "tooltype", "install", "toolname", "dummy");
 	}
 	public IODBTLGS(NativeLong data1, NativeLong data2, byte tooltype, byte install, byte toolname[], byte dummy) {

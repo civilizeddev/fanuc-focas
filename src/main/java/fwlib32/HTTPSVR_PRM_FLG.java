@@ -15,7 +15,7 @@ public class HTTPSVR_PRM_FLG extends Structure {
 	public HTTPSVR_PRM_FLG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("TcpPort", "Timeout", "UserAccount");
 	}
 	public HTTPSVR_PRM_FLG(byte TcpPort, byte Timeout, USER_ACCOUNT_PRM_FLG UserAccount[]) {

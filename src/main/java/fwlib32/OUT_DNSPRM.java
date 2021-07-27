@@ -25,7 +25,7 @@ public class OUT_DNSPRM extends Structure {
 	public OUT_DNSPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("BaudRate", "DiDataOnAbnormal", "OwnMacId", "pad1", "Di", "DiSize", "pad2", "Do", "DoSize", "pad3", "Status", "StatusSize", "pad4");
 	}
 	public OUT_DNSPRM(Pointer peer) {

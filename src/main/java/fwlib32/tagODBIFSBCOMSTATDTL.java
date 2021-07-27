@@ -23,7 +23,7 @@ public class tagODBIFSBCOMSTATDTL extends Structure {
 	public tagODBIFSBCOMSTATDTL() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("error_inf", "jitter_inf", "n_warning", "j_warning", "reserve");
 	}
 	public tagODBIFSBCOMSTATDTL(NativeLong error_inf, NativeLong jitter_inf, byte n_warning, byte j_warning, byte reserve[]) {

@@ -18,7 +18,7 @@ public class odbnode extends Structure {
 	public odbnode() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("node_no", "io_base", "status", "cnc_type", "node_name");
 	}
 	public odbnode(NativeLong node_no, NativeLong io_base, NativeLong status, NativeLong cnc_type, byte node_name[]) {

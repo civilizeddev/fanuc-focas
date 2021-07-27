@@ -21,7 +21,7 @@ public class iodbrwpmc extends Structure {
 	public iodbrwpmc() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("type_rw", "type_a", "type_d", "datano_s", "length", "conv", "err_code", "reserved", "data");
 	}
 	public iodbrwpmc(short type_rw, short type_a, short type_d, short datano_s, short length, short conv, short err_code, short reserved, Pointer data) {

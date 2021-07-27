@@ -23,7 +23,7 @@ public class in_dsfile_req extends Structure {
 	public in_dsfile_req() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("file", "fnum", "offset", "detail", "option");
 	}
 	public in_dsfile_req(byte file[], NativeLong fnum, NativeLong offset, short detail, short option) {

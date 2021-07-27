@@ -31,7 +31,7 @@ public class odbwvdt extends Structure {
 			public io_struct() {
 				super();
 			}
-			protected List<? > getFieldOrder() {
+			protected List<String> getFieldOrder() {
 				return Arrays.asList("adr", "bit", "no");
 			}
 			public io_struct(byte adr, byte bit, short no) {
@@ -76,7 +76,7 @@ public class odbwvdt extends Structure {
 	public odbwvdt() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("channel", "kind", "u", "year", "month", "day", "hour", "minute", "second", "t_cycle", "data");
 	}
 	public odbwvdt(Pointer peer) {

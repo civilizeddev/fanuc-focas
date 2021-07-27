@@ -16,7 +16,7 @@ public class CLNT_INFO extends Structure {
 	public CLNT_INFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("IpAddress", "SocketId", "ConnectTime");
 	}
 	public CLNT_INFO(byte IpAddress[], NativeLong SocketId, NativeLong ConnectTime) {

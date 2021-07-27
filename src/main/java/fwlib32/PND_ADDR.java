@@ -17,7 +17,7 @@ public class PND_ADDR extends Structure {
 	public PND_ADDR() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Path", "Kind", "Addr", "Size");
 	}
 	public PND_ADDR(short Path, short Kind, NativeLong Addr, NativeLong Size) {

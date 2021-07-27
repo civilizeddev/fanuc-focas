@@ -15,7 +15,7 @@ public class odbparanum extends Structure {
 	public odbparanum() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("para_min", "para_max", "total_no");
 	}
 	public odbparanum(short para_min, short para_max, short total_no) {

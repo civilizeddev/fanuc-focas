@@ -26,7 +26,7 @@ public class OUT_EIP_LISTDETAIL extends Structure {
 	public OUT_EIP_LISTDETAIL() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("IpAddress", "ConnectTime", "ApplicationType", "pad1", "O2T_RPI", "T2O_RPI", "O2T_API", "T2O_API", "RecvPacket", "SendPacket", "LostPacket", "AllocationId", "pad2");
 	}
 	public OUT_EIP_LISTDETAIL(Pointer peer) {

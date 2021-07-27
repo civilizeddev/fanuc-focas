@@ -20,7 +20,7 @@ public class tagODBIFSBINFO extends Structure {
 	public tagODBIFSBINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("fssb_line_mnt_st", "reserve", "card_num", "line_info");
 	}
 	public tagODBIFSBINFO(byte fssb_line_mnt_st, byte reserve, short card_num, tagODBIFSBLINE line_info[]) {

@@ -45,7 +45,7 @@ public class OUT_ETHLSI extends Structure {
 	public OUT_ETHLSI() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("Type", "Baudrate", "RecvPacketCount", "RecvBroadcastCount", "SendPacketCount", "lst");
 	}
 	public OUT_ETHLSI(short Type, short Baudrate, short RecvPacketCount, short RecvBroadcastCount, short SendPacketCount, lst_union lst) {

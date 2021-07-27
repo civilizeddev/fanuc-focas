@@ -17,7 +17,7 @@ public class odbpmmslv extends Structure {
 	public odbpmmslv() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("slvnum", "group");
 	}
 	public odbpmmslv(NativeLong slvnum, NativeLong group[]) {

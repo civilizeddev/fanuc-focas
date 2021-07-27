@@ -22,7 +22,7 @@ public class tagEXEPRG extends Structure {
 	public tagEXEPRG() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("length", "prep_blk", "act_blk", "dummy", "data");
 	}
 	public tagEXEPRG(short length, short prep_blk, short act_blk, short dummy, byte data[]) {

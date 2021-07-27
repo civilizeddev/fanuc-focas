@@ -19,7 +19,7 @@ public class OUT_ECTDEVINFO extends Structure {
 	public OUT_ECTDEVINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("EsiVersion", "VendorID", "ProductCode", "RevisionNo", "NodeAddress", "pad");
 	}
 	public OUT_ECTDEVINFO(byte EsiVersion[], NativeLong VendorID, NativeLong ProductCode, NativeLong RevisionNo, short NodeAddress, byte pad[]) {

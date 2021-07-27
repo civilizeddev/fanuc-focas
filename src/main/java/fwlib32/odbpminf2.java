@@ -19,7 +19,7 @@ public class odbpminf2 extends Structure {
 	public odbpminf2() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("use_no1", "use_no2", "use_no20", "v1_type", "v2_type", "v20_type");
 	}
 	public odbpminf2(NativeLong use_no1, NativeLong use_no2, NativeLong use_no20, short v1_type, short v2_type, short v20_type) {

@@ -20,7 +20,7 @@ public class iodbovstr extends Structure {
 	public iodbovstr() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("mcode", "scode", "tcode", "bcode");
 	}
 	public iodbovstr(iodbovmst mcode, iodbovmst scode, iodbovmst tcode, iodbovmst bcode) {

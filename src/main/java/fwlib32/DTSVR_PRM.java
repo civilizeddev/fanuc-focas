@@ -14,7 +14,7 @@ public class DTSVR_PRM extends Structure {
 	public DTSVR_PRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("opposite", "own");
 	}
 	public DTSVR_PRM(FTP_CLIENT_PRM opposite[], FTP_SERVER_PRM own) {

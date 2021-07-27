@@ -21,7 +21,7 @@ public class iodbtltool extends Structure {
 	public iodbtltool() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("tool_num", "h_code", "d_code", "tool_inf");
 	}
 	public iodbtltool(NativeLong tool_num, NativeLong h_code, NativeLong d_code, NativeLong tool_inf) {

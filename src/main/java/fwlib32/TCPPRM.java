@@ -15,7 +15,7 @@ public class TCPPRM extends Structure {
 	public TCPPRM() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("OwnIPAddress", "SubNetMask", "RouterIPAddress");
 	}
 	public TCPPRM(byte OwnIPAddress[], byte SubNetMask[], byte RouterIPAddress[]) {

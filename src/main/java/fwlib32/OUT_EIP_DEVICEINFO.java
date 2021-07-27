@@ -19,7 +19,7 @@ public class OUT_EIP_DEVICEINFO extends Structure {
 	public OUT_EIP_DEVICEINFO() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("VendorId", "DeviceType", "ProductCode", "MajorRevision", "MinorRevision", "SerialNo");
 	}
 	public OUT_EIP_DEVICEINFO(short VendorId, short DeviceType, short ProductCode, byte MajorRevision, byte MinorRevision, NativeLong SerialNo) {

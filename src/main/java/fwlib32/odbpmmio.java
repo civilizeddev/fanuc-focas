@@ -15,7 +15,7 @@ public class odbpmmio extends Structure {
 	public odbpmmio() {
 		super();
 	}
-	protected List<? > getFieldOrder() {
+	protected List<String> getFieldOrder() {
 		return Arrays.asList("chanlnum");
 	}
 	public odbpmmio(NativeLong chanlnum) {
