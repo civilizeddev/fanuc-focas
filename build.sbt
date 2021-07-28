@@ -1,10 +1,11 @@
-organization       := "io.elfinos"
-name               := "fanuc-focas"
-version            := "1.0.0"
-scalaVersion       := "2.13.6"
-crossScalaVersions := Seq("2.12.14", "2.13.6")
-githubOwner        := "civilizeddev"
-githubRepository   := name.value
+organization            := "io.elfinos"
+name                    := "fanuc-focas"
+scalaVersion            := "2.13.6"
+crossScalaVersions      := Seq("2.12.14", "2.13.6")
+releaseCrossBuild       := true
+releaseUseGlobalVersion := false
+githubOwner             := "civilizeddev"
+githubRepository        := name.value
 
 libraryDependencies ++= Seq(
   "net.java.dev.jna" % "jna-platform"  % "5.8.0",
