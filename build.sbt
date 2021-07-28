@@ -2,13 +2,10 @@ name         := "fanuc-focas"
 version      := "1.0.0"
 scalaVersion := "2.13.6"
 
-val jnaVersion   = "5.8.0"
-val munitVersion = "0.7.27"
-
 libraryDependencies ++= Seq(
-  "net.java.dev.jna" % "jna-platform"  % jnaVersion,
+  "net.java.dev.jna" % "jna-platform"  % "5.8.0",
   "org.scala-lang"   % "scala-reflect" % scalaVersion.value % Provided,
-  "org.scalameta"   %% "munit"         % munitVersion       % Test,
+  "org.scalameta"   %% "munit"         % "0.7.27"           % Test,
 )
 
 scalafixOnCompile := true
