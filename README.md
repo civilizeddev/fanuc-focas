@@ -12,8 +12,17 @@ A JNA(Java Native Access) wrapper for Fanuc Focas 1 API library.
 - Fanuc Focas 1(Fwlib32.dll), Ethernet Library(fwlibe1.dll) must be installed on your system.
 - <u>We do not redistribute the FANUC Focas library.</u>
 
-## Contributors
+## Credits
+
+### Contributors
 
 [![image](https://user-images.githubusercontent.com/15084045/127098808-169f2246-8959-44ca-88cb-47c8621393ec.png "Unomic Logo")](https://www.unomic.com)
 
 Digital Connectivity Team of Unomic
+
+### Open Sources
+
+We use open source projects below.
+
+- [java-native-access/jna](https://github.com/java-native-access/jna)
+- [nativelibs4java/JNAerator](https://github.com/nativelibs4java/JNAerator)
