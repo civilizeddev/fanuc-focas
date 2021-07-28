@@ -4,6 +4,7 @@ import com.sun.jna.NativeLong
 
 import java.nio.ShortBuffer
 
+@munit.IgnoreSuite
 class Fwlib32TestSuite extends munit.FunSuite {
   test("connect") {
     val fwlib32 = Fwlib32.INSTANCE
