@@ -311,3 +311,5 @@ $RECYCLE.BIN/
 
 .bsp/
 .idea/
+
+.env
