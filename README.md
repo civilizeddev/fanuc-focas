@@ -24,7 +24,7 @@ A JNA(Java Native Access) wrapper for Fanuc Focas 1 API library.
   ```scala
   resolvers += "GitHub Package Registry" at "https://maven.pkg.github.com/civilizeddev/fanuc-focas"
   
-  libraryDependencies += "io.elfinos" %% "fanuc-focas" % "x.y.z"
+  libraryDependencies += "io.elfinos" %% "fanuc-focas" % "1.0.3"
   ```
 
 ## Prerequisites
