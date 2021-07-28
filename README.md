@@ -14,7 +14,6 @@ A JNA(Java Native Access) wrapper for Fanuc Focas 1 API library.
 
 ## Contributors
 
-![image](https://user-images.githubusercontent.com/15084045/127098808-169f2246-8959-44ca-88cb-47c8621393ec.png "Unomic Logo")
+[![image](https://user-images.githubusercontent.com/15084045/127098808-169f2246-8959-44ca-88cb-47c8621393ec.png "Unomic Logo")](https://www.unomic.com)
 
-Unomic
-Digital Connectivity Team
+Digital Connectivity Team of Unomic
