@@ -39,6 +39,12 @@ A JNA(Java Native Access) wrapper for Fanuc Focas 1 API library.
 - Fanuc Focas 1(Fwlib32.dll), Ethernet Library(fwlibe1.dll) must be installed on your system.
 - We do not redistribute the FANUC Focas library.
 
+## About FOCAS CNC API
+
+Please refer to the page below for FOCAS CNC API.
+
+> [[inventcom.net] FANUC Open CNC FOCAS - CNC/PMC Data window library](https://www.inventcom.net/fanuc-focas-library/general/fwlib32)
+
 ## Credits
 
 ### Contributors
