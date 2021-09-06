@@ -1981,4 +1981,15 @@ trait Fwlib32 extends StdCallLibrary {
   def cnc_rdaxisname(short1: Short, shortPtr1: ShortBuffer, ODBAXISNAMEPtr1: odbaxisname.ByReference): Short
   def cnc_rdspdlname(short1: Short, shortPtr1: ShortBuffer, ODBSPDLNAMEPtr1: odbspdlname.ByReference): Short
   def cnc_rdspdlnamem(short1: Short, shortPtr1: ShortBuffer, ODBSPDLNAMEPtr1: odbspdlname.ByReference): Short
+  def cnc_startupprocess(level: NativeLong, filename: String): Short
+
+  def pmc_rdpmcrng(
+      handle: Short,
+      adr_type: Short,
+      data_type: Short,
+      s_number: Short,
+      e_number: Short,
+      length: Short,
+      buf: iodbpmc.ByReference
+  ): Short
 }
